@@ -1,0 +1,600 @@
+.ciclo-baristas {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: visible;
+}
+
+.ciclo-baristas h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2a2a2a;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 4rem;
+}
+
+.interviews-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.interview-card {
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+.interview-card:hover {
+  transform: translateY(-10px);
+}
+
+.interview-image {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.interview-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  padding: 2rem;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.interview-card:hover .interview-overlay {
+  transform: translateY(0);
+}
+
+.interview-overlay h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.interview-overlay p {
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Modal Gallery Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 2rem;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-window {
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  max-width: 90vw;
+  max-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #2a2a2a;
+  color: white;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  line-height: 1;
+}
+
+.modal-close:hover {
+  background: #555;
+  transform: rotate(90deg);
+}
+
+.gallery-image-container {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-image {
+  max-width: 80vw;
+  max-height: 75vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
+}
+
+.gallery-counter {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.gallery-nav {
+  background: #2a2a2a;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gallery-nav:hover {
+  background: #555;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.gallery-nav.prev {
+  left: 1rem;
+}
+
+.gallery-nav.next {
+  right: 1rem;
+}
+
+/* Mobile Carousel Styles */
+.mobile-carousel {
+  display: none;
+}
+
+.desktop-grid {
+  display: grid;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.carousel-slide .interview-image {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slide .interview-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  padding: 2rem;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.carousel-slide:hover .interview-overlay,
+.carousel-slide:active .interview-overlay {
+  transform: translateY(0);
+}
+
+.carousel-slide .interview-overlay h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-slide .interview-overlay p {
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(42, 42, 42, 0.8);
+  color: white;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  line-height: 1;
+}
+
+.carousel-btn:hover {
+  background: rgba(42, 42, 42, 1);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-btn-prev {
+  left: 1rem;
+}
+
+.carousel-btn-next {
+  right: 1rem;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #2a2a2a;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.carousel-dot.active {
+  background: #2a2a2a;
+  transform: scale(1.2);
+}
+
+.carousel-dot:hover {
+  background: #555;
+}
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .ciclo-baristas {
+    padding: 4rem 1.5rem;
+  }
+
+  .ciclo-baristas h2 {
+    font-size: 2.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .interviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .interview-image {
+    height: 400px;
+  }
+
+  .interview-overlay h3 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ciclo-baristas {
+    padding: 3rem 1rem;
+    min-height: auto;
+    justify-content: flex-start;
+  }
+
+  /* Hide desktop grid, show mobile carousel */
+  .desktop-grid {
+    display: none;
+  }
+
+  .mobile-carousel {
+    display: block;
+    width: 100%;
+  }
+
+  .ciclo-baristas h2 {
+    font-size: 2.2rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .carousel-slide .interview-image {
+    height: 400px;
+  }
+
+  .carousel-slide .interview-overlay h3 {
+    font-size: 1.6rem;
+  }
+
+  .carousel-slide .interview-overlay p {
+    font-size: 0.9rem;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+  }
+
+  .carousel-btn-prev {
+    left: 0.5rem;
+  }
+
+  .carousel-btn-next {
+    right: 0.5rem;
+  }
+
+  .carousel-dots {
+    gap: 0.6rem;
+    margin-top: 1.2rem;
+  }
+
+  .carousel-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .modal-overlay {
+    padding: 1rem;
+  }
+
+  .modal-window {
+    max-width: 95vw;
+    max-height: 90vh;
+  }
+
+  .gallery-nav {
+    width: 45px;
+    height: 45px;
+    font-size: 1.8rem;
+  }
+
+  .gallery-nav.prev {
+    left: 0.5rem;
+  }
+
+  .gallery-nav.next {
+    right: 0.5rem;
+  }
+
+  .modal-close {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+
+  .gallery-image-container {
+    padding: 2rem 1rem;
+  }
+
+  .gallery-image {
+    max-width: 85vw;
+    max-height: 70vh;
+  }
+
+  .gallery-counter {
+    bottom: 0.5rem;
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .ciclo-baristas {
+    padding: 2rem 1rem;
+    min-height: auto;
+    justify-content: flex-start;
+  }
+
+  .desktop-grid {
+    display: none;
+  }
+
+  .mobile-carousel {
+    display: block;
+    width: 100%;
+  }
+
+  .ciclo-baristas h2 {
+    font-size: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .carousel-slide .interview-image {
+    height: 350px;
+  }
+
+  .carousel-slide .interview-overlay {
+    padding: 1.5rem;
+  }
+
+  .carousel-slide .interview-overlay h3 {
+    font-size: 1.4rem;
+  }
+
+  .carousel-slide .interview-overlay p {
+    font-size: 0.85rem;
+  }
+
+  .carousel-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 1.6rem;
+  }
+
+  .carousel-btn-prev {
+    left: 0.3rem;
+  }
+
+  .carousel-btn-next {
+    right: 0.3rem;
+  }
+
+  .carousel-dots {
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .carousel-dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .modal-window {
+    max-width: 98vw;
+    max-height: 92vh;
+  }
+
+  .gallery-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.6rem;
+  }
+
+  .gallery-nav.prev {
+    left: 0.3rem;
+  }
+
+  .gallery-nav.next {
+    right: 0.3rem;
+  }
+
+  .modal-close {
+    width: 35px;
+    height: 35px;
+    font-size: 1.3rem;
+  }
+
+  .gallery-image-container {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .gallery-counter {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

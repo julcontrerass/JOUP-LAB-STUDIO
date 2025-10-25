@@ -1,0 +1,213 @@
+.servicios-section {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicios-container {
+  max-width: 900px;
+  width: 100%;
+}
+
+.servicios-container h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  color: #2a2a2a;
+  text-align: center;
+}
+
+.accordion {
+  margin-bottom: 4rem;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 2rem 0;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #2a2a2a;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.accordion-header:hover {
+  opacity: 0.7;
+}
+
+.accordion-icon {
+  font-size: 2rem;
+  font-weight: 300;
+  transition: transform 0.3s ease;
+  line-height: 1;
+}
+
+.accordion-header.active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding: 0;
+}
+
+.accordion-content.open {
+  max-height: 300px;
+  padding: 0 0 2rem 0;
+}
+
+.accordion-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  margin: 0;
+}
+
+.servicios-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.btn-reserva {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #2a2a2a;
+  color: #2a2a2a;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-reserva::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(to top, #2a2a2a, transparent);
+  transition: height 0.4s ease;
+  z-index: -1;
+}
+
+.btn-reserva:hover::before {
+  height: 100%;
+}
+
+.btn-reserva:hover {
+  border-bottom-color: #2a2a2a;
+  color: white;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .servicios-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .servicios-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .accordion-header {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .servicios-section {
+    padding: 3rem 1rem;
+  }
+
+  .servicios-container h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .accordion-header {
+    font-size: 1.1rem;
+    padding: 1.5rem 0;
+  }
+
+  .accordion-icon {
+    font-size: 1.5rem;
+  }
+
+  .accordion-content p {
+    font-size: 0.95rem;
+  }
+
+  .accordion-content.open {
+    max-height: 400px;
+  }
+
+  .btn-reserva {
+    padding: 0.7rem 2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .servicios-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .servicios-container {
+    max-width: 100%;
+  }
+
+  .servicios-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .accordion-header {
+    font-size: 1rem;
+    padding: 1.2rem 0;
+  }
+
+  .accordion-icon {
+    font-size: 1.3rem;
+  }
+
+  .accordion-content p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .accordion-content.open {
+    max-height: 500px;
+  }
+
+  .btn-reserva {
+    padding: 0.65rem 1.5rem;
+    font-size: 0.85rem;
+  }
+}
