@@ -4,6 +4,8 @@ import StorySection from './components/StorySection';
 import Philosophy from './components/Philosophy';
 import HowWeWork from './components/HowWeWork';
 import Commitment from './components/Commitment';
+import Education from './components/Education';
+import JoinUs from './components/JoinUs';
 import SlowBar from './components/SlowBar';
 import Footer from './components/Footer';
 import './App.css';
@@ -17,6 +19,8 @@ function App() {
       <Philosophy />
       <HowWeWork />
       <Commitment />
+      <Education />
+      <JoinUs />
       <SlowBar />
       <Footer />
     </>

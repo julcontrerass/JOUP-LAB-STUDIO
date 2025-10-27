@@ -1,0 +1,187 @@
+.education-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  position: relative;
+}
+
+.education-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.education-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.education-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 3.5rem;
+  color: white;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.education-intro {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+}
+
+.education-subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+}
+
+.view-documents-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.view-documents-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem 3rem;
+  background: white;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+}
+
+.view-documents-btn:hover {
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.4);
+}
+
+.view-documents-btn svg {
+  font-size: 1.8rem;
+}
+
+.education-cta {
+  text-align: center;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+.cta-text {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+.join-us-link-btn {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: #f36838;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.join-us-link-btn:hover {
+  background: #e55a2b;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(243, 104, 56, 0.5);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .education-title {
+    font-size: 2.8rem;
+  }
+
+  .resources-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .education-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .education-title {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+  }
+
+  .education-intro {
+    font-size: 1rem;
+  }
+
+  .view-documents-btn {
+    font-size: 1.2rem;
+    padding: 1.5rem 2rem;
+  }
+
+  .view-documents-btn svg {
+    font-size: 1.5rem;
+  }
+
+  .education-cta {
+    padding: 2rem;
+  }
+
+  .cta-text {
+    font-size: 1rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .education-section {
+    padding: 3rem 1rem;
+  }
+
+  .education-title {
+    font-size: 1.8rem;
+  }
+
+  .education-intro,
+  .education-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .view-documents-btn {
+    font-size: 1.1rem;
+    padding: 1.2rem 1.5rem;
+  }
+
+  .view-documents-btn svg {
+    font-size: 1.3rem;
+  }
+}
