@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { FaChevronDown, FaChevronUp, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
+import { FaChevronDown, FaChevronUp, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import './Header.css';
 import videoSrc from '../assets/WhatsApp Video 2025-10-26 at 00.21.10.mp4';
 
