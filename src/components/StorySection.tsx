@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
+import storyImage from '../assets/WhatsApp Image 2025-10-26 at 00.21.10.png';
 import '../styles/StorySection.css';
 
 const StorySection = () => {
@@ -65,7 +66,10 @@ const StorySection = () => {
 
         <motion.div
           className="story-parallax-image"
-          style={{ y }}
+          style={{
+            y,
+            backgroundImage: `url(${storyImage})`
+          }}
         >
           <div className="image-overlay"></div>
         </motion.div>

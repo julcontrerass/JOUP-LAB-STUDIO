@@ -1,17 +1,23 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import filtrado from '../assets/Filtrado.png';
+import slowbar1 from '../assets/slowbar1.png';
+import slowbar2 from '../assets/slowbar2.png';
+import slowbar3 from '../assets/slowbar3.png';
+import slowbar4 from '../assets/slowbar4.png';
+import slowbar5 from '../assets/slowbar5.png';
 import '../styles/SlowBar.css';
 
 const SlowBar = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const galleryImages = [
-    "Filtrado.png",
-    "slowbar1.png",
-    "slowbar2.png",
-    "slowbar3.png",
-    "slowbar4.png",
-    "slowbar5.png"
+    filtrado,
+    slowbar1,
+    slowbar2,
+    slowbar3,
+    slowbar4,
+    slowbar5
   ];
 
   return (
@@ -80,7 +86,7 @@ const SlowBar = () => {
                   }}
                 >
                   <img
-                    src={`/src/assets/${image}`}
+                    src={image}
                     alt={`Slow Bar ${index + 1}`}
                     className="gallery-image"
                   />

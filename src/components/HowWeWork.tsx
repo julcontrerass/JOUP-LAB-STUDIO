@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion';
+import educacion from '../assets/educacion.png';
+import consultoria from '../assets/consultoria.png';
+import sca from '../assets/sca.png';
 import '../styles/HowWeWork.css';
 
 const HowWeWork = () => {
@@ -8,21 +11,21 @@ const HowWeWork = () => {
       title: "Educación",
       description: "Formamos profesionales capaces de pensar el café, no solo de prepararlo.",
       details: "Ofrecemos capacitaciones técnicas, workshops, programas de desarrollo sensorial y cursos diseñados para distintos niveles, siempre con un enfoque humano y crítico.",
-      image: "educacion.png"
+      image: educacion
     },
     {
       number: "02",
       title: "Consultoría",
       description: "Asesoramos a cafeterías, marcas y tostadores en la creación de propuestas coherentes.",
       details: "Desde la selección de café y el diseño de carta hasta la calibración de equipos, capacitación de personal y filosofía de servicio.",
-      image: "consultoria.png"
+      image: consultoria
     },
     {
       number: "03",
       title: "Curaduría y Evaluación Sensorial",
       description: "Trabajamos con protocolos de la SCA y herramientas de análisis sensorial.",
       details: "Nuestra mirada combina el rigor técnico con la intuición estética: lo que medimos, lo sentimos. Cada perfil de taza es una historia traducida al lenguaje del sabor.",
-      image: "sca.png"
+      image: sca
     }
   ];
 
@@ -68,7 +71,7 @@ const HowWeWork = () => {
 
               <div className="dimension-image-container">
                 <img
-                  src={`/src/assets/${dimension.image}`}
+                  src={dimension.image}
                   alt={dimension.title}
                   className={`dimension-image ${dimension.number === '02' ? 'zoom-out' : ''}`}
                 />
