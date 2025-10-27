@@ -68,7 +68,7 @@ const HowWeWork = () => {
 
               <div className="dimension-image-container">
                 <img
-                  src={`/src/assets/Usar/${dimension.image}`}
+                  src={`/src/assets/${dimension.image}`}
                   alt={dimension.title}
                   className={`dimension-image ${dimension.number === '02' ? 'zoom-out' : ''}`}
                 />

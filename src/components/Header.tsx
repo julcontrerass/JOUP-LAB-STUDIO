@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
 import './Header.css';
-import videoSrc from '../assets/Usar/WhatsApp Video 2025-10-26 at 00.21.10.mp4';
+import videoSrc from '../assets/WhatsApp Video 2025-10-26 at 00.21.10.mp4';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);

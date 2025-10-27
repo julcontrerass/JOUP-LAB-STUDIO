@@ -98,8 +98,8 @@
 }
 
 .floating-video-element {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #f36838;
@@ -162,7 +162,14 @@
   }
 
   .floating-video {
-    display: none;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .floating-video-element {
+    width: 110px;
+    height: 110px;
+    border-width: 3px;
   }
 }
 
@@ -182,11 +189,30 @@
   }
 
   .header .nav {
-    gap: 1rem;
+    gap: 0.8rem 1.2rem;
+    max-width: 90%;
+    row-gap: 0.8rem;
   }
 
   .header .nav a {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .floating-video {
+    bottom: 15px;
+    left: 15px;
+  }
+
+  .floating-video-element {
+    width: 85px;
+    height: 85px;
+    border-width: 3px;
+  }
+
+  .floating-video-element:hover {
+    transform: scale(1.1);
+    border-width: 3px;
   }
 }
 
@@ -197,10 +223,29 @@
   }
 
   .header .nav {
-    gap: 0.5rem;
+    gap: 0.6rem 0.8rem;
+    max-width: 95%;
+    row-gap: 0.6rem;
   }
 
   .header .nav a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.4rem;
+  }
+
+  .floating-video {
+    bottom: 12px;
+    left: 12px;
+  }
+
+  .floating-video-element {
+    width: 70px;
+    height: 70px;
+    border-width: 2px;
+  }
+
+  .floating-video-element:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(243, 104, 56, 0.6);
   }
 }

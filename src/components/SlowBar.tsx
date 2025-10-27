@@ -80,7 +80,7 @@ const SlowBar = () => {
                   }}
                 >
                   <img
-                    src={`/src/assets/Usar/${image}`}
+                    src={`/src/assets/${image}`}
                     alt={`Slow Bar ${index + 1}`}
                     className="gallery-image"
                   />
