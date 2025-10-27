@@ -7,11 +7,11 @@ const SlowBar = () => {
 
   const galleryImages = [
     "Filtrado.png",
-    "imgi_12_550410627_18373733740195994_7284280922494528246_n.jpg",
-    "WhatsApp Image 2025-10-26 at 00.24.47.jpeg",
-    "WhatsApp Image 2025-10-26 at 00.22.51 (1).jpeg",
-    "WhatsApp Image 2025-10-26 at 00.24.42.jpeg",
-    "WhatsApp Image 2025-10-26 at 00.22.51 (2).jpeg"
+    "imgi_12_550410627_18373733740195994_7284280922494528246_n.png",
+    "WhatsApp Image 2025-10-26 at 00.24.47.png",
+    "WhatsApp Image 2025-10-26 at 00.22.51 (1).png",
+    "WhatsApp Image 2025-10-26 at 00.24.42.png",
+    "WhatsApp Image 2025-10-26 at 00.22.51 (2).png"
   ];
 
   return (
