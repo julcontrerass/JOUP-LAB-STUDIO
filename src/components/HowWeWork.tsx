@@ -8,21 +8,21 @@ const HowWeWork = () => {
       title: "Educación",
       description: "Formamos profesionales capaces de pensar el café, no solo de prepararlo.",
       details: "Ofrecemos capacitaciones técnicas, workshops, programas de desarrollo sensorial y cursos diseñados para distintos niveles, siempre con un enfoque humano y crítico.",
-      image: "WhatsApp Image 2025-10-26 at 00.18.45 (3).png"
+      image: "educacion.png"
     },
     {
       number: "02",
       title: "Consultoría",
       description: "Asesoramos a cafeterías, marcas y tostadores en la creación de propuestas coherentes.",
       details: "Desde la selección de café y el diseño de carta hasta la calibración de equipos, capacitación de personal y filosofía de servicio.",
-      image: "WhatsApp Image 2025-10-26 at 00.18.45.png"
+      image: "consultoria.png"
     },
     {
       number: "03",
       title: "Curaduría y Evaluación Sensorial",
       description: "Trabajamos con protocolos de la SCA y herramientas de análisis sensorial.",
       details: "Nuestra mirada combina el rigor técnico con la intuición estética: lo que medimos, lo sentimos. Cada perfil de taza es una historia traducida al lenguaje del sabor.",
-      image: "imgi_11_552108243_18374314876195994_3599689657190091291_n.png"
+      image: "sca.png"
     }
   ];
 
