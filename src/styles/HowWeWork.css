@@ -1,0 +1,342 @@
+.how-we-work-section {
+  min-height: 100vh;
+  background: #232522;
+  color: #ffffff;
+  padding: 100px 0;
+  position: relative;
+}
+
+.how-we-work-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.how-we-work-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.how-we-work-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: #ffffff;
+  letter-spacing: 6px;
+}
+
+.how-we-work-intro {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.how-we-work-subtitle {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.4rem;
+  color: #f36838;
+  font-weight: 700;
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
+
+.dimensions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dimension-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Layout horizontal en desktop */
+@media (min-width: 769px) {
+  .dimension-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+  }
+
+  /* Items impares (01, 03) - imagen a la derecha */
+  .dimension-item:nth-child(odd) {
+    flex-direction: row;
+  }
+
+  /* Items pares (02) - imagen a la izquierda */
+  .dimension-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .dimension-content {
+    flex: 1;
+  }
+
+  .dimension-image-container {
+    flex: 1;
+    max-width: 500px;
+  }
+}
+
+.dimension-image-container {
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.dimension-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.dimension-image.zoom-out {
+  object-fit: contain;
+  object-position: center;
+}
+
+.dimension-item:hover .dimension-image {
+  transform: scale(1.05);
+}
+
+.dimension-item:hover .dimension-image.zoom-out {
+  transform: scale(1);
+}
+
+.dimension-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dimension-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.dimension-number {
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  color: #f36838;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.dimension-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.dimension-description {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.dimension-details {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .how-we-work-section {
+    padding: 80px 0;
+  }
+
+  .how-we-work-container {
+    padding: 0 40px;
+  }
+
+  .how-we-work-title {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+  }
+
+  .how-we-work-intro {
+    font-size: 1.15rem;
+  }
+
+  .how-we-work-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .dimensions-list {
+    gap: 70px;
+  }
+
+  .dimension-item {
+    gap: 25px;
+  }
+
+  .dimension-image-container {
+    height: 350px;
+  }
+
+  .dimension-number {
+    font-size: 3.5rem;
+  }
+
+  .dimension-title {
+    font-size: 2.3rem;
+  }
+
+  .dimension-description {
+    font-size: 1.25rem;
+  }
+
+  .dimension-details {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-we-work-section {
+    padding: 70px 0;
+  }
+
+  .how-we-work-container {
+    padding: 0 25px;
+  }
+
+  .how-we-work-header {
+    margin-bottom: 50px;
+  }
+
+  .how-we-work-title {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+  }
+
+  .how-we-work-intro {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .how-we-work-subtitle {
+    font-size: 1.15rem;
+    margin-top: 30px;
+  }
+
+  .dimensions-list {
+    gap: 50px;
+  }
+
+  .dimension-item {
+    gap: 20px;
+  }
+
+  .dimension-image-container {
+    height: 280px;
+  }
+
+  .dimension-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  .dimension-number {
+    font-size: 2.5rem;
+  }
+
+  .dimension-title {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .dimension-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .dimension-details {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 480px) {
+  .how-we-work-section {
+    padding: 60px 0;
+  }
+
+  .how-we-work-container {
+    padding: 0 20px;
+  }
+
+  .how-we-work-header {
+    margin-bottom: 40px;
+  }
+
+  .how-we-work-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .how-we-work-intro {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .how-we-work-subtitle {
+    font-size: 1rem;
+    margin-top: 25px;
+  }
+
+  .dimensions-list {
+    gap: 40px;
+  }
+
+  .dimension-item {
+    gap: 18px;
+  }
+
+  .dimension-image-container {
+    height: 230px;
+    border-radius: 15px;
+  }
+
+  .dimension-header {
+    gap: 8px;
+  }
+
+  .dimension-number {
+    font-size: 2rem;
+  }
+
+  .dimension-title {
+    font-size: 1.5rem;
+  }
+
+  .dimension-description {
+    font-size: 1rem;
+  }
+
+  .dimension-details {
+    font-size: 0.95rem;
+  }
+}

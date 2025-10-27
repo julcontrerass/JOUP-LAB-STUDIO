@@ -1,10 +1,10 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Services from './components/Services';
-import Servicios from './components/Servicios';
-import About from './components/About';
-import CicloBaristas from './components/CicloBaristas';
-import Contact from './components/Contact';
+import StorySection from './components/StorySection';
+import Philosophy from './components/Philosophy';
+import HowWeWork from './components/HowWeWork';
+import Commitment from './components/Commitment';
+import SlowBar from './components/SlowBar';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -13,11 +13,11 @@ function App() {
     <>
       <Header />
       <Hero />
-      <About />
-      <Services />
-      <Servicios />
-      <CicloBaristas />
-      <Contact />
+      <StorySection />
+      <Philosophy />
+      <HowWeWork />
+      <Commitment />
+      <SlowBar />
       <Footer />
     </>
   );

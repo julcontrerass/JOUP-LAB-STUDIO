@@ -1,0 +1,179 @@
+.philosophy-section {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #232522;
+  padding: 100px 0;
+  position: relative;
+}
+
+.philosophy-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.philosophy-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.philosophy-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin-bottom: 30px;
+  color: #232522;
+  letter-spacing: 6px;
+}
+
+.philosophy-intro {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 25px;
+  color: #232522;
+  font-weight: 400;
+}
+
+.philosophy-intro-subtitle {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.4rem;
+  color: #f36838;
+  font-weight: 700;
+  margin-top: 35px;
+  letter-spacing: 1px;
+}
+
+.principles-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.principle-item {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 50px 0;
+  border-bottom: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.principle-item:last-child {
+  border-bottom: none;
+}
+
+.principle-item:hover {
+  padding-left: 20px;
+}
+
+.principle-item:hover .principle-number {
+  color: #f36838;
+  transform: scale(1.1);
+}
+
+.principle-number {
+  font-family: 'Anton', sans-serif;
+  font-size: 5rem;
+  color: #232522;
+  line-height: 1;
+  letter-spacing: 2px;
+  flex-shrink: 0;
+  min-width: 120px;
+  transition: all 0.3s ease;
+  opacity: 0.3;
+}
+
+.principle-content {
+  flex: 1;
+  padding-top: 10px;
+}
+
+.principle-title {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #232522;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.principle-description {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #232522;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .philosophy-title {
+    font-size: 4rem;
+  }
+
+  .principle-number {
+    font-size: 4rem;
+    min-width: 100px;
+  }
+
+  .principle-title {
+    font-size: 1.9rem;
+  }
+
+  .principle-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .philosophy-section {
+    padding: 100px 0;
+  }
+
+  .philosophy-container {
+    padding: 0 30px;
+  }
+
+  .philosophy-header {
+    margin-bottom: 70px;
+  }
+
+  .philosophy-title {
+    font-size: 3rem;
+    letter-spacing: 4px;
+  }
+
+  .philosophy-intro {
+    font-size: 1.2rem;
+  }
+
+  .principle-item {
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px 0;
+  }
+
+  .principle-item:hover {
+    padding-left: 0;
+  }
+
+  .principle-number {
+    font-size: 3.5rem;
+    min-width: auto;
+  }
+
+  .principle-content {
+    padding-top: 0;
+  }
+
+  .principle-title {
+    font-size: 1.7rem;
+  }
+
+  .principle-description {
+    font-size: 1.05rem;
+  }
+}

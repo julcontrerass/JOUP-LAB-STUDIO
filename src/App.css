@@ -4,6 +4,39 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 #root {
   width: 100%;
+}
+
+/* Smooth transitions for all sections */
+section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #232522;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f36838;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6b3d;
 }
