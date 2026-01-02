@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import claseImage from '../assets/Clase.png';
-import labImage from '../assets/Lab.png';
 import consultoriaImage from '../assets/consultoria.png';
 import '../styles/OurPillars.css';
 
