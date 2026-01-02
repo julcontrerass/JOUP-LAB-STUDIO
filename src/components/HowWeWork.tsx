@@ -1,31 +1,77 @@
 import { motion } from 'framer-motion';
-import educacion from '../assets/educacion.png';
-import consultoria from '../assets/consultoria.png';
-import sca from '../assets/sca.png';
 import '../styles/HowWeWork.css';
 
 const HowWeWork = () => {
-  const dimensions = [
+  const steps = [
     {
       number: "01",
-      title: "Educación",
-      description: "Formamos profesionales capaces de pensar el café, no solo de prepararlo.",
-      details: "Ofrecemos capacitaciones técnicas, workshops, programas de desarrollo sensorial y cursos diseñados para distintos niveles, siempre con un enfoque humano y crítico.",
-      image: educacion
+      title: "Primer Contacto",
+      description: "Conversación inicial para entender tu visión",
+      details: "Nos reunimos para conocer tu idea, expectativas y objetivos. Escuchamos tu proyecto y contexto para diseñar una asesoría a medida.",
+      icon: "💬"
     },
     {
       number: "02",
-      title: "Consultoría",
-      description: "Asesoramos a cafeterías, marcas y tostadores en la creación de propuestas coherentes.",
-      details: "Desde la selección de café y el diseño de carta hasta la calibración de equipos, capacitación de personal y filosofía de servicio.",
-      image: consultoria
+      title: "Análisis del Proyecto",
+      description: "Evaluación detallada de viabilidad y contexto",
+      details: "Estudiamos la ubicación, público objetivo, competencia y recursos disponibles. Definimos el alcance y los tiempos del proyecto.",
+      icon: "📊"
     },
     {
       number: "03",
-      title: "Curaduría y Evaluación Sensorial",
-      description: "Trabajamos con protocolos de la SCA y herramientas de análisis sensorial.",
-      details: "Nuestra mirada combina el rigor técnico con la intuición estética: lo que medimos, lo sentimos. Cada perfil de taza es una historia traducida al lenguaje del sabor.",
-      image: sca
+      title: "Diseño de Concepto",
+      description: "Creación de la identidad de tu cafetería",
+      details: "Desarrollamos la filosofía de servicio, propuesta de valor, carta de productos y experiencia del cliente que te diferenciarán.",
+      icon: "💡"
+    },
+    {
+      number: "04",
+      title: "Selección de Equipos",
+      description: "Asesoría en maquinaria y herramientas",
+      details: "Te guiamos en la elección de máquinas de espresso, molinos, métodos de filtrado y equipamiento según tu concepto y presupuesto.",
+      icon: "⚙️"
+    },
+    {
+      number: "05",
+      title: "Curaduría de Café",
+      description: "Selección y desarrollo de tu carta de cafés",
+      details: "Elegimos los cafés que mejor se adapten a tu propuesta. Diseñamos perfiles de tostado y métodos de preparación específicos.",
+      icon: "☕"
+    },
+    {
+      number: "06",
+      title: "Capacitación del Equipo",
+      description: "Formación técnica y conceptual del personal",
+      details: "Entrenamos a tu equipo en técnicas de extracción, calibración, servicio al cliente y la filosofía detrás de cada taza.",
+      icon: "👥"
+    },
+    {
+      number: "07",
+      title: "Montaje y Calibración",
+      description: "Puesta a punto de todos los sistemas",
+      details: "Instalamos y calibramos todos los equipos, ajustamos recetas, optimizamos flujos de trabajo y protocolos de calidad.",
+      icon: "🔧"
+    },
+    {
+      number: "08",
+      title: "Apertura y Seguimiento",
+      description: "Acompañamiento en el lanzamiento",
+      details: "Estamos presentes en la apertura y ofrecemos seguimiento continuo para ajustar procesos, resolver dudas y garantizar la excelencia.",
+      icon: "🎉"
+    },
+    {
+      number: "09",
+      title: "Fotografía Gastronómica",
+      description: "Capturamos la esencia visual de tu café",
+      details: "Sesiones fotográficas profesionales para menús, redes sociales, branding y contenido que refleje la calidad y personalidad de tu cafetería.",
+      icon: "📸"
+    },
+    {
+      number: "10",
+      title: "Desarrollo Web by TukiCode",
+      description: "Tu presencia digital profesional",
+      details: "Diseño y desarrollo de páginas web a medida que transmiten tu identidad. Sitios responsive, optimizados y que facilitan la conexión con tus clientes.",
+      icon: "💻"
     }
   ];
 
@@ -41,40 +87,28 @@ const HowWeWork = () => {
         >
           <h2 className="how-we-work-title">CÓMO TRABAJAMOS</h2>
           <p className="how-we-work-intro">
-            No creemos en fórmulas universales. Creemos en los procesos que respetan la identidad de cada persona, equipo o proyecto.
+            Acompañamos todo el proceso de apertura de tu cafetería, desde la idea inicial hasta el primer día de servicio y más allá.
           </p>
-          <p className="how-we-work-intro">
-            Por eso, cada colaboración que asumimos comienza con una escucha atenta y una lectura del contexto.
-            A partir de ahí, diseñamos experiencias formativas, asesorías o desarrollos sensoriales que integran ciencia, oficio y sensibilidad.
-          </p>
-          <p className="how-we-work-subtitle">Nuestro trabajo combina tres dimensiones:</p>
+          <p className="how-we-work-subtitle">Tu camino hacia la apertura</p>
         </motion.div>
 
-        <div className="dimensions-list">
-          {dimensions.map((dimension, index) => (
+        <div className="steps-circuit">
+          {steps.map((step, index) => (
             <motion.div
               key={index}
-              className="dimension-item"
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.7, delay: index * 0.2 }}
+              className="circuit-step"
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <div className="dimension-content">
-                <div className="dimension-header">
-                  <span className="dimension-number">{dimension.number}</span>
-                  <h3 className="dimension-title">{dimension.title}</h3>
-                </div>
-                <p className="dimension-description">{dimension.description}</p>
-                <p className="dimension-details">{dimension.details}</p>
-              </div>
-
-              <div className="dimension-image-container">
-                <img
-                  src={dimension.image}
-                  alt={dimension.title}
-                  className={`dimension-image ${dimension.number === '02' ? 'zoom-out' : ''}`}
-                />
+              <div className="step-connector" />
+              <div className="step-card">
+                <div className="step-icon">{step.icon}</div>
+                <div className="step-number">{step.number}</div>
+                <h3 className="step-title">{step.title}</h3>
+                <p className="step-description">{step.description}</p>
+                <p className="step-details">{step.details}</p>
               </div>
             </motion.div>
           ))}

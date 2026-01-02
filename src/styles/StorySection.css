@@ -1,10 +1,13 @@
 .story-section {
-  min-height: 100vh;
+  height: 100vh;
   background-color: #232522;
   color: #ffffff;
-  padding: 100px 0;
+  padding: 60px 0 40px 0;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .story-container {
@@ -13,8 +16,9 @@
   padding: 0 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 60px;
   align-items: center;
+  flex: 1;
 }
 
 .story-content {
@@ -23,30 +27,30 @@
 
 .story-title {
   font-family: 'Anton', sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1.1;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #f36838;
   letter-spacing: 2px;
 }
 
 .story-subtitle {
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   color: #ffffff;
 }
 
 .story-text-block {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .story-text {
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
   color: #ffffff;
   font-weight: 300;
 }
@@ -63,9 +67,51 @@
   font-weight: 500;
 }
 
+.story-arrow-section {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.story-arrow-text {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #f36838;
+  font-weight: 500;
+  max-width: 600px;
+  text-align: center;
+}
+
+.story-scroll-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #f36838;
+  color: #f36838;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgba(243, 104, 56, 0.1);
+}
+
+.story-scroll-arrow:hover {
+  background: rgba(243, 104, 56, 0.2);
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(243, 104, 56, 0.4);
+}
+
 .story-parallax-image {
   width: 100%;
-  height: 600px;
+  height: 450px;
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -84,43 +130,88 @@
 }
 
 @media (max-width: 1024px) {
+  .story-section {
+    padding: 40px 0 30px 0;
+  }
+
   .story-container {
     grid-template-columns: 1fr;
-    gap: 60px;
+    gap: 40px;
     padding: 0 30px;
   }
 
   .story-title {
-    font-size: 3rem;
+    font-size: 2.8rem;
+  }
+
+  .story-subtitle {
+    margin-bottom: 30px;
+  }
+
+  .story-text-block {
+    margin-bottom: 15px;
+  }
+
+  .story-arrow-section {
+    margin-top: 30px;
+    padding: 20px 30px 15px 30px;
   }
 
   .story-parallax-image {
-    height: 400px;
+    height: 350px;
   }
 }
 
 @media (max-width: 768px) {
   .story-section {
-    padding: 60px 0;
+    padding: 30px 0 20px 0;
+  }
+
+  .story-container {
+    gap: 30px;
+    padding: 0 20px;
   }
 
   .story-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
   }
 
   .story-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
   }
 
   .story-text {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    margin-bottom: 12px;
   }
 
   .story-text.emphasis {
+    font-size: 1.2rem;
+  }
+
+  .story-text-block {
+    margin-bottom: 15px;
+  }
+
+  .story-arrow-section {
+    margin-top: 25px;
+    padding: 15px 20px 10px 20px;
+    gap: 15px;
+  }
+
+  .story-arrow-text {
+    font-size: 1rem;
+  }
+
+  .story-scroll-arrow {
+    width: 45px;
+    height: 45px;
     font-size: 1.3rem;
   }
 
   .story-parallax-image {
-    height: 300px;
+    height: 280px;
   }
 }

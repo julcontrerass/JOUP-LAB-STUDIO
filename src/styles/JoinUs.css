@@ -1,7 +1,7 @@
 .join-us-section {
   min-height: 100vh;
-  background: #ffffff;
-  color: #232522;
+  background: #232522;
+  color: #ffffff;
   padding: 100px 0;
   position: relative;
   display: flex;
@@ -26,7 +26,7 @@
   font-size: 4.5rem;
   line-height: 1;
   margin-bottom: 25px;
-  color: #000000;
+  color: #f36838;
   letter-spacing: 6px;
 }
 
@@ -35,7 +35,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .commitment-subtitle {
@@ -44,7 +44,7 @@
   line-height: 1.8;
   max-width: 800px;
   margin: 0 auto;
-  color: #000000;
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 300;
 }
 
@@ -56,21 +56,21 @@
 }
 
 .value-card {
-  background: #ffffff;
+  background: #2a2c2a;
   padding: 40px 30px;
   border-radius: 20px;
   text-align: center;
-  border: 1px solid #e0e0e0;
+  border: 2px solid rgba(243, 104, 56, 0.1);
   transition: all 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .value-card:hover {
   border-color: #f36838;
-  background: #ffffff;
+  background: #2a2c2a;
   transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(243, 104, 56, 0.1);
+  box-shadow: 0 10px 35px rgba(243, 104, 56, 0.4);
 }
 
 .value-icon {
@@ -90,7 +90,7 @@
   font-family: 'League Spartan', sans-serif;
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #232522;
+  color: rgba(255, 255, 255, 0.85);
   font-weight: 300;
 }
 
@@ -112,14 +112,14 @@
 }
 
 .join-us-cta {
-  background: #ffffff;
+  background: #2a2c2a;
   padding: 70px 60px;
   border-radius: 30px;
-  border: 1px solid #e0e0e0;
+  border: 2px solid rgba(243, 104, 56, 0.2);
   text-align: center;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .cta-glow-bg {
@@ -134,7 +134,7 @@
   font-family: 'Anton', sans-serif;
   font-size: 4.5rem;
   margin-bottom: 20px;
-  color: #232522;
+  color: #ffffff;
   letter-spacing: 8px;
   position: relative;
   display: inline-block;
@@ -173,7 +173,7 @@
   font-family: 'League Spartan', sans-serif;
   font-size: 2rem;
   font-weight: 800;
-  color: #232522;
+  color: #ffffff;
   font-style: italic;
   letter-spacing: 1px;
   margin: 0;
@@ -185,7 +185,7 @@
   line-height: 1.9;
   max-width: 900px;
   margin: 0 auto 60px;
-  color: #232522;
+  color: rgba(255, 255, 255, 0.85);
   font-weight: 400;
 }
 
@@ -208,22 +208,22 @@
   align-items: center;
   gap: 15px;
   padding: 40px 30px;
-  background: #ffffff;
+  background: #2a2c2a;
   border-radius: 25px;
-  border: 2px solid #e0e0e0;
+  border: 2px solid rgba(243, 104, 56, 0.1);
   transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   position: relative;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 .contact-item:hover {
-  background: #ffffff;
+  background: #323432;
   border-color: #f36838;
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(243, 104, 56, 0.2);
+  box-shadow: 0 10px 30px rgba(243, 104, 56, 0.3);
 }
 
 .contact-icon {
@@ -256,7 +256,7 @@
   font-family: 'League Spartan', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #232522;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -265,7 +265,7 @@
   font-family: 'League Spartan', sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
-  color: #232522;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .contact-arrow {
@@ -300,6 +300,14 @@
 }
 
 @media (max-width: 768px) {
+  .join-us-section {
+    padding: 80px 0;
+  }
+
+  .join-us-container {
+    padding: 0 30px;
+  }
+
   .commitment-section {
     padding: 80px 0;
   }
@@ -346,6 +354,7 @@
 
   .join-us-cta {
     padding: 50px 35px;
+    border-radius: 20px;
   }
 
   .cta-title {
@@ -363,6 +372,7 @@
 
   .cta-description {
     font-size: 1.15rem;
+    margin-bottom: 40px;
   }
 
   .contact-info {
@@ -384,5 +394,105 @@
 
   .contact-value {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .join-us-section {
+    padding: 60px 0;
+  }
+
+  .join-us-container {
+    padding: 0 20px;
+  }
+
+  .commitment-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .commitment-intro {
+    font-size: 1.2rem;
+  }
+
+  .commitment-subtitle {
+    font-size: 1rem;
+  }
+
+  .value-card {
+    padding: 30px 20px;
+  }
+
+  .value-icon {
+    font-size: 2.5rem;
+  }
+
+  .value-title {
+    font-size: 1.4rem;
+  }
+
+  .value-description {
+    font-size: 0.95rem;
+  }
+
+  .commitment-promise {
+    padding: 30px 20px;
+  }
+
+  .promise-text {
+    font-size: 1.3rem;
+  }
+
+  .join-us-cta {
+    padding: 40px 25px;
+    border-radius: 15px;
+  }
+
+  .cta-title {
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+  }
+
+  .cta-title-line {
+    height: 4px;
+  }
+
+  .cta-quote-mark {
+    font-size: 3rem;
+  }
+
+  .cta-tagline {
+    font-size: 1.2rem;
+  }
+
+  .cta-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.7;
+  }
+
+  .contact-info {
+    gap: 15px;
+  }
+
+  .contact-item {
+    padding: 30px 20px;
+    border-radius: 15px;
+  }
+
+  .contact-icon {
+    font-size: 2.5rem;
+  }
+
+  .contact-label {
+    font-size: 0.9rem;
+  }
+
+  .contact-value {
+    font-size: 1.1rem;
+  }
+
+  .contact-arrow {
+    font-size: 1.3rem;
   }
 }

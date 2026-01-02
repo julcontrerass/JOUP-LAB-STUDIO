@@ -1,0 +1,248 @@
+.invitation-section {
+  height: 100vh;
+  background: radial-gradient(circle at center, #ffffff 0%, #f8f8f8 100%);
+  color: #232522;
+  padding: 80px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Diseño de puertas abiertas */
+.invitation-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    linear-gradient(90deg, transparent 48%, rgba(243, 104, 56, 0.05) 49%, rgba(243, 104, 56, 0.05) 51%, transparent 52%),
+    linear-gradient(0deg, transparent 48%, rgba(243, 104, 56, 0.05) 49%, rgba(243, 104, 56, 0.05) 51%, transparent 52%);
+  pointer-events: none;
+}
+
+.invitation-section::after {
+  content: '✦';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: rgba(243, 104, 56, 0.1);
+  animation: rotate 30s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.invitation-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.invitation-header {
+  margin-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.invitation-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin: 0;
+  color: #f36838;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding: 30px 50px;
+  border-radius: 20px;
+  background: rgba(243, 104, 56, 0.05);
+  box-shadow:
+    0 0 0 3px #ffffff,
+    0 0 0 6px rgba(243, 104, 56, 0.3),
+    0 10px 30px rgba(243, 104, 56, 0.1);
+}
+
+.invitation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 950px;
+}
+
+.invitation-text {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #232522;
+  font-weight: 400;
+  margin: 0;
+  padding: 20px 35px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.invitation-text:hover {
+  box-shadow: 0 8px 25px rgba(243, 104, 56, 0.15);
+  transform: translateY(-5px);
+}
+
+.invitation-text.emphasis {
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin-top: 15px;
+  background: linear-gradient(135deg, rgba(243, 104, 56, 0.1), rgba(243, 104, 56, 0.05));
+  border: 2px solid rgba(243, 104, 56, 0.2);
+}
+
+.invitation-text.highlight {
+  font-size: 1.65rem;
+  color: #232522;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 35px 45px;
+  background: #ffffff;
+  border: 4px solid #f36838;
+  box-shadow:
+    0 10px 40px rgba(243, 104, 56, 0.2),
+    inset 0 0 20px rgba(243, 104, 56, 0.05);
+  position: relative;
+}
+
+.invitation-text.highlight::before {
+  content: '→';
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f36838;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.invitation-text.highlight::after {
+  content: '←';
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f36838;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+@media (max-width: 1024px) {
+  .invitation-section {
+    padding: 60px 0;
+  }
+
+  .invitation-title {
+    font-size: 3.8rem;
+    letter-spacing: 6px;
+  }
+
+  .invitation-text {
+    font-size: 1.2rem;
+  }
+
+  .invitation-text.emphasis {
+    font-size: 1.35rem;
+  }
+
+  .invitation-text.highlight {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .invitation-section {
+    height: auto;
+    min-height: 100vh;
+    padding: 60px 0;
+  }
+
+  .invitation-section::before {
+    width: 500px;
+    height: 500px;
+  }
+
+  .invitation-container {
+    padding: 0 30px;
+  }
+
+  .invitation-header {
+    margin-bottom: 40px;
+    padding-left: 25px;
+  }
+
+  .invitation-header::before {
+    width: 6px;
+  }
+
+  .invitation-title {
+    font-size: 2.8rem;
+    letter-spacing: 4px;
+  }
+
+  .invitation-content {
+    gap: 18px;
+  }
+
+  .invitation-text {
+    font-size: 1.1rem;
+    padding-left: 25px;
+  }
+
+  .invitation-text:hover {
+    padding-left: 28px;
+  }
+
+  .invitation-text.emphasis {
+    font-size: 1.2rem;
+    padding-left: 28px;
+  }
+
+  .invitation-text.highlight {
+    font-size: 1.35rem;
+    padding: 20px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .invitation-title {
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+  }
+
+  .invitation-text {
+    font-size: 1.05rem;
+    padding-left: 20px;
+  }
+
+  .invitation-text.emphasis {
+    font-size: 1.15rem;
+  }
+
+  .invitation-text.highlight {
+    font-size: 1.25rem;
+    padding: 18px 22px;
+  }
+}

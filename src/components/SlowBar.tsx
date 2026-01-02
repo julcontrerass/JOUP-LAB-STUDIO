@@ -34,7 +34,10 @@ const SlowBar = () => {
             <h2 className="slow-bar-title">SLOW BAR</h2>
             <div className="slow-bar-info">
               <p className="slow-bar-schedule">
-                Todos los lunes de <span className="highlight">11:00 a 20:00 hs</span>
+                Martes a viernes <span className="highlight">8:00 a 20:00 hs</span>
+              </p>
+              <p className="slow-bar-schedule">
+                Sábados y domingos <span className="highlight">9:00 a 20:00 hs</span>
               </p>
               <p className="slow-bar-location">
                 Socio Café - Arce 415, Cañitas, Buenos Aires
@@ -44,7 +47,7 @@ const SlowBar = () => {
             <div className="slow-bar-description">
               <p>
                 Un espacio donde el café filtrado se vuelve protagonista y la experiencia sensorial cobra vida.
-                Cada lunes elegimos distintos orígenes, métodos y perfiles de tostadores invitados para ofrecer una degustación guiada por nuestros baristas.
+                Elegimos distintos orígenes, métodos y perfiles de tostadores invitados para ofrecer una degustación guiada por nuestros baristas.
               </p>
 
               <div className="slow-bar-concept">

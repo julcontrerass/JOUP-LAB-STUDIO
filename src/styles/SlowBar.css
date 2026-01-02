@@ -198,3 +198,75 @@
     font-size: 1.1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .slow-bar-section {
+    padding: 60px 0;
+  }
+
+  .slow-bar-container {
+    padding: 0 20px;
+  }
+
+  .slow-bar-content {
+    gap: 50px;
+  }
+
+  .slow-bar-title {
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+  }
+
+  .slow-bar-info {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f36838;
+  }
+
+  .slow-bar-schedule {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+
+  .slow-bar-location {
+    font-size: 1rem;
+  }
+
+  .slow-bar-description {
+    font-size: 0.95rem;
+  }
+
+  .slow-bar-description p {
+    margin-bottom: 15px;
+  }
+
+  .slow-bar-concept {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+
+  .concept-title {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  .slow-bar-mission {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .gallery-item {
+    border-radius: 10px;
+  }
+
+  .gallery-overlay-text {
+    font-size: 1.5rem;
+  }
+}

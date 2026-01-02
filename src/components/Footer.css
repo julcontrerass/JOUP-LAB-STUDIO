@@ -13,6 +13,28 @@
   letter-spacing: 1.5px;
 }
 
+.tukicode-link {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.tukicode-link:hover {
+  border-bottom: 2px solid #8b5cf6;
+}
+
+.tuki-white {
+  color: #ffffff;
+}
+
+.code-violet {
+  color: #8b5cf6;
+}
+
+.tukicode-link:hover .code-violet {
+  color: #a78bfa;
+}
+
 .footer-content {
   max-width: 700px;
   margin: 0 auto;

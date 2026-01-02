@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
+import { FaChevronDown } from 'react-icons/fa';
 import storyImage from '../assets/WhatsApp Image 2025-10-26 at 00.21.10.png';
 import '../styles/StorySection.css';
 
@@ -26,8 +27,8 @@ const StorySection = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="story-title">JOUP COFFEE STUDIO</h2>
-            <p className="story-subtitle">Educamos el paladar que define la industria</p>
+            <h2 className="story-title">JOUP COFFEE</h2>
+            <p className="story-subtitle">Un ecosistema</p>
           </motion.div>
 
           <motion.div
@@ -38,12 +39,10 @@ const StorySection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="story-text">
-              Joup Coffee Studio nació de una pregunta:<br />
-              <span className="highlight">¿qué pasaría si nos tomáramos el café tan en serio como la vida misma?</span>
+              Un espacio donde la educación, la técnica y el desarrollo de negocios se encuentran para transformar la manera en que Argentina vive el café.
             </p>
             <p className="story-text">
-              Si en lugar de correr, lo escucháramos. Si en vez de repetir métodos, los entendiéramos.
-              Si la pasión por el café se convirtiera en una forma de pensar, crear y enseñar.
+              Formamos a <span className="highlight">más de 4.000 profesionales</span>, entre baristas, instructores, tostadores, dueños de cafetería y apasionados que hoy trabajan detrás de barra, en proyectos gastronómicos, en tostadurías o enseñando en distintas partes del mundo.
             </p>
           </motion.div>
 
@@ -54,12 +53,11 @@ const StorySection = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <p className="story-text emphasis">
-              Hoy, esa pregunta se transformó en un movimiento.
+            <p className="story-text">
+              Somos una comunidad en crecimiento constante, unida por una misma idea: elevar la cultura del café desde la formación, la calidad y la colaboración.
             </p>
             <p className="story-text">
-              Somos un estudio, una escuela, un laboratorio sensorial y un punto de encuentro entre quienes buscan elevar su oficio sin perder su esencia.
-              Desde Buenos Aires, trabajamos para formar una nueva generación de profesionales, educadores y amantes del café de especialidad que entienden que detrás de cada taza hay una historia, un principio y una posibilidad.
+              JOUP COFFEE nació como una comunidad-Escuela, creció como un laboratorio y hoy funciona como una plataforma integral que impulsa a personas, negocios y proyectos.
             </p>
           </motion.div>
         </motion.div>
@@ -74,6 +72,25 @@ const StorySection = () => {
           <div className="image-overlay"></div>
         </motion.div>
       </div>
+
+      <motion.div
+        className="story-arrow-section"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8, delay: 0.6 }}
+      >
+        <p className="story-arrow-text">
+          Nuestra identidad se sostiene en tres pilares que dan forma a todo lo que hacemos:
+        </p>
+        <motion.div
+          className="story-scroll-arrow"
+          animate={{ y: [0, 15, 0] }}
+          transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <FaChevronDown />
+        </motion.div>
+      </motion.div>
     </section>
   );
 };

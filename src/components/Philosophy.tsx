@@ -2,29 +2,6 @@ import { motion } from 'framer-motion';
 import '../styles/Philosophy.css';
 
 const Philosophy = () => {
-  const principles = [
-    {
-      title: "Educamos con propósito",
-      description: "Cada clase, cata o experiencia es una oportunidad para ampliar la sensibilidad y el criterio profesional."
-    },
-    {
-      title: "Honramos la trazabilidad",
-      description: "Valoramos la historia que hay detrás de cada grano y el trabajo humano que lo hace posible."
-    },
-    {
-      title: "Buscamos coherencia",
-      description: "Entre lo que decimos, lo que hacemos y lo que servimos."
-    },
-    {
-      title: "Promovemos comunidad",
-      description: "Porque el conocimiento crece cuando se comparte, no cuando se guarda."
-    },
-    {
-      title: "Celebramos la lentitud",
-      description: "En un mundo que corre, elegimos la pausa. La observación. La precisión. La escucha."
-    }
-  ];
-
   return (
     <section id="philosophy" className="philosophy-section">
       <div className="philosophy-container">
@@ -35,32 +12,32 @@ const Philosophy = () => {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="philosophy-title">FILOSOFÍA</h2>
-          <p className="philosophy-intro">
-            En Joup creemos que el café de especialidad no se trata de moda, sino de conciencia.
-            De entender lo que hay detrás de cada aroma, de cada decisión, de cada persona.
-          </p>
-          <p className="philosophy-intro-subtitle">Por eso trabajamos desde una filosofía clara:</p>
+          <h2 className="philosophy-title">UNA FILOSOFÍA CLARA</h2>
         </motion.div>
 
-        <div className="principles-list">
-          {principles.map((principle, index) => (
-            <motion.div
-              key={index}
-              className="principle-item"
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-            >
-              <div className="principle-number">{String(index + 1).padStart(2, '0')}</div>
-              <div className="principle-content">
-                <h3 className="principle-title">{principle.title}</h3>
-                <p className="principle-description">{principle.description}</p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
+        <motion.div
+          className="philosophy-content"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
+          <p className="philosophy-text">
+            JOUP existe porque creemos que el café es cultura, identidad, oficio y oportunidad.
+          </p>
+          <p className="philosophy-text">
+            Porque estamos comprometidos con el crecimiento local, la trazabilidad, la transparencia y el desarrollo de un ecosistema más justo y más profesional.
+          </p>
+          <p className="philosophy-text">
+            Creemos en la formación como motor, en la comunidad como red, en la técnica como fundamento y en la colaboración como camino.
+          </p>
+          <p className="philosophy-text emphasis">
+            Por eso trabajamos junto a cafeterías, empresas, instituciones, profesionales y colaboradores que comparten una visión:
+          </p>
+          <p className="philosophy-text highlight">
+            hacer del café un espacio de encuentro, excelencia y propósito compartido.
+          </p>
+        </motion.div>
       </div>
     </section>
   );

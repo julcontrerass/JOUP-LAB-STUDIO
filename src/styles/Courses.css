@@ -1,0 +1,318 @@
+.courses-section {
+  background: #1A1B19;
+  color: #ffffff;
+  padding: 80px 0;
+  position: relative;
+}
+
+.courses-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.courses-header {
+  text-align: left;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #f36838;
+}
+
+.courses-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: #f36838;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.courses-subtitle {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  max-width: 700px;
+  margin: 0;
+}
+
+/* Grid simple y limpio */
+.courses-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.category-block {
+  position: relative;
+  background: transparent;
+  border-radius: 0;
+  padding: 40px 0;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.category-block:last-child {
+  border-bottom: none;
+}
+
+.category-block::before {
+  display: none;
+}
+
+.category-block:hover::before {
+  display: none;
+}
+
+.category-block:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.category-block-header {
+  margin-bottom: 30px;
+  padding: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.category-block-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  color: #f36838;
+  letter-spacing: 3px;
+  line-height: 1.1;
+  margin: 0;
+  text-transform: uppercase;
+  flex: 0 0 auto;
+  min-width: 280px;
+}
+
+/* Los cursos en formato tabla/lista horizontal limpia */
+.category-block-courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.course-block {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  border-left: 3px solid #f36838;
+  padding-left: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: visible;
+  cursor: default;
+}
+
+.course-block::before {
+  display: none;
+}
+
+.course-block:hover::before {
+  display: none;
+}
+
+.course-block:hover {
+  border-left-color: #ffffff;
+  padding-left: 25px;
+}
+
+.course-block-level {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin: 0 0 10px 0;
+  line-height: 1.2;
+  display: block;
+}
+
+.course-block-level::before {
+  display: none;
+}
+
+.course-block-level::after {
+  display: none;
+}
+
+.course-block:hover .course-block-level::after {
+  display: none;
+}
+
+.course-block-description {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .courses-container {
+    padding: 0 40px;
+  }
+
+  .courses-title {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+  }
+
+  .courses-subtitle {
+    font-size: 1rem;
+  }
+
+  .category-block {
+    padding: 35px 0;
+  }
+
+  .category-block-title {
+    font-size: 1.6rem;
+    min-width: 240px;
+  }
+
+  .category-block-courses {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .course-block-level {
+    font-size: 1.1rem;
+  }
+
+  .course-block-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses-section {
+    padding: 60px 0;
+  }
+
+  .courses-container {
+    padding: 0 30px;
+  }
+
+  .courses-header {
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+  }
+
+  .courses-title {
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+  }
+
+  .courses-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .category-block {
+    padding: 30px 0;
+  }
+
+  .category-block-header {
+    margin-bottom: 25px;
+  }
+
+  .category-block-title {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    min-width: auto;
+  }
+
+  .category-block-courses {
+    gap: 18px;
+  }
+
+  .course-block {
+    padding-left: 18px;
+  }
+
+  .course-block:hover {
+    padding-left: 22px;
+  }
+
+  .course-block-level {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .course-block-description {
+    font-size: 0.88rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .courses-section {
+    padding: 50px 0;
+  }
+
+  .courses-container {
+    padding: 0 20px;
+  }
+
+  .courses-header {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+  }
+
+  .courses-title {
+    font-size: 1.9rem;
+    letter-spacing: 3px;
+  }
+
+  .courses-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .category-block {
+    padding: 25px 0;
+  }
+
+  .category-block-header {
+    margin-bottom: 20px;
+  }
+
+  .category-block-title {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+  }
+
+  .category-block-courses {
+    gap: 15px;
+  }
+
+  .course-block {
+    border-left-width: 2px;
+    padding-left: 15px;
+  }
+
+  .course-block:hover {
+    padding-left: 18px;
+  }
+
+  .course-block-level {
+    font-size: 0.95rem;
+    margin-bottom: 7px;
+  }
+
+  .course-block-description {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
