@@ -87,6 +87,32 @@
   box-shadow: 0 4px 15px rgba(243, 104, 56, 0.4);
 }
 
+.blog-button {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.6rem 1.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.blog-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-50%) translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+}
+
 .header .nav {
   display: flex;
   gap: 2.5rem;
@@ -393,8 +419,9 @@
   .header .container {
     padding: 0 1rem;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    position: relative;
   }
 
   .header .logo {
@@ -412,12 +439,17 @@
     font-size: 1rem;
   }
 
+  .blog-button {
+    display: none;
+  }
+
   .menu-icon {
     display: flex;
   }
 
   .header.scrolled .container {
     flex-direction: row;
+    justify-content: center;
   }
 
   .nav-arrow {
@@ -489,6 +521,10 @@
 
 /* Small Mobile */
 @media (max-width: 480px) {
+  .header .container {
+    justify-content: center;
+  }
+
   .header .logo {
     font-size: 0.95rem;
   }

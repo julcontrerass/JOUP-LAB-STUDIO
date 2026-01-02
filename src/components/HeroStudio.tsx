@@ -12,7 +12,7 @@ const HeroStudio = () => {
         ref={elementRef}
         className={`hero-studio-content scroll-animation fade-in-up ${isVisible ? 'animate' : ''}`}
       >
-        <h1>JOUP STUDIO</h1>
+        <h1>JOUP LAB</h1>
         <p>Educación, asesoría y excelencia en café de especialidad</p>
 
         <motion.a

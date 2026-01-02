@@ -1,7 +1,26 @@
 import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 import '../styles/JoupEssence.css';
 
 const JoupEssence = () => {
+  const [flippedCards, setFlippedCards] = useState<number[]>([]);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
+
+  useEffect(() => {
+    // Detectar si es dispositivo táctil
+    setIsTouchDevice('ontouchstart' in window || navigator.maxTouchPoints > 0);
+  }, []);
+
+  const handleCardInteraction = (index: number) => {
+    setFlippedCards(prev => {
+      if (prev.includes(index)) {
+        return prev.filter(i => i !== index);
+      } else {
+        return [...prev, index];
+      }
+    });
+  };
+
   const essenceData = [
     {
       key: "filosofia",
@@ -53,11 +72,13 @@ const JoupEssence = () => {
           {essenceData.map((item, index) => (
             <motion.div
               key={item.key}
-              className={`essence-tile essence-tile-${index + 1}`}
+              className={`essence-tile essence-tile-${index + 1} ${flippedCards.includes(index) ? 'flipped' : ''}`}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              onClick={isTouchDevice ? () => handleCardInteraction(index) : undefined}
+              onMouseEnter={!isTouchDevice ? () => handleCardInteraction(index) : undefined}
             >
               <div className="tile-inner">
                 <div className="tile-front">

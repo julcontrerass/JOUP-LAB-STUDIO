@@ -61,21 +61,20 @@
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 2px;
-  border: 2px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.1);
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;
   text-transform: uppercase;
   backdrop-filter: blur(10px);
-  border-radius: 4px;
+  border-radius: 50px;
 }
 
 .hero-btn:hover {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #f36838;
-  color: #f36838;
-  box-shadow: 0 0 20px rgba(243, 104, 56, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
 }
 
 .scroll-arrow {
@@ -141,10 +140,11 @@
   }
 
   .hero-btn {
-    padding: 0.8rem 2rem;
+    padding: 0.9rem 2rem;
     font-size: 0.95rem;
     width: 100%;
     max-width: 250px;
+    border-radius: 50px;
   }
 
   .scroll-arrow {
@@ -165,8 +165,9 @@
     font-size: 0.9rem;
   }
 
-  .btn-primary {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.8rem;
+  .hero-btn {
+    padding: 0.8rem 1.8rem;
+    font-size: 0.9rem;
+    border-radius: 50px;
   }
 }

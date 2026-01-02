@@ -8,10 +8,11 @@ const Contact = () => {
     nombre: '',
     email: '',
     cafeteria: '',
+    tipoAsesoria: '',
     mensaje: ''
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
@@ -19,10 +20,11 @@ const Contact = () => {
   };
 
   const handleWhatsAppClick = () => {
-    const { nombre, email, cafeteria, mensaje } = formData;
+    const { nombre, email, cafeteria, tipoAsesoria, mensaje } = formData;
     const whatsappMessage = `Hola! Mi nombre es ${nombre || '[Nombre]'}
 Email: ${email || '[Email]'}
 ${cafeteria ? `Cafetería: ${cafeteria}` : ''}
+${tipoAsesoria ? `Tipo de Asesoría: ${tipoAsesoria}` : ''}
 Mensaje: ${mensaje || '[Mensaje]'}`;
 
     const whatsappUrl = `https://wa.me/5491234567890?text=${encodeURIComponent(whatsappMessage)}`;
@@ -34,7 +36,7 @@ Mensaje: ${mensaje || '[Mensaje]'}`;
     // Aquí puedes agregar la lógica para enviar el formulario
     console.log('Formulario enviado:', formData);
     alert('Mensaje enviado! Te contactaremos pronto.');
-    setFormData({ nombre: '', email: '', cafeteria: '', mensaje: '' });
+    setFormData({ nombre: '', email: '', cafeteria: '', tipoAsesoria: '', mensaje: '' });
   };
 
   return (
@@ -53,14 +55,45 @@ Mensaje: ${mensaje || '[Mensaje]'}`;
           </p>
         </motion.div>
 
-        <motion.div
-          className="contact-content"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <form className="contact-form" onSubmit={handleSubmit}>
+        <div className="contact-grid-wrapper">
+          <motion.div
+            className="contact-description"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <h3>Nuestros Servicios</h3>
+            <p>
+              En JOUP LAB ofrecemos servicios especializados para elevar tu negocio de café de especialidad al siguiente nivel.
+            </p>
+            <ul className="service-list">
+              <li>
+                <strong>Consultoría Personalizada:</strong> Asesoramiento integral para cafeterías, desde la selección de equipos hasta el diseño de menú.
+              </li>
+              <li>
+                <strong>Desarrollo de Protocolos:</strong> Creación de procesos de calidad adaptados a tu negocio.
+              </li>
+              <li>
+                <strong>Análisis Sensorial:</strong> Catas profesionales y evaluación de cafés de especialidad.
+              </li>
+              <li>
+                <strong>Capacitación de Baristas:</strong> Formación técnica y sensorial para tu equipo.
+              </li>
+            </ul>
+            <p className="contact-cta">
+              ¿Listo para transformar tu proyecto? Completa el formulario y conversemos.
+            </p>
+          </motion.div>
+
+          <motion.form
+            className="contact-form"
+            onSubmit={handleSubmit}
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
             <div className="form-group">
               <label htmlFor="nombre">Nombre *</label>
               <input
@@ -100,6 +133,23 @@ Mensaje: ${mensaje || '[Mensaje]'}`;
             </div>
 
             <div className="form-group">
+              <label htmlFor="tipoAsesoria">Tipo de Asesoría</label>
+              <select
+                id="tipoAsesoria"
+                name="tipoAsesoria"
+                value={formData.tipoAsesoria}
+                onChange={handleChange}
+              >
+                <option value="">Selecciona una opción</option>
+                <option value="Asesoria">Asesoria</option>
+                <option value="Consultas">Consultas</option>
+                <option value="Sobre Cursos">Sobre Cursos</option>
+                {/* <option value="Analisis Sensorial">Análisis Sensorial</option> */}
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+
+            <div className="form-group">
               <label htmlFor="mensaje">Mensaje *</label>
               <textarea
                 id="mensaje"
@@ -120,8 +170,8 @@ Mensaje: ${mensaje || '[Mensaje]'}`;
                 <FaWhatsapp /> Contactar por WhatsApp
               </button>
             </div>
-          </form>
-        </motion.div>
+          </motion.form>
+        </div>
       </div>
     </section>
   );

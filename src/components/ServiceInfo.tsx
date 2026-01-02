@@ -30,7 +30,7 @@ const ServiceInfo = () => {
             Ayudamos a emprendedores, equipos y negocios consolidados a crecer con criterio, orden y profesionalismo.
           </p>
           <p className="service-text-highlight">
-            Desde consultoría técnica hasta diseño web (by TukiCode), branding, fotografía gastronómica, filmmaking y dirección de proyectos: JOUP SERVICE integra todas las áreas necesarias para que un negocio de café funcione con calidad y coherencia.
+            Desde consultoría técnica hasta diseño web (by TukiCode), branding, fotografía gastronómica, filmmaking y dirección de proyectos: JOUP STUDIO integra todas las áreas necesarias para que un negocio de café funcione con calidad y coherencia.
           </p>
         </motion.div>
       </div>

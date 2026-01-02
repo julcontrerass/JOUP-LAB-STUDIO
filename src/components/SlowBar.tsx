@@ -34,10 +34,7 @@ const SlowBar = () => {
             <h2 className="slow-bar-title">SLOW BAR</h2>
             <div className="slow-bar-info">
               <p className="slow-bar-schedule">
-                Martes a viernes <span className="highlight">8:00 a 20:00 hs</span>
-              </p>
-              <p className="slow-bar-schedule">
-                Sábados y domingos <span className="highlight">9:00 a 20:00 hs</span>
+                Lunes <span className="highlight">16:00 a 20:00 hs</span>
               </p>
               <p className="slow-bar-location">
                 Socio Café - Arce 415, Cañitas, Buenos Aires

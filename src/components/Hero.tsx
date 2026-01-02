@@ -20,38 +20,26 @@ const Hero = () => {
         <div className="hero-buttons">
           <motion.button
             onClick={() => navigate('/studio')}
-            className="hero-btn studio-btn"
+            className="hero-btn lab-btn"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            STUDIO
+            LAB
           </motion.button>
 
           <motion.button
             onClick={() => navigate('/service')}
-            className="hero-btn service-btn"
+            className="hero-btn studio-btn"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            SERVICE
-          </motion.button>
-
-          <motion.button
-            onClick={() => navigate('/lab')}
-            className="hero-btn lab-btn"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            LAB
+            STUDIO
           </motion.button>
         </div>
 

@@ -30,7 +30,7 @@ const StudioInfo = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="studio-info-title">JOUP STUDIO</h2>
+            <h2 className="studio-info-title">JOUP LAB</h2>
             <p className="studio-info-subtitle">La academia donde formamos a la nueva generación de profesionales del café.</p>
 
             <div className="studio-features-list">

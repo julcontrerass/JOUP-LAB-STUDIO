@@ -59,18 +59,18 @@ const HowWeWork = () => {
       details: "Estamos presentes en la apertura y ofrecemos seguimiento continuo para ajustar procesos, resolver dudas y garantizar la excelencia.",
       icon: "🎉"
     },
+    // {
+    //   number: "09",
+    //   title: "Fotografía Gastronómica",
+    //   description: "Capturamos la esencia visual de tu café",
+    //   details: "Sesiones fotográficas profesionales para menús, redes sociales, branding y contenido que refleje la calidad y personalidad de tu cafetería.",
+    //   icon: "📸"
+    // },
     {
       number: "09",
-      title: "Fotografía Gastronómica",
-      description: "Capturamos la esencia visual de tu café",
-      details: "Sesiones fotográficas profesionales para menús, redes sociales, branding y contenido que refleje la calidad y personalidad de tu cafetería.",
-      icon: "📸"
-    },
-    {
-      number: "10",
       title: "Desarrollo Web by TukiCode",
       description: "Tu presencia digital profesional",
-      details: "Diseño y desarrollo de páginas web a medida que transmiten tu identidad. Sitios responsive, optimizados y que facilitan la conexión con tus clientes.",
+      details: "Creación de un sitio web atractivo y funcional que refleje la identidad de tu cafetería, facilitando la conexión con tus clientes y la promoción de tu marca.",
       icon: "💻"
     }
   ];

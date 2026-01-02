@@ -38,8 +38,8 @@ const Header = () => {
   }, [location.pathname]);
 
   const getTitle = () => {
-    if (location.pathname === '/studio') return 'JOUP STUDIO';
-    if (location.pathname === '/service') return 'JOUP SERVICE';
+    if (location.pathname === '/studio') return 'JOUP LAB';
+    if (location.pathname === '/service') return 'JOUP STUDIO';
     if (location.pathname === '/lab') return 'JOUP LAB';
     return 'JOUP LAB & STUDIO';
   };
@@ -77,8 +77,8 @@ const Header = () => {
   };
 
   const getWelcomeMessage = () => {
-    if (location.pathname === '/studio') return 'Bienvenido a JOUP STUDIO';
-    if (location.pathname === '/service') return 'Bienvenido a JOUP SERVICE';
+    if (location.pathname === '/studio') return 'Bienvenido a JOUP LAB';
+    if (location.pathname === '/service') return 'Bienvenido a JOUP STUDIO';
     if (location.pathname === '/lab') return 'Bienvenido a JOUP LAB';
     return 'Bienvenido a JOUP LAB & STUDIO';
   };
@@ -127,6 +127,9 @@ const Header = () => {
               </a>
             ))}
           </nav>
+          <button className="blog-button" aria-label="Blog">
+            BLOG
+          </button>
           <div className={`menu-icon ${isSidebarOpen ? 'open' : ''}`} onClick={toggleSidebar}>
             {isSidebarOpen ? <FaChevronRight /> : <FaChevronLeft />}
           </div>
