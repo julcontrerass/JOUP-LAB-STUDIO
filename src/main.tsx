@@ -1,27 +1,27 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './index.css'
-import App from './App.tsx'
-import StudioPage from './pages/StudioPage.tsx'
-import ServicePage from './pages/ServicePage.tsx'
-import LabPage from './pages/LabPage.tsx'
-import EducationPage from './pages/EducationPage.tsx'
-import ModuloUnoPage from './pages/ModuloUnoPage.tsx'
-import AeropressPage from './pages/AeropressPage.tsx'
+import './shared/styles/global/index.css'
+import './shared/i18n/config'
+import { ThemeProvider } from '@/shared/contexts'
+import { HomePage } from '@/features/brand'
+import { CourseCatalogPage, LabPage, FreeResourcesPage, ModuleOnePage, AeropressModulePage } from '@/features/coffee-education'
+import { ConsultingPage } from '@/features/consulting-services'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/studio" element={<StudioPage />} />
-        <Route path="/service" element={<ServicePage />} />
-        <Route path="/lab" element={<LabPage />} />
-        <Route path="/educacion" element={<EducationPage />} />
-        <Route path="/modulo-1" element={<ModuloUnoPage />} />
-        <Route path="/aeropress" element={<AeropressPage />} />
-      </Routes>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/studio" element={<CourseCatalogPage />} />
+          <Route path="/service" element={<ConsultingPage />} />
+          <Route path="/lab" element={<LabPage />} />
+          <Route path="/educacion" element={<FreeResourcesPage />} />
+          <Route path="/modulo-1" element={<ModuleOnePage />} />
+          <Route path="/aeropress" element={<AeropressModulePage />} />
+        </Routes>
+      </Router>
+    </ThemeProvider>
   </StrictMode>,
 )

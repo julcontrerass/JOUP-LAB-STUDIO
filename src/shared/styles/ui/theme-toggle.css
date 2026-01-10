@@ -1,0 +1,55 @@
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+  backdrop-filter: blur(10px);
+}
+
+.theme-toggle:hover {
+  border-color: var(--brand-orange);
+  color: var(--brand-orange);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* When out of hero section */
+.out-of-hero .theme-toggle {
+  border-color: var(--color-text-primary);
+  background-color: transparent;
+  color: var(--color-text-primary);
+  backdrop-filter: none;
+}
+
+.out-of-hero .theme-toggle:hover {
+  border-color: var(--brand-orange);
+  color: var(--brand-orange);
+  background-color: transparent;
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+.theme-toggle-icon {
+  font-size: 1.3rem;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .theme-toggle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .theme-toggle-icon {
+    font-size: 1.1rem;
+  }
+}

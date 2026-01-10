@@ -1,0 +1,111 @@
+/* Import Theme Variables */
+@import '../theme/variables.css';
+
+:root {
+  font-family: 'Manrope', 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::selection {
+  background-color: var(--brand-orange);
+  color: white;
+}
+
+/* Scroll Animations */
+.scroll-animation {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-animation.animate {
+  opacity: 1;
+}
+
+/* Fade In Up */
+.fade-in-up {
+  transform: translateY(60px);
+}
+
+.fade-in-up.animate {
+  transform: translateY(0);
+}
+
+/* Fade In Left */
+.fade-in-left {
+  transform: translateX(-60px);
+}
+
+.fade-in-left.animate {
+  transform: translateX(0);
+}
+
+/* Fade In Right */
+.fade-in-right {
+  transform: translateX(60px);
+}
+
+.fade-in-right.animate {
+  transform: translateX(0);
+}
+
+/* Fade In */
+.fade-in {
+  transform: scale(0.95);
+}
+
+.fade-in.animate {
+  transform: scale(1);
+}
+
+/* Stagger Animation Delays */
+.delay-100 {
+  transition-delay: 0.1s;
+}
+
+.delay-200 {
+  transition-delay: 0.2s;
+}
+
+.delay-300 {
+  transition-delay: 0.3s;
+}
+
+.delay-400 {
+  transition-delay: 0.4s;
+}

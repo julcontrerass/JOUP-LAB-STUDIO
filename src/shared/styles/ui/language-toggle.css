@@ -1,0 +1,51 @@
+.language-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  backdrop-filter: blur(10px);
+}
+
+.language-toggle:hover {
+  border-color: var(--brand-orange);
+  color: var(--brand-orange);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* When out of hero section */
+.out-of-hero .language-toggle {
+  border-color: var(--color-text-primary);
+  background-color: transparent;
+  color: var(--color-text-primary);
+  backdrop-filter: none;
+}
+
+.out-of-hero .language-toggle:hover {
+  border-color: var(--brand-orange);
+  color: var(--brand-orange);
+  background-color: transparent;
+}
+
+.language-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .language-toggle {
+    width: 40px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+}

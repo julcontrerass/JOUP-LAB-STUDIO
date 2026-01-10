@@ -1,0 +1,124 @@
+.hero-service {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../assets/images/filtrado-hero.jpg') center/cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-text-hero);
+  padding: 2rem;
+  position: relative;
+}
+
+.hero-service-content {
+  max-width: 800px;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-service h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 8px var(--color-text-hero-shadow);
+  line-height: 1.2;
+}
+
+.hero-service p {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  margin-bottom: 3rem;
+  opacity: 0.95;
+  text-shadow: 2px 2px 6px var(--color-text-hero-shadow);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--color-text-hero);
+  color: var(--color-text-hero);
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.scroll-arrow:hover {
+  background: var(--brand-orange);
+  border-color: var(--brand-orange);
+  color: var(--color-text-hero);
+  transform: scale(1.1);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-service h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2.5px;
+  }
+
+  .hero-service p {
+    font-size: 1.1rem;
+    max-width: 500px;
+  }
+
+  .hero-service {
+    padding: 1.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-service {
+    padding: 1rem;
+  }
+
+  .hero-service h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+
+  .hero-service p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .scroll-arrow {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .hero-service h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .hero-service p {
+    font-size: 0.9rem;
+  }
+}

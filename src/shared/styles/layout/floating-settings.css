@@ -1,0 +1,26 @@
+/* Floating Settings */
+.floating-settings {
+  position: fixed;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10001;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/* Hide on mobile/tablet */
+@media (max-width: 1024px) {
+  .floating-settings {
+    display: none;
+  }
+}
+
+/* Adjust position for smaller desktop screens */
+@media (max-width: 1280px) {
+  .floating-settings {
+    right: 1rem;
+  }
+}

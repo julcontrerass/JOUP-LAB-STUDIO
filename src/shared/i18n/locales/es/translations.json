@@ -1,0 +1,937 @@
+{
+  "header": {
+    "title": "JOUP LAB & STUDIO",
+    "titleStudio": "JOUP LAB",
+    "titleService": "JOUP STUDIO",
+    "titleLab": "JOUP LAB",
+    "blog": "BLOG",
+    "home": "Inicio",
+    "welcome": "Bienvenido a JOUP LAB & STUDIO",
+    "welcomeStudio": "Bienvenido a JOUP LAB",
+    "welcomeService": "Bienvenido a JOUP STUDIO",
+    "welcomeLab": "Bienvenido a JOUP LAB"
+  },
+  "nav": {
+    "ourStory": "Nuestra Historia",
+    "ourPillars": "Nuestros Pilares",
+    "joinUs": "Sumate",
+    "slowBar": "Slow Bar",
+    "studioInfo": "Studio Info",
+    "courses": "Cursos",
+    "education": "Educación",
+    "services": "Servicios",
+    "howWeWork": "Cómo Trabajamos",
+    "contact": "Contacto",
+    "labInfo": "Lab Info"
+  },
+  "hero": {
+    "title": "JOUP LAB & STUDIO",
+    "subtitle": "Educación, asesoría y excelencia en café de especialidad",
+    "subtext": "Cursos • Consultoría • Catas",
+    "ctaLearnMore": "Conocer Más",
+    "ctaCourses": "Nuestros Cursos",
+    "labButton": "LAB",
+    "studioButton": "STUDIO"
+  },
+  "footer": {
+    "tagline": "Educación, asesoría y excelencia en café de especialidad",
+    "copyright": "© 2025 JOUP LAB & STUDIO. Todos los derechos reservados.",
+    "rights": "© 2025 JOUP LAB & STUDIO. Todos los derechos reservados.",
+    "followUs": "Síguenos",
+    "contact": "Contacto",
+    "email": "Email",
+    "phone": "Teléfono"
+  },
+  "story": {
+    "title": "JOUP COFFEE",
+    "subtitle": "Un ecosistema",
+    "text1": "Un espacio donde la educación, la técnica y el desarrollo de negocios se encuentran para transformar la manera en que Argentina vive el café.",
+    "text2": "Formamos a ",
+    "text2Highlight": "más de 4.000 profesionales",
+    "text2Continue": ", entre baristas, instructores, tostadores, dueños de cafetería y apasionados que hoy trabajan detrás de barra, en proyectos gastronómicos, en tostadurías o enseñando en distintas partes del mundo.",
+    "text3": "Somos una comunidad en crecimiento constante, unida por una misma idea: elevar la cultura del café desde la formación, la calidad y la colaboración.",
+    "text4": "JOUP COFFEE nació como una comunidad-Escuela, creció como un laboratorio y hoy funciona como una plataforma integral que impulsa a personas, negocios y proyectos.",
+    "arrowText": "Nuestra identidad se sostiene en tres pilares que dan forma a todo lo que hacemos:"
+  },
+  "philosophy": {
+    "title": "UNA FILOSOFÍA CLARA",
+    "text1": "JOUP existe porque creemos que el café es cultura, identidad, oficio y oportunidad.",
+    "text2": "Porque estamos comprometidos con el crecimiento local, la trazabilidad, la transparencia y el desarrollo de un ecosistema más justo y más profesional.",
+    "text3": "Creemos en la formación como motor, en la comunidad como red, en la técnica como fundamento y en la colaboración como camino.",
+    "text4": "Por eso trabajamos junto a cafeterías, empresas, instituciones, profesionales y colaboradores que comparten una visión:",
+    "text5": "hacer del café un espacio de encuentro, excelencia y propósito compartido."
+  },
+  "pillars": {
+    "title": "NUESTROS PILARES",
+    "lab": {
+      "number": "01",
+      "title": "JOUP LAB",
+      "description": "La academia donde formamos a la nueva generación de profesionales del café, donde estudiamos, analizamos y vivimos el café..",
+      "details": "Creamos cursos intermedios y avanzados, programas ONE & ONE, capacitaciones internas y una propuesta educativa que combina claridad técnica, sensorialidad profunda y una pedagogía única. Enseñamos para transformar. Para que más personas tengan acceso a formación real, moderna y exigente. Para que el conocimiento eleve al oficio."
+    },
+    "studio": {
+      "number": "02",
+      "title": "JOUP STUDIO",
+      "description": "Soluciones integrales para proyectos con café especial.",
+      "details": "Acompañamos aperturas, optimizamos operaciones, diseñamos espacios, estandarizamos procesos y construimos marcas con identidad, estética y presencia digital. Ayudamos a emprendedores, equipos y negocios consolidados a crecer con criterio, orden y profesionalismo. Desde consultoría técnica hasta diseño web, branding, fotografía gastronómica, filmmaking y dirección de proyectos: JOUP STUDIO integra todas las áreas necesarias para que un negocio de café funcione con calidad y coherencia."
+    }
+  },
+  "commitment": {
+    "title": "COMPROMISO",
+    "intro": "Creemos que la calidad no se mide solo en taza, sino en intención.",
+    "subtitle": "Por eso nuestro compromiso va más allá de lo técnico: abarca la ética, la sostenibilidad y el impacto que dejamos en la comunidad.",
+    "traceability": {
+      "icon": "FaSeedling",
+      "title": "Trazabilidad",
+      "description": "Trabajamos con cafés de origen trazable, respetando al productor y acompañando procesos de mejora continua."
+    },
+    "localDevelopment": {
+      "icon": "FaHandshake",
+      "title": "Desarrollo Local",
+      "description": "Nos involucramos con el desarrollo del talento local y promovemos un café argentino que se piense a sí mismo desde la excelencia."
+    },
+    "ethicsSustainability": {
+      "icon": "FaHeart",
+      "title": "Ética y Sostenibilidad",
+      "description": "Nuestro compromiso va más allá de lo técnico: abarca la ética, la sostenibilidad y el impacto que dejamos en la comunidad."
+    },
+    "promise": "Nuestra promesa es simple: hacer las cosas bien, con respeto, con propósito."
+  },
+  "essence": {
+    "title": "LA ESENCIA DE JOUP",
+    "subtitle": "Una filosofía, una comunidad, una invitación constante y un compromiso inquebrantable",
+    "philosophy": {
+      "title": "Filosofía",
+      "intro": "JOUP existe porque creemos que el café es cultura, identidad, oficio y oportunidad.",
+      "detail": "Estamos comprometidos con el crecimiento local, la trazabilidad, la transparencia y el desarrollo de un ecosistema más justo y más profesional.",
+      "highlight": "Hacer del café un espacio de encuentro, excelencia y propósito compartido."
+    },
+    "community": {
+      "title": "Comunidad",
+      "intro": "Una red de personas que aprendieron, crecieron y hoy construyen el futuro del café en Argentina y el mundo.",
+      "detail": "Nuestros egresados trabajan en cafeterías, hoteles, bares, proyectos internacionales, tostadurías y escuelas. Muchos enseñan, lideran equipos o abren negocios propios.",
+      "highlight": "La comunidad JOUP vive, colabora y crece."
+    },
+    "invitation": {
+      "title": "Invitación",
+      "intro": "Estamos abiertos a nuevas colaboraciones, alianzas y desarrollos.",
+      "detail": "Buscamos profesionales que quieran sumar su talento, marcas que quieran construir, cafeterías que quieran mejorar, estudiantes que quieran formarse y personas que quieran crecer.",
+      "highlight": "Un espacio abierto para aprender, crear, emprender, investigar, compartir y transformar."
+    },
+    "commitment": {
+      "title": "Compromiso",
+      "intro": "Trabajamos con firmeza, con criterio y con responsabilidad.",
+      "detail": "Honramos nuestra historia, fortalecemos nuestra filosofía y nos comprometemos con una sola misión: elevar la experiencia del café en Argentina.",
+      "highlight": "El punto de encuentro entre las personas que quieren cambiar el café desde adentro."
+    },
+    "expandHint": "→"
+  },
+  "communitySection": {
+    "title": "UNA COMUNIDAD QUE CRECE",
+    "text1": "JOUP COFFEE no es solo una marca: es una red de personas que aprendieron, crecieron y hoy construyen el futuro del café en Argentina y el mundo.",
+    "text2": "Nuestros egresados trabajan en cafeterías, hoteles, bares, proyectos internacionales, tostadurías y escuelas.",
+    "text3": "Muchos enseñan, otros lideran equipos, otros abren negocios propios o viajan representando al país en distintas etapas del café.",
+    "highlight": "La comunidad JOUP vive, colabora y crece."
+  },
+  "invitationBanner": {
+    "title": "UNA INVITACIÓN CONSTANTE",
+    "text1": "Estamos abiertos a nuevas colaboraciones, alianzas y desarrollos.",
+    "text2": "Buscamos profesionales que quieran sumar su talento, marcas que quieran construir, cafeterías que quieran mejorar, estudiantes que quieran formarse y personas que quieran crecer dentro del mundo del café.",
+    "emphasis": "JOUP COFFEE es un espacio abierto:",
+    "highlight": "para aprender, para crear, para emprender, para investigar, para compartir y para transformar."
+  },
+  "joinUs": {
+    "title": "SUMATE A JOUP",
+    "tagline": "EL CAFÉ ES MEJOR CUANDO SE COMPARTE",
+    "description": "Si te mueve la curiosidad, si querés aprender, formar parte o simplemente vivir una experiencia distinta, ",
+    "descriptionHighlight": "estás invitado",
+    "descriptionContinue": ". Joup es un espacio abierto: para quienes buscan crecer, cuestionar, inspirarse y compartir.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "instagram": "Instagram"
+  },
+  "slowBar": {
+    "title": "SLOW BAR",
+    "schedule": "Lunes ",
+    "scheduleHighlight": "16:00 a 20:00 hs",
+    "location": "Socio Café - Arce 415, Cañitas, Buenos Aires",
+    "description1": "Un espacio donde el café filtrado se vuelve protagonista y la experiencia sensorial cobra vida. Elegimos distintos orígenes, métodos y perfiles de tostadores invitados para ofrecer una degustación guiada por nuestros baristas.",
+    "conceptTitle": "La Slow Bar no es una barra de paso:",
+    "concept1": "es una invitación a bajar la velocidad, a escuchar el silencio entre los aromas, a redescubrir el café como un acto de presencia.",
+    "concept2": "Podés venir solo, con amigos o con tu equipo; podés aprender, observar o simplemente disfrutar una buena conversación.",
+    "mission": "Lo que buscamos no es servir café, sino crear momentos que te reconecten con el sentido de tomarlo.",
+    "imageAlt": "Slow Bar"
+  },
+  "courses": {
+    "sectionTitle": "NUESTROS CURSOS",
+    "sectionSubtitle": "Programas diseñados para formar profesionales del café de especialidad",
+    "viewMore": "Ver más",
+    "close": "Cerrar",
+    "whatYouBuild": "Qué construís en serio:"
+  },
+  "coursesContent": {
+    "fundamentals": {
+      "title": "FUNDAMENTOS DEL CAFÉ",
+      "description": "La base conceptual y técnica para entender el café como sistema. Este eje construye criterio sobre extracción, métodos, sensorialidad y trabajo en barra, permitiendo dejar la repetición mecánica y empezar a comprender qué se hace y por qué. Es el punto de partida que sostiene todo el recorrido dentro de Joup Coffee Lab.",
+      "intermediate": {
+        "name": "Intermedio",
+        "subtitle": "Base sólida con criterio real",
+        "intro": "Este nivel es para quien ya trabaja con café (o ya hizo un curso básico) y quiere dejar de \"hacer por repetición\" para empezar a entender qué está pasando en taza. Construimos fundamentos que después sostienen todo: espresso, filtrados, leche, sensorialidad y servicio.",
+        "points": [
+          "Marco de extracción: ratio, molienda, tiempo, temperatura, turbulencia y cómo se relacionan.",
+          "Lenguaje Barista útil: varietales, procesos, tueste, frescura, molienda, agua: lo necesario para no hablar \"en general\".",
+          "Criterio para corregir: detectar si el problema es receta, técnica, molino, agua, tueste o café.",
+          "Rutina profesional: orden de trabajo, limpieza, consistencia y control diario."
+        ],
+        "result": "Resultado Joup: salís con una base que se nota en barra: menos azar, más control, y una forma clara de explicar lo que hacés."
+      },
+      "advanced": {
+        "name": "Avanzado",
+        "subtitle": "Consistencia profesional, lectura fina y estándares",
+        "intro": "Entrenamos consistencia real, lectura sensorial aplicada y corrección fina. No es \"más información\": es más precisión. Tu objetivo deja de ser \"que salga rico\" y pasa a ser \"que salga igual, bien, todos los días, con criterio\"",
+        "points": [
+          "Diagnóstico técnico-sensorial: traducir sabor a variables (acidez vs subextracción, amargor vs sobre-degradacion de compuestos, astringencia vs canalización, etc.).",
+          "Protocolos aplicados: control de calidad, triangulaciones simples, registro, ajustes documentados.",
+          "Correcciones profundas: cómo sostener la taza cuando cambia el lote, el clima, el flujo, el molino o la demanda.",
+          "Estándar de servicio: consistencia, comunicación con el cliente, y barra como sistema."
+        ],
+        "result": "Resultado Joup: pasás de barista ejecutor a barista con criterio técnico propio."
+      }
+    },
+    "espresso": {
+      "title": "ESPRESSO & CALIBRACIÓN",
+      "description": "El control del espresso llevado a método. Se trabaja la relación entre molienda, dosis, rendimiento, flujo y lectura sensorial para lograr consistencia real en cafetería. Aca el espresso deja de ser intuición y se transforma en control técnico y criterio profesional.",
+      "intermediate": {
+        "name": "Intermedio",
+        "subtitle": "Calibración sólida, sin magia",
+        "intro": "Este curso te enseña a calibrar espresso de forma repetible. El foco está en construir una rutina que funcione en cafetería real: tiempos, dosis, rendimiento, flujo y ajustes simples con lógica.",
+        "points": [
+          "Dial-in con método: qué mover primero y por qué (molienda / ratio / tiempo).",
+          "Lectura del shot: crema, flujo, color, tiempo, sensorialidad.",
+          "Variables críticas: distribución, nivelado, puck prep, consistencia de dosis.",
+          "Estabilidad diaria: cómo adaptar la receta cuando cambia humedad, temperatura, envejecimiento del café."
+        ],
+        "result": "Resultado Joup: calibrás más rápido, con menos prueba-error, y defendés tu receta con fundamentos."
+      },
+      "advanced": {
+        "name": "Avanzado",
+        "subtitle": "Control total: extracción, flujo y consistencia bajo presión",
+        "intro": "Acá entramos en extractología aplicada. Trabajamos como se trabaja en equipos serios: medimos, interpretamos, ajustamos y dejamos un sistema estable. Esto es para quien quiere estar por encima de la media.",
+        "points": [
+          "Curvas de extracción y lectura de flujo: cómo impactan en dulzor, claridad y textura.",
+          "TDS / rendimiento / balance (si hay refractómetro, se usa; si no, se entrena la lectura sensorial equivalente).",
+          "Canalización avanzada: causas reales y cómo corregirlas (puck prep, molienda, distribución, presión, cesta).",
+          "Calibración para volumen: mantener calidad cuando hay fila, estrés y cambio de manos.",
+          "Optimización de receta por café: no todos los cafés \"piden lo mismo\"."
+        ],
+        "result": "Resultado Joup: dominás el espresso como un sistema: repetible, defendible y escalable."
+      }
+    },
+    "sensory": {
+      "title": "SENSORY & CUPPING",
+      "description": "El núcleo formativo de Joup. Este eje desarrolla sensibilidad, lenguaje y criterio sensorial para evaluar cafés con claridad, detectar defectos y tomar decisiones profesionales. Formar el paladar es formar la base de todo lo demás.",
+      "intermediate": {
+        "name": "Intermedio",
+        "subtitle": "Sensibilidad entrenada + léxico",
+        "intro": "Este nivel es la puerta a lo que diferencia a un barista común de uno con futuro: saber probar. Entrenamos la sensibilidad para detectar defectos básicos, describir con claridad y construir un vocabulario real.",
+        "points": [
+          "Atributos principales: fragancia/aroma, sabor, acidez, dulzor, cuerpo, postgusto, balance.",
+          "Defectos básicos y causas probables: fermento sucio, fenoles, astringencia, moho, etc.",
+          "Triangulaciones: aprender a distinguir cambios sutiles con método.",
+          "Léxico funcional: describir sin exageración, con precisión y coherencia."
+        ],
+        "result": "Resultado Joup: empezás a confiar en tu paladar y a comunicarlo como profesional."
+      },
+      "advanced": {
+        "name": "Avanzado",
+        "subtitle": "Protocolo, criterio crítico y lectura profunda",
+        "intro": "Acá el entrenamiento cambia: ya no es \"descubrir sabores\", es construir criterio sensorial profesional. Aprendés a evaluar con estándar, a argumentar, y a tomar decisiones: selección de café, perfil, tueste, uso.",
+        "points": [
+          "Protocolo de cata serio: consistencia, registro, comparación, calibración de panel.",
+          "Análisis de estructura: acidez (tipo y calidad), dulzor (forma y persistencia), textura, final, limpieza.",
+          "Detección de defectos complejos: fermentaciones problemáticas, fenólicos, verdes, envejecimiento, daño.",
+          "Interpretación aplicada: qué café sirve para qué (espresso, filtro, leche) y por qué."
+        ],
+        "result": "Resultado Joup: tu paladar deja de ser \"opinión\" y pasa a ser herramienta profesional."
+      }
+    },
+    "filtered": {
+      "title": "FILTRADOS",
+      "description": "El café expresado con claridad y precisión. Se abordan los métodos de filtrado como herramientas de control de extracción y exploración sensorial, integrando técnica, atención y lectura del café. Un espacio donde método y experiencia se encuentran.",
+      "intermediate": {
+        "name": "Intermedio",
+        "subtitle": "Técnica esencial: claridad, consistencia y recetas que funcionan",
+        "intro": "Para baristas que quieren dejar de depender de \"recetas de internet\" y aprender a construir la propia con fundamentos. V60, prensa, AeroPress (y lógica transferible a cualquier método).",
+        "points": [
+          "Receta base inteligente: ratio, molienda, temperatura, tiempos objetivo.",
+          "Vertido y turbulencia: cómo afectan extracción y claridad.",
+          "Control de bloom y saturación: cuándo sirve y cuándo estorba.",
+          "Errores típicos: astringencia, sequedad, vacío, amargor, acidez punzante."
+        ],
+        "result": "Resultado Joup: filtrados limpios, consistentes, y un método para ajustar sin improvisación."
+      },
+      "advanced": {
+        "name": "Avanzado",
+        "subtitle": "Control total de extracción: bypass, lixiviación y diseño de perfil",
+        "intro": "Este nivel es para quien quiere dominar filtrados de verdad. Aprendés a diseñar perfiles: más claridad, más textura, más dulzor o más acidez —a elección— y sostenerlo.",
+        "points": [
+          "Bypass y concentración: cuándo usarlo, cómo afecta estructura y percepción.",
+          "Lixiviación y extracción por etapas: cómo se \"vacía\" el lecho y qué significa en taza.",
+          "Molienda avanzada: distribución de partículas, finos, canales en filtro.",
+          "Recetas complejas: múltiples vertidos, control de temperatura, agitación intencional.",
+          "Consistencia de servicio: replicabilidad en barra."
+        ],
+        "result": "Resultado Joup: filtrados de autor con fundamento, no por casualidad."
+      }
+    },
+    "latteArt": {
+      "title": "LATTE ART",
+      "description": "Técnica, control y estética en equilibrio. Latte Art trabaja la vaporización de leche y el vertido como extensión natural del espresso y del servicio. La figura es consecuencia del dominio técnico, no el objetivo final.",
+      "intermediate": {
+        "name": "Intermedio",
+        "subtitle": "Microespuma real + control de jarra (figuras base perfectas)",
+        "intro": "Este nivel ordena la técnica para que el latte art no sea \"a veces sí, a veces no\". Acá se construye el músculo fino: texturizar, integrar y verter con control.",
+        "points": [
+          "Texturizado profesional: aireación justa, integración, brillo, densidad.",
+          "Control de jarra: altura, velocidad, ángulo, punto de entrada.",
+          "Figuras base: corazón, tulip, rosetta simple con limpieza y simetría.",
+          "Corrección de errores: burbujas, espuma seca, leche \"pesada\", corte de flujo."
+        ],
+        "result": "Resultado Joup: tus figuras se vuelven repetibles y tu taza se ve \"de cafetería seria\"."
+      },
+      "advanced": {
+        "name": "Avanzado",
+        "subtitle": "Free pour complejo + control milimétrico",
+        "intro": "Acá la técnica se vuelve estética. Se trabaja precisión, timing, simetría y composición. No es \"hacer dibujitos\": es dominar fluido + textura + movimiento.",
+        "points": [
+          "Textura por estilo: cappuccino, flat white, latte — y cómo cambia el vertido.",
+          "Figuras complejas: rosettas avanzadas, tulips múltiples, swans / composiciones (según nivel del grupo).",
+          "Consistencia bajo presión: replicar en servicio real.",
+          "Diagnóstico fino: microfallas de leche, pitcher, temperatura, vaporización y vertido."
+        ],
+        "result": "Resultado Joup: tu latte art empieza a hablar de vos sin que tengas que explicarlo."
+      }
+    },
+    "processing": {
+      "title": "PROCESAMIENTO & CAFÉ VERDE",
+      "description": "El origen del sabor. Este eje conecta varietales, procesos y decisiones en finca con su impacto en taza, formando criterio para interpretar, evaluar y seleccionar cafés de origen con fundamento.",
+      "intermediate": {
+        "name": "Intermedio",
+        "subtitle": "Procesos clásicos y su impacto real en sabor",
+        "intro": "Este nivel te enseña a leer el café desde el origen: no \"qué es un natural\", sino qué cambia sensorialmente, qué esperar y cómo identificarlo en taza.",
+        "points": [
+          "Lavado / honey / natural: impacto en dulzor, acidez, limpieza, textura.",
+          "Varietales principales: qué tienden a aportar y cómo reconocerlos.",
+          "Frescura y almacenamiento: envejecimiento, pérdida aromática, defectos típicos.",
+          "Lectura sensorial aplicada: relacionar proceso con perfil sin caer en clichés."
+        ],
+        "result": "Resultado Joup: tu discurso de café se vuelve serio y tu selección de cafés mejora."
+      },
+      "advanced": {
+        "name": "Avanzado",
+        "subtitle": "Fermentaciones modernas + evaluación crítica de café verde",
+        "intro": "Acá entramos a lo complejo: procesos modernos, fermentaciones dirigidas, y la parte más importante: criterio para distinguir innovación de defecto.",
+        "points": [
+          "Fermentaciones complejas: qué buscan, qué riesgos traen, cómo se perciben.",
+          "Defectos vs \"funk\": detectar fenólicos, moho, sobrefermentación, contaminación.",
+          "Evaluación crítica: consistencia de lote, limpieza, estructura y propósito de uso.",
+          "Selección para barra: qué proceso sirve para espresso, filtro, leche y por qué."
+        ],
+        "result": "Resultado Joup: pasás de consumidor de tendencias a profesional que evalúa y decide."
+      }
+    },
+    "science": {
+      "title": "CIENCIA DEL CAFÉ",
+      "description": "La lógica detrás de la extracción. Se aplican principios de física y química para entender presión, temperatura, solubilidad y flujo, y así diagnosticar y optimizar resultados. Pensar el café como sistema.",
+      "intermediate": {
+        "name": "Intermedio",
+        "subtitle": "Física y química aplicadas a extracción (para entender de verdad)",
+        "intro": "Este curso baja a tierra la ciencia del café sin ponerse académico: lo que necesitás para entender por qué pasa lo que pasa.",
+        "points": [
+          "Solubilidad y extracción: qué se extrae primero, qué después, y cómo se siente.",
+          "Temperatura, tiempo, molienda: relación real (no frases hechas).",
+          "Presión y resistencia: espresso vs filtro, qué cambia y por qué.",
+          "Errores típicos explicados con lógica: astringencia, amargor, acidez agresiva, falta de dulzor."
+        ],
+        "result": "Resultado Joup: dejás de calibrar por intuición y empezás a calibrar con comprensión."
+      },
+      "advanced": {
+        "name": "Avanzado",
+        "subtitle": "Mecánica de fluidos + extractología profunda",
+        "intro": "Para quien quiere llevar su nivel al territorio \"top\". Trabajamos dinámica de fluidos aplicada al café: flujo, permeabilidad, turbulencia, canales y estabilidad.",
+        "points": [
+          "Flujo y permeabilidad del puck/lecho: cómo se comporta y cómo controlarlo.",
+          "Turbulencia intencional: cuándo mejora y cuándo arruina.",
+          "Modelos de extracción: lectura de estructura en taza como \"resultado del sistema\".",
+          "Optimización avanzada: consistencia, repetición, escalabilidad."
+        ],
+        "result": "Resultado Joup: entendés el café como fenómeno físico y lo controlás como profesional."
+      }
+    },
+    "pedagogy": {
+      "title": "PEDAGOGÍA DEL CAFÉ",
+      "description": "El café llevado a la enseñanza. Orientado a quienes buscan formar, liderar o transmitir conocimiento, trabajando comunicación técnica, estructura de clases y criterios pedagógicos aplicados al café.",
+      "integralProgram": {
+        "name": "Programa Integral",
+        "subtitle": "Formación para instructores y líderes",
+        "intro": "Programa completo para quienes buscan enseñar, formar equipos o dirigir proyectos educativos en café. No es solo \"saber hacer\": es saber transmitir, estructurar, comunicar y sostener criterio pedagógico.",
+        "points": [
+          "Estructura de clases: diseño de contenidos, progresión didáctica, objetivos claros.",
+          "Manejo de grupos: dinámicas, atención, corrección constructiva.",
+          "Comunicación técnica: claridad, precisión y adaptación al nivel del alumno.",
+          "Oratoria aplicada: presencia, seguridad y manejo del discurso.",
+          "Psicología del aprendizaje: cómo se aprende, cómo se retiene, cómo se aplica."
+        ],
+        "result": "Resultado Joup: pasás de \"saber café\" a \"formar profesionales del café\"."
+      }
+    }
+  },
+  "education": {
+    "title": "EDUCACIÓN GRATUITA",
+    "intro": "Creemos que el conocimiento debe ser accesible para todos. Por eso compartimos recursos educativos gratuitos sobre café de especialidad, técnicas de preparación y mucho más.",
+    "subtitle": "Descargá nuestros materiales y comenzá tu camino en el mundo del café.",
+    "viewDocuments": "Ver Documentos",
+    "ctaText": "¿Querés más recursos? Seguinos en nuestras redes para acceder a contenido exclusivo y mantenerte actualizado con nuevas publicaciones.",
+    "ctaButton": "Sumate a JOUP"
+  },
+  "labInfo": {
+    "title": "EL LABORATORIO SENSORIAL DONDE ESTUDIAMOS, ANALIZAMOS Y VIVIMOS EL CAFÉ",
+    "text1": "Catas técnicas, evaluaciones de calidad, experimentación, análisis de café verde y tostado, sesiones de extracción y experiencias inmersivas.",
+    "text2": "JOUP LAB es la base científica de la marca, donde entrenamos paladares, exploramos procesos, probamos metodologías y creamos espacios para que la comunidad descubra el café de una manera más profunda, precisa y significativa.",
+    "developmentNotice": "🚧 Módulo en desarrollo 🚧",
+    "developmentSubtext": "Próximamente estará disponible todo el contenido de JOUP LAB"
+  },
+  "academyInfo": {
+    "title": "JOUP LAB",
+    "subtitle": "La academia donde formamos a la nueva generación de profesionales del café.",
+    "features": {
+      "advanced": {
+        "label": "Cursos Avanzados",
+        "description": "Programas intermedios y avanzados"
+      },
+      "oneOnOne": {
+        "label": "ONE & ONE",
+        "description": "Capacitaciones personalizadas"
+      },
+      "pedagogy": {
+        "label": "Pedagogía Única",
+        "description": "Técnica + sensorialidad"
+      }
+    },
+    "mission": {
+      "title": "Enseñamos para transformar.",
+      "text": "Para que el conocimiento eleve al oficio."
+    }
+  },
+  "services": {
+    "heroTitle": "JOUP STUDIO",
+    "heroSubtitle": "Soluciones integrales para proyectos con café especial",
+    "overviewTitle": "SOLUCIONES INTEGRALES",
+    "overviewSubtitle": "Para proyectos de café de especialidad",
+    "visionTitle": "Nuestra Visión",
+    "visionText": "Transformar proyectos de café de especialidad en negocios sostenibles, profesionales y con identidad propia a través de un enfoque integral que combina técnica, estrategia y criterio operativo.",
+    "descriptionMain": "JOUP STUDIO es el área de consultoría y desarrollo de proyectos de JOUP. Trabajamos con emprendedores, cafeterías establecidas y negocios que buscan profesionalizar su operación, optimizar sus procesos y construir una identidad sólida en el mercado del café de especialidad.",
+    "areasTitle": "Áreas de Trabajo",
+    "areas": {
+      "consulting": {
+        "title": "Consultoría Integral",
+        "description": "Acompañamiento completo desde la idea hasta la operación: análisis de viabilidad, modelo de negocio, selección de equipos y diseño de propuesta."
+      },
+      "architecture": {
+        "title": "Arquitectura de Barra",
+        "description": "Diseño funcional de espacios optimizados para eficiencia operativa, flujo de trabajo y experiencia del cliente."
+      },
+      "optimization": {
+        "title": "Optimización Operativa",
+        "description": "Estandarización de procesos, reducción de merma, control de costos y mejora de rentabilidad con criterio técnico."
+      },
+      "training": {
+        "title": "Capacitación Profesional",
+        "description": "Formación técnica y sensorial para equipos: espresso, filtrados, latte art, calibración y servicio de calidad."
+      },
+      "branding": {
+        "title": "Branding & Identidad",
+        "description": "Desarrollo de marca, identidad visual, diseño web (by TukiCode), fotografía gastronómica y estrategia digital."
+      },
+      "protocols": {
+        "title": "Protocolos de Calidad",
+        "description": "Creación de estándares operativos, recetas replicables, criterios de evaluación y sistemas de control."
+      }
+    },
+    "approachTitle": "Nuestro Enfoque",
+    "approachText": "Trabajamos con un enfoque personalizado que se adapta a cada proyecto. No ofrecemos soluciones genéricas: analizamos, diseñamos e implementamos estrategias específicas basadas en la realidad operativa, los objetivos del negocio y el contexto del mercado.",
+    "approachHighlight": "Combinamos conocimiento técnico, visión estratégica y experiencia real en la industria del café de especialidad para que tu proyecto funcione con profesionalismo, consistencia y claridad."
+  },
+  "serviceProcess": {
+    "title": "CÓMO TRABAJAMOS",
+    "description": "En JOUP STUDIO diseñamos procesos integrales para acompañar, optimizar y profesionalizar cafeterías de especialidad. Cada servicio responde a una necesidad real del negocio: desde el diseño arquitectónico de la barra hasta la capacitación del equipo, la estandarización de recetas, la optimización de costos y la construcción de experiencias que fidelizan. Nuestro enfoque combina técnica, criterio y operatividad real.",
+    "servicesTitle": "Servicios",
+    "tabs": {
+      "accompaniment": "Acompañamiento",
+      "architecture": "Arquitectura y Diseño de Barra",
+      "training": "Proceso de capacitacion del equipo",
+      "curingprocesshopperselection" : "Proceso de caraduria de cafe y seleccion de tolva",
+      "coffeeWasteCostOptimization": "Proceso de optimizacion de merma y costos de cafe",
+      "espressoBrewStandardProcess" : "Proceso de estandarizacion de espresso y filtrados de despacho",
+      "menuDesignAndOptimization" : "Proceso de diseño y optimizacion de carta",
+      "customerExperienceAndService" : "Proceso de experiencia del cliente y servicio",
+      "monitoringAndContinuousImprovement" :"Proceso de seguimiento y mejora continua"
+    },
+    "accompaniment": {
+      "intro": "Un proceso claro, profesional y a medida. Acompañamos proyectos de café de especialidad desde la idea inicial hasta la operación real, con una mirada integral que combina técnica, concepto, estética y funcionamiento. Nuestro trabajo no se limita a abrir una cafetería: buscamos que funcione bien, tenga identidad y pueda sostenerse en el tiempo.",
+      "subtitle": "Tu camino con JOUP STUDIO"
+    },
+    "architecture": {
+      "intro": "Diseñar un espacio que trabaje a favor del café, del equipo y del negocio. En JOUP entendemos la arquitectura cafetera como una herramienta operativa, no como un ejercicio estético aislado. Una barra mal pensada genera errores, estrés, merma y baja calidad, incluso con buen café y buen equipo humano. Este proceso busca diseñar espacios que funcionen bajo presión, sostengan la calidad y acompañen el crecimiento del proyecto.",
+      "subtitle": "Proceso de Arquitectura Cafetera & Diseño de Barra"
+    },
+    "training": {
+      "intro": "Formación aplicada al servicio real de la cafetería. En JOUP entendemos que la calidad no la sostiene el café, sino las personas. Una buena máquina, una buena barra o un buen lote se degradan rápidamente si el equipo no comprende lo que hace, por qué lo hace y cómo sostenerlo bajo presión. Este proceso está diseñado para entrenar equipos reales, con sus tiempos, limitaciones y dinámicas propias.",
+      "subtitle": "Formación aplicada al servicio real"
+    },
+    "curingprocesshopperselection": {
+      "intro": "Elegir café con criterio técnico, no con relatos comerciales. Muchas cafeterías trabajan con cafés que arrancan bien y se degradan, cambian de perfil sin aviso, presentan defectos ocultos en el kilo, no sostienen consistencia de tueste. JOUP ofrece un servicio de curaduría independiente, enfocado en proteger a la cafetería y elevar el estándar del café servido.",
+      "subtitle": "Curaduría de Café & Selección de Tolva"
+    },
+    "coffeeWasteCostOptimization": {
+      "intro": "Hacer más rentable el café sin bajar la calidad. Muchas cafeterías pierden dinero en café sin notarlo. Este proceso busca hacer visible lo invisible.",
+      "subtitle": "Optimización de Merma & Costos"
+    },
+    "espressoBrewStandardProcess": {
+      "intro": "Pasar de recetas lindas a sistemas confiables. Este proceso busca que el café salga bien siempre, no solo cuando calibra la persona más experimentada.",
+      "subtitle": "Estandarización de Espresso & Filtrados de Despacho"
+    },
+    "menuDesignAndOptimization": {
+      "intro": "Café y cocina alineados al servicio y al negocio. Una carta mal diseñada genera demoras, errores, estrés, merma, confusión en el cliente. Este proceso busca diseñar cartas que se puedan ejecutar bien, sin perder identidad ni calidad.",
+      "subtitle": "Diseño y Optimización de Carta"
+    },
+    "customerExperienceAndService": {
+      "intro": "El café como experiencia completa. Una cafetería puede tener buen café y aún así no generar conexión. Este proceso se enfoca en cómo se vive el café, no solo en cómo se prepara.",
+      "subtitle": "Experiencia del Cliente & Servicio"
+    },
+    "monitoringAndContinuousImprovement": {
+      "intro": "Sostener el estándar en el tiempo. La mayoría de los proyectos funcionan bien al principio y se degradan con el tiempo. Este proceso existe para que eso no suceda.",
+      "subtitle": "Seguimiento & Mejora Continua"
+    },
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "Primer Contacto",
+        "description": "Entender tu visión antes de proponer soluciones",
+        "details": "El primer paso es escuchar. Nos reunimos para comprender tu idea, tu contexto, tus objetivos y el momento real del proyecto. No ofrecemos paquetes cerrados: diseñamos un acompañamiento a partir de lo que necesitás hoy y hacia dónde querés ir. Este encuentro define el tono de todo el proceso.",
+        "icon": "FaComments"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Análisis del Proyecto",
+        "description": "Leer el negocio antes de diseñarlo",
+        "details": "Analizamos la viabilidad del proyecto desde una mirada estratégica y operativa: ubicación, público objetivo, propuesta de valor, competencia, recursos disponibles y alcance real. A partir de este diagnóstico definimos prioridades, tiempos y focos de trabajo. Sin análisis, no hay buenas decisiones.",
+        "icon": "FaChartBar"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Diseño de Concepto",
+        "description": "Construir identidad, experiencia y coherencia",
+        "details": "Desarrollamos el concepto integral de tu cafetería: filosofía de servicio, propuesta gastronómica, carta de cafés, experiencia del cliente y lineamientos de marca. El objetivo es que todo tenga sentido, coherencia y personalidad propia. Acá nace la identidad del proyecto.",
+        "icon": "FaLightbulb"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Selección de Equipos",
+        "description": "Tecnología alineada a tu concepto y presupuesto",
+        "details": "Asesoramos en la elección de máquinas de espresso, molinos, métodos de filtrado y equipamiento general según el volumen de trabajo, el estilo de servicio y la proyección del negocio. Buscamos eficiencia, durabilidad y coherencia técnica, no sobre-equipamiento innecesario.",
+        "icon": "FaCog"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Curaduría de Café",
+        "description": "Elegir cafés con criterio, no por moda",
+        "details": "Seleccionamos los cafés que mejor se adaptan a tu propuesta y diseñamos perfiles de uso y métodos de preparación específicos. La curaduría contempla origen, proceso, perfil sensorial, consistencia y viabilidad en barra. El café acompaña al concepto, no lo contradice.",
+        "icon": "FaCoffee"
+      },
+      "step6": {
+        "number": "06",
+        "title": "Capacitación del Equipo",
+        "description": "Formar personas, no solo enseñar recetas",
+        "details": "Entrenamos al equipo en técnica, sensorialidad, servicio y filosofía de trabajo. Buscamos que comprendan lo que hacen, por qué lo hacen y cómo sostener la calidad en el día a día. Un buen proyecto necesita un equipo alineado.",
+        "icon": "FaUsers"
+      },
+      "step7": {
+        "number": "07",
+        "title": "Montaje y Calibración",
+        "description": "Puesta a punto de todos los sistemas",
+        "details": "Instalamos y calibramos los equipos, ajustamos recetas, optimizamos flujos de trabajo y definimos protocolos de calidad. Todo queda preparado para operar con orden, consistencia y claridad desde el primer día.",
+        "icon": "FaWrench"
+      },
+      "step8": {
+        "number": "08",
+        "title": "Apertura y Seguimiento",
+        "description": "Acompañamiento real, también después de abrir",
+        "details": "Estamos presentes en la apertura y ofrecemos seguimiento posterior para ajustar procesos, resolver dudas y acompañar el crecimiento del proyecto. La excelencia no se logra en un día: se construye con tiempo y criterio.",
+        "icon": "FaRocket"
+      }
+    },
+    "architectureSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Primer contacto y lectura del proyecto",
+        "description": "Entender la visión y necesidades operativas",
+        "details": "Iniciamos con una conversación profunda para entender la visión del emprendimiento, el tipo de servicio, el público objetivo y el volumen esperado. No diseñamos igual una cafetería de paso que un espacio de experiencia o un café gastronómico. Definimos: objetivos operativos, expectativas de servicio y limitaciones reales del espacio.",
+        "icon": "FaComments"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Análisis técnico del espacio",
+        "description": "Estudiar el local desde una lógica funcional",
+        "details": "Estudiamos el local desde una lógica funcional: circulación del equipo, relación cliente–barra, puntos de congestión, zonas de preparación, despacho y limpieza, ergonomía del barista. Detectamos cuellos de botella antes de que existan.",
+        "icon": "FaRuler"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Diseño de barra orientado a servicio real",
+        "description": "La barra como sistema de trabajo eficiente",
+        "details": "Diseñamos la barra como sistema de trabajo: ubicación estratégica de máquinas y molinos, flujos de espresso, leche y filtrados, superficies de apoyo reales, acceso a limpieza y descarte, reducción de movimientos innecesarios. Cada decisión responde a eficiencia, consistencia y control.",
+        "icon": "FaCog"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Integración estética con identidad del proyecto",
+        "description": "El diseño visual acompaña la función",
+        "details": "El diseño visual acompaña la función. Materiales, colores y disposición refuerzan el concepto sin comprometer la operatividad ni el mantenimiento.",
+        "icon": "FaPalette"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Validación operativa y ajustes finales",
+        "description": "Asegurar funcionamiento sostenible en el tiempo",
+        "details": "Antes de cerrar el diseño, validamos el funcionamiento en escenarios reales de servicio y realizamos ajustes para asegurar que el espacio se sostenga en el tiempo.",
+        "icon": "FaCheck"
+      }
+    },
+    "trainingSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Diagnóstico humano y técnico del equipo",
+        "description": "Evaluación personalizada del equipo",
+        "details": "Comenzamos evaluando nivel técnico individual, roles dentro del equipo, hábitos de trabajo, comunicación interna, relación con el producto y con el cliente. Esto nos permite adaptar la capacitación al grupo, no imponer un modelo genérico.",
+        "icon": "FaClipboardList"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Entrenamiento técnico aplicado",
+        "description": "Formación en contexto real",
+        "details": "Capacitamos en espresso y calibración, filtrados de despacho, vaporización y bebidas con leche, control sensorial básico aplicado a servicio. Todo se entrena en el contexto real de la cafetería, con su equipamiento y sus cafés.",
+        "icon": "FaGraduationCap"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Lectura sensorial operativa",
+        "description": "Desarrollar criterio y comunicación",
+        "details": "Entrenamos al equipo a reconocer desvíos en taza, comunicar problemas, ajustar sin improvisar, entender cuándo algo no está bien y por qué. Esto reduce errores, merma y dependencia de una sola persona.",
+        "icon": "FaEye"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Servicio y comunicación con el cliente",
+        "description": "Mejorar la experiencia completa",
+        "details": "Trabajamos cómo explicar el café sin tecnicismos innecesarios, cómo leer al cliente, cómo ofrecer filtrados, especiales o recomendaciones, cómo sostener una experiencia coherente con el concepto. El servicio también se entrena.",
+        "icon": "FaHandshake"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Evaluación en barra y feedback",
+        "description": "Consolidar el aprendizaje en servicio",
+        "details": "Acompañamos al equipo durante el servicio real, corrigiendo hábitos, ajustando procesos y reforzando lo aprendido para asegurar que la capacitación se sostenga en el tiempo.",
+        "icon": "FaCheckCircle"
+      }
+    },
+    "curingSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Diagnóstico cafetalero del proyecto",
+        "description": "Análisis integral del contexto",
+        "details": "Analizamos tipo de cafetería, perfil de cliente, método principal (espresso/filtrados), nivel técnico del equipo, ritmo de servicio. El café se elige para ese contexto, no para una cata ideal.",
+        "icon": "FaSearch"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Servicio de cata profesional aplicada",
+        "description": "Evaluación técnica rigurosa",
+        "details": "Realizamos catas técnicas para evaluar perfil sensorial real, defectos visibles y latentes, consistencia de tueste, comportamiento en extracción. No solo catamos rico, catamos usable en servicio.",
+        "icon": "FaCoffee"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Evaluación de tostadores y lotes",
+        "description": "Control de calidad y consistencia",
+        "details": "Analizamos el historial y la estabilidad del tostador: coherencia entre partidas, repetibilidad del perfil, transparencia en el proceso. Descartamos cafés que dependen del relato y no del control.",
+        "icon": "FaChartLine"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Selección de cafés para tolva y filtrados",
+        "description": "Recomendaciones estratégicas",
+        "details": "Recomendamos cafés específicos para espresso estable y filtrados expresivos pero replicables. Priorizamos cafés que sostienen calidad, permiten calibraciones claras y reducen errores y merma.",
+        "icon": "FaAward"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Validación en condiciones reales",
+        "description": "Prueba en contexto operativo",
+        "details": "Probamos los cafés en contexto de servicio para asegurar rendimiento, estabilidad y margen económico antes de la decisión final.",
+        "icon": "FaCheckDouble"
+      }
+    },
+    "wasteOptimizationSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Análisis de consumo real",
+        "description": "Medición precisa de pérdidas",
+        "details": "Medimos gramos utilizados, descarte diario, errores de extracción, ajustes innecesarios. Traducimos café perdido en dinero.",
+        "icon": "FaCalculator"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Detección de fugas operativas",
+        "description": "Identificar causas de merma",
+        "details": "Identificamos pérdidas causadas por recetas mal ajustadas, mala lectura sensorial, hábitos incorrectos del equipo, cafés inadecuados para servicio.",
+        "icon": "FaExclamationTriangle"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Ajuste técnico de extracción",
+        "description": "Optimizar parámetros",
+        "details": "Optimizamos parámetros para maximizar rendimiento por kilo, mantener perfil sensorial y reducir descarte innecesario.",
+        "icon": "FaSlidersH"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Protocolos de control diario",
+        "description": "Rutinas sostenibles",
+        "details": "Implementamos rutinas simples: control de molienda, manejo de descarte, ajustes conscientes. Sistemas que el equipo puede sostener.",
+        "icon": "FaClipboardCheck"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Seguimiento y ajuste continuo",
+        "description": "Mejora estructural",
+        "details": "Revisamos resultados y realizamos correcciones para que la mejora no sea momentánea, sino estructural.",
+        "icon": "FaSyncAlt"
+      }
+    },
+    "standardizationSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Evaluación técnica inicial",
+        "description": "Relevamiento completo del sistema",
+        "details": "Relevamos equipamiento, recetas actuales, hábitos de calibración, tiempos de despacho, puntos de inconsistencia. Detectamos dónde se pierde control.",
+        "icon": "FaClipboardList"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Desarrollo de recetas funcionales",
+        "description": "Recetas para el mundo real",
+        "details": "Creamos recetas pensadas para repetibilidad, lectura clara, estabilidad en el tiempo. No trabajamos recetas extremas que solo funcionan en laboratorio.",
+        "icon": "FaFileAlt"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Ajustes para flujo de servicio",
+        "description": "Adaptación a condiciones reales",
+        "details": "Adaptamos parámetros a horas pico, rotación de personal, cambios de café. Buscamos recetas que resistan el uso real.",
+        "icon": "FaClock"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Protocolos operativos claros",
+        "description": "Procedimientos documentados",
+        "details": "Definimos procedimientos para apertura, ajustes diarios, cambios de turno, cierre. Reducimos la dependencia de individuos.",
+        "icon": "FaBook"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Validación en barra",
+        "description": "Prueba bajo presión",
+        "details": "Probamos el sistema durante el servicio, observamos desvíos y corregimos hasta lograr estabilidad real.",
+        "icon": "FaCheckCircle"
+      }
+    },
+    "menuOptimizationSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Análisis de la carta actual",
+        "description": "Lectura operativa de la oferta",
+        "details": "Evaluamos cantidad de ítems, tiempos de despacho, complejidad operativa, coherencia entre café y cocina, productos que no rotan o generan problemas. Leemos la carta desde la operación, no desde el papel.",
+        "icon": "FaList"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Definición del rol del café",
+        "description": "Integración con el concepto",
+        "details": "Determinamos qué rol cumple el café en la propuesta, qué bebidas son realmente necesarias, qué estilos de café acompañan mejor la cocina. El café se integra al concepto, no compite con él.",
+        "icon": "FaBullseye"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Simplificación estratégica",
+        "description": "Reducir sin empobrecer",
+        "details": "Reducimos complejidad sin empobrecer: menos ítems, mejor ejecutados, recetas claras, menor margen de error, mayor velocidad de servicio.",
+        "icon": "FaFilter"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Optimización para servicio real",
+        "description": "Ajustes funcionales",
+        "details": "Ajustamos recetas, presentaciones, tiempos, secuencias de trabajo. La carta se prueba en contexto, no en teoría.",
+        "icon": "FaCogs"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Validación y ajustes finales",
+        "description": "Refinamiento en servicio",
+        "details": "Testeamos la carta durante el servicio y realizamos ajustes finos hasta lograr una propuesta clara, rentable y consistente.",
+        "icon": "FaCheck"
+      }
+    },
+    "customerExperienceSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Análisis del recorrido del cliente",
+        "description": "Mapeo completo de la experiencia",
+        "details": "Estudiamos todo el trayecto: entrada al local, lectura del espacio, interacción con el equipo, espera, entrega, consumo. Detectamos fricciones y oportunidades.",
+        "icon": "FaRoute"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Ritmo, tiempos y percepción",
+        "description": "Gestión de la experiencia temporal",
+        "details": "Trabajamos tiempos reales vs tiempos percibidos, momentos de espera, orden de acciones, pequeños gestos que reducen ansiedad. La experiencia se diseña, no se improvisa.",
+        "icon": "FaHourglass"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Lenguaje y relato del café",
+        "description": "Comunicación efectiva",
+        "details": "Definimos qué se dice, cómo se dice, cuándo conviene explicar y cuándo no. El objetivo es acercar el café, no alejar al cliente.",
+        "icon": "FaCommentDots"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Detalles que elevan la experiencia",
+        "description": "Los pequeños gestos importan",
+        "details": "Pequeños ajustes en presentación, comunicación, atención, coherencia visual y sensorial. Son detalles mínimos que generan grandes diferencias.",
+        "icon": "FaStar"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Observación y mejora continua",
+        "description": "Refinamiento constante",
+        "details": "Observamos el comportamiento del cliente en el espacio real y ajustamos la experiencia para que se sienta natural, fluida y memorable.",
+        "icon": "FaSync"
+      }
+    },
+    "monitoringSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Visitas periódicas de control",
+        "description": "Supervisión activa del sistema",
+        "details": "Revisamos café en uso, calibraciones, servicio, hábitos del equipo. Detectamos desvíos antes de que se vuelvan problemas.",
+        "icon": "FaUserCheck"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Catas de seguimiento",
+        "description": "Control sensorial continuo",
+        "details": "Evaluamos sensorialmente los cafés que están en barra para asegurar que mantienen el estándar esperado.",
+        "icon": "FaCoffee"
+      }
+    }
+    
+  },
+  "contactForm": {
+    "title": "CONTACTO",
+    "subtitle": "Contáctanos para explicarnos tu idea o la asesoría que necesitas",
+    "servicesTitle": "Nuestros Servicios",
+    "servicesIntro": "Consultoría integral, desarrollo de protocolos, análisis sensorial y capacitación profesional para cafeterías de especialidad.",
+    "service1Title": "Consultoría Integral:",
+    "service1Text": "Asesoramiento completo desde equipos hasta operación.",
+    "service2Title": "Protocolos de Calidad:",
+    "service2Text": "Procesos estandarizados adaptados a tu modelo de negocio.",
+    "service3Title": "Análisis Sensorial:",
+    "service3Text": "Catas profesionales y evaluación técnica de café.",
+    "service4Title": "Capacitación:",
+    "service4Text": "Formación técnica y sensorial para equipos.",
+    "ctaText": "¿Listo para profesionalizar tu proyecto? Completa el formulario y conversemos.",
+    "nameLabel": "Nombre *",
+    "namePlaceholder": "Tu nombre completo",
+    "emailLabel": "Email *",
+    "emailPlaceholder": "tu@email.com",
+    "cafeteriaLabel": "Nombre de la Cafetería (opcional)",
+    "cafeteriaPlaceholder": "Nombre de tu cafetería",
+    "advisoryTypeLabel": "Tipo de Asesoría",
+    "advisoryTypeOption1": "Selecciona una opción",
+    "advisoryTypeOption2": "Asesoria",
+    "advisoryTypeOption3": "Consultas",
+    "advisoryTypeOption4": "Sobre Cursos",
+    "advisoryTypeOption5": "Otro",
+    "messageLabel": "Mensaje *",
+    "messagePlaceholder": "Cuéntanos tu idea o qué asesoría necesitas...",
+    "submitButton": "Enviar Mensaje",
+    "whatsappButton": "Contactar por WhatsApp",
+    "successMessage": "Mensaje enviado! Te contactaremos pronto."
+  },
+  "howWeWork": {
+    "title": "Cómo Trabajamos",
+    "step1": "Evaluación Inicial",
+    "step2": "Propuesta Personalizada",
+    "step3": "Implementación",
+    "step4": "Seguimiento"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "success": "Mensaje enviado con éxito",
+    "error": "Error al enviar el mensaje"
+  },
+  "lab": {
+    "title": "JOUP LAB",
+    "subtitle": "Experimentación, investigación y desarrollo en café de especialidad",
+    "description": "Nuestro laboratorio de innovación en café de especialidad"
+  },
+  "studio": {
+    "title": "JOUP LAB",
+    "subtitle": "La academia donde formamos a la nueva generación de profesionales del café",
+    "description": "Formación profesional certificada"
+  },
+  "resources": {
+    "title": "Recursos Educativos",
+    "pageTitle": "EDUCACIÓN GRATUITA Y RECURSOS",
+    "pageIntro": "Todos nuestros recursos educativos están disponibles de forma gratuita. Descargá el material que necesites y comenzá tu aprendizaje en el mundo del café de especialidad.",
+    "aeropressTitle": "Leyes de la física aplicados a la Aeropress",
+    "aeropressDescription": "Conceptos básicos y fundamentos del café de especialidad",
+    "moduleOneTitle": "Modulo uno JOUP",
+    "moduleOneDescription": "Historia del cafe: Origen, expansión global y cultura",
+    "viewModuleWeb": "Ver Módulo Web",
+    "backToHome": "Volver al inicio",
+    "backToEducation": "Volver a educación",
+    "downloadPdf": "Descargar PDF",
+    "moreResourcesText": "¿Querés más recursos? Seguinos en nuestras redes sociales para acceder a contenido exclusivo y mantenerte actualizado con nuevas publicaciones educativas.",
+    "joinJoup": "Sumate a JOUP"
+  },
+  "qualityCommitment": {
+    "title": "COMPROMISO CON LA CALIDAD, LA EDUCACIÓN Y EL FUTURO",
+    "text1": "Trabajamos con firmeza, con criterio y con responsabilidad.",
+    "text2": "Honramos nuestra historia, fortalecemos nuestra filosofía y nos comprometemos con una sola misión:",
+    "text3": "elevar la experiencia del café en Argentina.",
+    "text4": "JOUP COFFEE es la unión entre conocimiento, técnica, comunidad y visión.",
+    "text5": "Somos educación, laboratorio y desarrollo profesional.",
+    "text6": "Somos el punto de encuentro entre las personas que quieren cambiar el café desde adentro."
+  },
+  "back": "Volver",
+  "learnMore": "Aprender Más",
+  "getStarted": "Comenzar",
+  "readMore": "Leer Más"
+}

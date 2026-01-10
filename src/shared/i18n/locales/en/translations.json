@@ -1,0 +1,927 @@
+{
+  "header": {
+    "title": "JOUP LAB & STUDIO",
+    "titleStudio": "JOUP LAB",
+    "titleService": "JOUP STUDIO",
+    "titleLab": "JOUP LAB",
+    "blog": "BLOG",
+    "home": "Home",
+    "welcome": "Welcome to JOUP LAB & STUDIO",
+    "welcomeStudio": "Welcome to JOUP LAB",
+    "welcomeService": "Welcome to JOUP STUDIO",
+    "welcomeLab": "Welcome to JOUP LAB"
+  },
+  "nav": {
+    "ourStory": "Our Story",
+    "ourPillars": "Our Pillars",
+    "joinUs": "Join Us",
+    "slowBar": "Slow Bar",
+    "studioInfo": "Studio Info",
+    "courses": "Courses",
+    "education": "Education",
+    "services": "Services",
+    "howWeWork": "How We Work",
+    "contact": "Contact",
+    "labInfo": "Lab Info"
+  },
+  "hero": {
+    "title": "JOUP LAB & STUDIO",
+    "subtitle": "Education, consulting and excellence in specialty coffee",
+    "subtext": "Courses • Consulting • Cupping",
+    "ctaLearnMore": "Learn More",
+    "ctaCourses": "Our Courses",
+    "labButton": "LAB",
+    "studioButton": "STUDIO"
+  },
+  "footer": {
+    "tagline": "Education, consulting and excellence in specialty coffee",
+    "copyright": "© 2025 JOUP LAB & STUDIO. All rights reserved.",
+    "rights": "© 2025 JOUP LAB & STUDIO. All rights reserved.",
+    "followUs": "Follow Us",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "story": {
+    "title": "JOUP COFFEE",
+    "subtitle": "An ecosystem",
+    "text1": "A space where education, technique and business development come together to transform the way Argentina experiences coffee.",
+    "text2": "We have trained ",
+    "text2Highlight": "more than 4,000 professionals",
+    "text2Continue": ", including baristas, instructors, roasters, coffee shop owners and enthusiasts who today work behind the bar, in gastronomic projects, in roasteries or teaching in different parts of the world.",
+    "text3": "We are a constantly growing community, united by a single idea: elevating coffee culture through training, quality and collaboration.",
+    "text4": "JOUP COFFEE was born as a community-School, grew as a laboratory and today functions as a comprehensive platform that drives people, businesses and projects.",
+    "arrowText": "Our identity is sustained by three pillars that shape everything we do:"
+  },
+  "philosophy": {
+    "title": "A CLEAR PHILOSOPHY",
+    "text1": "JOUP exists because we believe that coffee is culture, identity, craft and opportunity.",
+    "text2": "Because we are committed to local growth, traceability, transparency and the development of a fairer and more professional ecosystem.",
+    "text3": "We believe in training as an engine, in community as a network, in technique as a foundation and in collaboration as a path.",
+    "text4": "That's why we work together with coffee shops, companies, institutions, professionals and collaborators who share a vision:",
+    "text5": "making coffee a space of encounter, excellence and shared purpose."
+  },
+  "pillars": {
+    "title": "OUR PILLARS",
+    "lab": {
+      "number": "01",
+      "title": "JOUP LAB",
+      "description": "The academy where we train the new generation of coffee professionals, where we study, analyze and live coffee.",
+      "details": "We create intermediate and advanced courses, ONE & ONE programs, internal training and an educational proposal that combines technical clarity, deep sensory skills and unique pedagogy. We teach to transform. So that more people have access to real, modern and demanding training. So that knowledge elevates the craft."
+    },
+    "studio": {
+      "number": "02",
+      "title": "JOUP STUDIO",
+      "description": "Comprehensive solutions for specialty coffee projects.",
+      "details": "We accompany openings, optimize operations, design spaces, standardize processes and build brands with identity, aesthetics and digital presence. We help entrepreneurs, teams and established businesses grow with criteria, order and professionalism. From technical consulting to web design, branding, food photography, filmmaking and project management: JOUP STUDIO integrates all the necessary areas for a coffee business to function with quality and coherence."
+    }
+  },
+  "commitment": {
+    "title": "COMMITMENT",
+    "intro": "We believe that quality is not only measured in the cup, but in intention.",
+    "subtitle": "That's why our commitment goes beyond the technical: it encompasses ethics, sustainability and the impact we leave on the community.",
+    "traceability": {
+      "icon": "FaSeedling",
+      "title": "Traceability",
+      "description": "We work with traceable origin coffees, respecting the producer and accompanying continuous improvement processes."
+    },
+    "localDevelopment": {
+      "icon": "FaHandshake",
+      "title": "Local Development",
+      "description": "We are involved in the development of local talent and promote an Argentine coffee that thinks of itself from excellence."
+    },
+    "ethicsSustainability": {
+      "icon": "FaHeart",
+      "title": "Ethics and Sustainability",
+      "description": "Our commitment goes beyond the technical: it encompasses ethics, sustainability and the impact we leave on the community."
+    },
+    "promise": "Our promise is simple: to do things right, with respect, with purpose."
+  },
+  "essence": {
+    "title": "THE ESSENCE OF JOUP",
+    "subtitle": "A philosophy, a community, a constant invitation and an unwavering commitment",
+    "philosophy": {
+      "title": "Philosophy",
+      "intro": "JOUP exists because we believe that coffee is culture, identity, craft and opportunity.",
+      "detail": "We are committed to local growth, traceability, transparency and the development of a fairer and more professional ecosystem.",
+      "highlight": "Making coffee a space of encounter, excellence and shared purpose."
+    },
+    "community": {
+      "title": "Community",
+      "intro": "A network of people who learned, grew and today build the future of coffee in Argentina and the world.",
+      "detail": "Our graduates work in coffee shops, hotels, bars, international projects, roasteries and schools. Many teach, lead teams or open their own businesses.",
+      "highlight": "The JOUP community lives, collaborates and grows."
+    },
+    "invitation": {
+      "title": "Invitation",
+      "intro": "We are open to new collaborations, alliances and developments.",
+      "detail": "We seek professionals who want to contribute their talent, brands that want to build, coffee shops that want to improve, students who want to train and people who want to grow.",
+      "highlight": "An open space to learn, create, entrepreneur, research, share and transform."
+    },
+    "commitment": {
+      "title": "Commitment",
+      "intro": "We work with firmness, with criteria and with responsibility.",
+      "detail": "We honor our history, strengthen our philosophy and commit to a single mission: elevate the coffee experience in Argentina.",
+      "highlight": "The meeting point for people who want to change coffee from the inside."
+    },
+    "expandHint": "→"
+  },
+  "communitySection": {
+    "title": "A GROWING COMMUNITY",
+    "text1": "JOUP COFFEE is not just a brand: it's a network of people who learned, grew, and today are building the future of coffee in Argentina and the world.",
+    "text2": "Our graduates work in cafés, hotels, bars, international projects, roasteries, and schools.",
+    "text3": "Many teach, others lead teams, others open their own businesses or travel representing the country in different stages of coffee.",
+    "highlight": "The JOUP community lives, collaborates, and grows."
+  },
+  "invitationBanner": {
+    "title": "A CONSTANT INVITATION",
+    "text1": "We are open to new collaborations, alliances, and developments.",
+    "text2": "We seek professionals who want to contribute their talent, brands that want to build, cafés that want to improve, students who want to train, and people who want to grow within the coffee world.",
+    "emphasis": "JOUP COFFEE is an open space:",
+    "highlight": "to learn, to create, to entrepreneur, to research, to share, and to transform."
+  },
+  "joinUs": {
+    "title": "JOIN JOUP",
+    "tagline": "COFFEE IS BETTER WHEN SHARED",
+    "description": "If curiosity drives you, if you want to learn, be part of or simply live a different experience, ",
+    "descriptionHighlight": "you are invited",
+    "descriptionContinue": ". Joup is an open space: for those seeking to grow, question, be inspired and share.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "instagram": "Instagram"
+  },
+  "slowBar": {
+    "title": "SLOW BAR",
+    "schedule": "Monday ",
+    "scheduleHighlight": "4:00 PM to 8:00 PM",
+    "location": "Socio Café - Arce 415, Cañitas, Buenos Aires",
+    "description1": "A space where filtered coffee becomes the protagonist and the sensory experience comes to life. We choose different origins, methods and profiles from guest roasters to offer a tasting guided by our baristas.",
+    "conceptTitle": "Slow Bar is not a quick stop bar:",
+    "concept1": "it's an invitation to slow down, to listen to the silence between the aromas, to rediscover coffee as an act of presence.",
+    "concept2": "You can come alone, with friends or with your team; you can learn, observe or simply enjoy a good conversation.",
+    "mission": "What we seek is not to serve coffee, but to create moments that reconnect you with the meaning of drinking it.",
+    "imageAlt": "Slow Bar"
+  },
+  "courses": {
+    "sectionTitle": "OUR COURSES",
+    "sectionSubtitle": "Programs designed to train specialty coffee professionals",
+    "viewMore": "View more",
+    "close": "Close",
+    "whatYouBuild": "What you'll truly build:"
+  },
+  "coursesContent": {
+    "fundamentals": {
+      "title": "COFFEE FUNDAMENTALS",
+      "description": "The conceptual and technical foundation for understanding coffee as a system. This axis builds criteria on extraction, methods, sensory skills, and bar work, moving from mechanical repetition to understanding what you do and why. It's the starting point that supports the entire journey within Joup Coffee Lab.",
+      "intermediate": {
+        "name": "Intermediate",
+        "subtitle": "Solid foundation with real criteria",
+        "intro": "This level is for those who already work with coffee (or have completed a basic course) and want to stop 'doing by repetition' and start understanding what's happening in the cup. We build fundamentals that later support everything: espresso, filtered coffee, milk, sensory skills, and service.",
+        "points": [
+          "Extraction framework: ratio, grind, time, temperature, turbulence, and how they relate.",
+          "Useful barista language: varietals, processes, roasting, freshness, grinding, water—what's necessary to avoid speaking in generalities.",
+          "Correction criteria: detecting whether the problem is recipe, technique, grinder, water, roast, or coffee.",
+          "Professional routine: work order, cleanliness, consistency, and daily control."
+        ],
+        "result": "Joup Result: you leave with a foundation that shows at the bar: less chance, more control, and a clear way to explain what you do."
+      },
+      "advanced": {
+        "name": "Advanced",
+        "subtitle": "Professional consistency, fine reading, and standards",
+        "intro": "We train real consistency, applied sensory reading, and fine correction. It's not 'more information': it's more precision. Your goal stops being 'make it tasty' and becomes 'make it the same, good, every day, with criteria'",
+        "points": [
+          "Technical-sensory diagnosis: translating flavor into variables (acidity vs under-extraction, bitterness vs compound over-degradation, astringency vs channeling, etc.).",
+          "Applied protocols: quality control, simple triangulations, recording, documented adjustments.",
+          "Deep corrections: how to maintain the cup when the batch, climate, flow, grinder, or demand changes.",
+          "Service standard: consistency, customer communication, and the bar as a system."
+        ],
+        "result": "Joup Result: you go from executor barista to barista with your own technical criteria."
+      }
+    },
+    "espresso": {
+      "title": "ESPRESSO & CALIBRATION",
+      "description": "Espresso control turned into method. We work the relationship between grind, dose, yield, flow, and sensory reading to achieve real consistency in the coffee shop. Here espresso stops being intuition and becomes technical control and professional criteria.",
+      "intermediate": {
+        "name": "Intermediate",
+        "subtitle": "Solid calibration, no magic",
+        "intro": "This course teaches you to calibrate espresso repeatably. The focus is on building a routine that works in a real coffee shop: times, doses, yield, flow, and simple adjustments with logic.",
+        "points": [
+          "Methodical dial-in: what to move first and why (grind / ratio / time).",
+          "Shot reading: crema, flow, color, time, sensory.",
+          "Critical variables: distribution, leveling, puck prep, dose consistency.",
+          "Daily stability: how to adapt the recipe when humidity, temperature, or coffee aging changes."
+        ],
+        "result": "Joup Result: you calibrate faster, with less trial and error, and defend your recipe with foundations."
+      },
+      "advanced": {
+        "name": "Advanced",
+        "subtitle": "Total control: extraction, flow, and consistency under pressure",
+        "intro": "Here we enter applied extractology. We work as serious teams work: we measure, interpret, adjust, and leave a stable system. This is for those who want to be above average.",
+        "points": [
+          "Extraction curves and flow reading: how they impact sweetness, clarity, and texture.",
+          "TDS / yield / balance (if there's a refractometer, we use it; if not, we train the equivalent sensory reading).",
+          "Advanced channeling: real causes and how to correct them (puck prep, grind, distribution, pressure, basket).",
+          "Volume calibration: maintaining quality when there's a line, stress, and changing hands.",
+          "Recipe optimization per coffee: not all coffees 'ask for the same thing.'"
+        ],
+        "result": "Joup Result: you master espresso as a system: repeatable, defensible, and scalable."
+      }
+    },
+    "sensory": {
+      "title": "SENSORY & CUPPING",
+      "description": "Joup's training core. This axis develops sensitivity, language, and sensory criteria to evaluate coffees with clarity, detect defects, and make professional decisions. Training the palate is training the foundation of everything else.",
+      "intermediate": {
+        "name": "Intermediate",
+        "subtitle": "Trained sensitivity + lexicon",
+        "intro": "This level is the gateway to what differentiates a common barista from one with a future: knowing how to taste. We train sensitivity to detect basic defects, describe with clarity, and build a real vocabulary.",
+        "points": [
+          "Main attributes: fragrance/aroma, flavor, acidity, sweetness, body, aftertaste, balance.",
+          "Basic defects and probable causes: dirty ferment, phenols, astringency, mold, etc.",
+          "Triangulations: learning to distinguish subtle changes with method.",
+          "Functional lexicon: describing without exaggeration, with precision and coherence."
+        ],
+        "result": "Joup Result: you start trusting your palate and communicating it professionally."
+      },
+      "advanced": {
+        "name": "Advanced",
+        "subtitle": "Protocol, critical criteria, and deep reading",
+        "intro": "Here the training changes: it's no longer 'discovering flavors', it's building professional sensory criteria. You learn to evaluate with standards, to argue, and to make decisions: coffee selection, profile, roasting, use.",
+        "points": [
+          "Serious cupping protocol: consistency, recording, comparison, panel calibration.",
+          "Structure analysis: acidity (type and quality), sweetness (form and persistence), texture, finish, cleanliness.",
+          "Complex defect detection: problematic fermentations, phenolics, greens, aging, damage.",
+          "Applied interpretation: what coffee works for what (espresso, filter, milk) and why."
+        ],
+        "result": "Joup Result: your palate stops being 'opinion' and becomes a professional tool."
+      }
+    },
+    "filtered": {
+      "title": "FILTERED COFFEE",
+      "description": "Coffee expressed with clarity and precision. Filtering methods are approached as tools for extraction control and sensory exploration, integrating technique, attention, and coffee reading. A space where method and experience meet.",
+      "intermediate": {
+        "name": "Intermediate",
+        "subtitle": "Essential technique: clarity, consistency, and recipes that work",
+        "intro": "For baristas who want to stop depending on 'internet recipes' and learn to build their own with foundations. V60, press, AeroPress (and logic transferable to any method).",
+        "points": [
+          "Smart base recipe: ratio, grind, temperature, target times.",
+          "Pouring and turbulence: how they affect extraction and clarity.",
+          "Bloom and saturation control: when it helps and when it hinders.",
+          "Typical errors: astringency, dryness, emptiness, bitterness, sharp acidity."
+        ],
+        "result": "Joup Result: clean, consistent filtered coffee, and a method to adjust without improvisation."
+      },
+      "advanced": {
+        "name": "Advanced",
+        "subtitle": "Total extraction control: bypass, leaching, and profile design",
+        "intro": "This level is for those who want to truly master filtered coffee. You learn to design profiles: more clarity, more texture, more sweetness, or more acidity—by choice—and sustain it.",
+        "points": [
+          "Bypass and concentration: when to use it, how it affects structure and perception.",
+          "Leaching and staged extraction: how the bed 'empties' and what it means in the cup.",
+          "Advanced grinding: particle distribution, fines, filter channels.",
+          "Complex recipes: multiple pours, temperature control, intentional agitation.",
+          "Service consistency: replicability at the bar."
+        ],
+        "result": "Joup Result: signature filtered coffee with foundation, not by chance."
+      }
+    },
+    "latteArt": {
+      "title": "LATTE ART",
+      "description": "Technique, control, and aesthetics in balance. Latte Art works milk steaming and pouring as a natural extension of espresso and service. The figure is a consequence of technical mastery, not the final goal.",
+      "intermediate": {
+        "name": "Intermediate",
+        "subtitle": "Real microfoam + pitcher control (perfect base figures)",
+        "intro": "This level organizes the technique so latte art isn't 'sometimes yes, sometimes no'. Here we build fine muscle: texturize, integrate, and pour with control.",
+        "points": [
+          "Professional texturing: proper aeration, integration, shine, density.",
+          "Pitcher control: height, speed, angle, entry point.",
+          "Base figures: heart, tulip, simple rosetta with cleanliness and symmetry.",
+          "Error correction: bubbles, dry foam, 'heavy' milk, flow cut."
+        ],
+        "result": "Joup Result: your figures become repeatable and your cup looks like it's from a 'serious coffee shop.'"
+      },
+      "advanced": {
+        "name": "Advanced",
+        "subtitle": "Complex free pour + millimetric control",
+        "intro": "Here technique becomes aesthetic. We work precision, timing, symmetry, and composition. It's not 'making little drawings': it's mastering fluid + texture + movement.",
+        "points": [
+          "Texture by style: cappuccino, flat white, latte—and how pouring changes.",
+          "Complex figures: advanced rosettas, multiple tulips, swans/compositions (depending on group level).",
+          "Consistency under pressure: replicating in real service.",
+          "Fine diagnosis: micro-failures of milk, pitcher, temperature, steaming, and pouring."
+        ],
+        "result": "Joup Result: your latte art starts speaking for you without you having to explain it."
+      }
+    },
+    "processing": {
+      "title": "PROCESSING & GREEN COFFEE",
+      "description": "The origin of flavor. This axis connects varietals, processes, and farm decisions with their impact in the cup, building criteria to interpret, evaluate, and select origin coffees with foundation.",
+      "intermediate": {
+        "name": "Intermediate",
+        "subtitle": "Classic processes and their real impact on flavor",
+        "intro": "This level teaches you to read coffee from origin: not 'what is a natural', but what changes sensorially, what to expect, and how to identify it in the cup.",
+        "points": [
+          "Washed / honey / natural: impact on sweetness, acidity, cleanliness, texture.",
+          "Main varietals: what they tend to contribute and how to recognize them.",
+          "Freshness and storage: aging, aromatic loss, typical defects.",
+          "Applied sensory reading: relating process to profile without falling into clichés."
+        ],
+        "result": "Joup Result: your coffee discourse becomes serious and your coffee selection improves."
+      },
+      "advanced": {
+        "name": "Advanced",
+        "subtitle": "Modern fermentations + critical green coffee evaluation",
+        "intro": "Here we enter the complex: modern processes, directed fermentations, and the most important part: criteria to distinguish innovation from defect.",
+        "points": [
+          "Complex fermentations: what they seek, what risks they bring, how they're perceived.",
+          "Defects vs 'funk': detecting phenolics, mold, over-fermentation, contamination.",
+          "Critical evaluation: lot consistency, cleanliness, structure, and purpose of use.",
+          "Bar selection: what process works for espresso, filter, milk, and why."
+        ],
+        "result": "Joup Result: you go from trend consumer to professional who evaluates and decides."
+      }
+    },
+    "science": {
+      "title": "COFFEE SCIENCE",
+      "description": "The logic behind extraction. Physics and chemistry principles are applied to understand pressure, temperature, solubility, and flow, and thus diagnose and optimize results. Thinking of coffee as a system.",
+      "intermediate": {
+        "name": "Intermediate",
+        "subtitle": "Physics and chemistry applied to extraction (to truly understand)",
+        "intro": "This course brings coffee science down to earth without getting academic: what you need to understand why what happens happens.",
+        "points": [
+          "Solubility and extraction: what extracts first, what later, and how it feels.",
+          "Temperature, time, grind: real relationship (not clichés).",
+          "Pressure and resistance: espresso vs filter, what changes and why.",
+          "Typical errors explained with logic: astringency, bitterness, aggressive acidity, lack of sweetness."
+        ],
+        "result": "Joup Result: you stop calibrating by intuition and start calibrating with understanding."
+      },
+      "advanced": {
+        "name": "Advanced",
+        "subtitle": "Fluid mechanics + deep extractology",
+        "intro": "For those who want to take their level to 'top' territory. We work fluid dynamics applied to coffee: flow, permeability, turbulence, channels, and stability.",
+        "points": [
+          "Puck/bed flow and permeability: how it behaves and how to control it.",
+          "Intentional turbulence: when it improves and when it ruins.",
+          "Extraction models: reading cup structure as 'system result.'",
+          "Advanced optimization: consistency, repetition, scalability."
+        ],
+        "result": "Joup Result: you understand coffee as a physical phenomenon and control it as a professional."
+      }
+    },
+    "pedagogy": {
+      "title": "COFFEE PEDAGOGY",
+      "description": "Coffee taken to teaching. Oriented to those seeking to train, lead, or transmit knowledge, working on technical communication, class structure, and pedagogical criteria applied to coffee.",
+      "integralProgram": {
+        "name": "Integral Program",
+        "subtitle": "Training for instructors and leaders",
+        "intro": "Complete program for those seeking to teach, train teams, or lead educational coffee projects. It's not just 'knowing how to do': it's knowing how to transmit, structure, communicate, and sustain pedagogical criteria.",
+        "points": [
+          "Class structure: content design, didactic progression, clear objectives.",
+          "Group management: dynamics, attention, constructive correction.",
+          "Technical communication: clarity, precision, and adaptation to student level.",
+          "Applied public speaking: presence, confidence, and discourse management.",
+          "Learning psychology: how we learn, how we retain, how we apply."
+        ],
+        "result": "Joup Result: you go from 'knowing coffee' to 'training coffee professionals.'"
+      }
+    }
+  },
+  "education": {
+    "title": "FREE EDUCATION",
+    "intro": "We believe knowledge should be accessible to everyone. That's why we share free educational resources about specialty coffee, brewing techniques, and much more.",
+    "subtitle": "Download our materials and start your journey into the coffee world.",
+    "viewDocuments": "View Documents",
+    "ctaText": "Want more resources? Follow us on social media to access exclusive content and stay updated with new publications.",
+    "ctaButton": "Join JOUP"
+  },
+  "labInfo": {
+    "title": "THE SENSORY LABORATORY WHERE WE STUDY, ANALYZE, AND LIVE COFFEE",
+    "text1": "Technical cuppings, quality evaluations, experimentation, green and roasted coffee analysis, extraction sessions, and immersive experiences.",
+    "text2": "JOUP LAB is the scientific foundation of the brand, where we train palates, explore processes, test methodologies, and create spaces for the community to discover coffee in a deeper, more precise, and meaningful way.",
+    "developmentNotice": "🚧 Module under development 🚧",
+    "developmentSubtext": "All JOUP LAB content will be available soon"
+  },
+  "academyInfo": {
+    "title": "JOUP LAB",
+    "subtitle": "The academy where we train the new generation of coffee professionals.",
+    "features": {
+      "advanced": {
+        "label": "Advanced Courses",
+        "description": "Intermediate and advanced programs"
+      },
+      "oneOnOne": {
+        "label": "ONE & ONE",
+        "description": "Personalized training"
+      },
+      "pedagogy": {
+        "label": "Unique Pedagogy",
+        "description": "Technique + sensory skills"
+      }
+    },
+    "mission": {
+      "title": "We teach to transform.",
+      "text": "So knowledge elevates the craft."
+    }
+  },
+  "services": {
+    "heroTitle": "JOUP STUDIO",
+    "heroSubtitle": "Comprehensive solutions for specialty coffee projects",
+    "overviewTitle": "COMPREHENSIVE SOLUTIONS",
+    "overviewSubtitle": "For specialty coffee projects",
+    "visionTitle": "Our Vision",
+    "visionText": "Transform specialty coffee projects into sustainable, professional businesses with their own identity through a comprehensive approach that combines technique, strategy and operational criteria.",
+    "descriptionMain": "JOUP STUDIO is the consulting and project development area of JOUP. We work with entrepreneurs, established coffee shops and businesses seeking to professionalize their operation, optimize their processes and build a solid identity in the specialty coffee market.",
+    "areasTitle": "Work Areas",
+    "areas": {
+      "consulting": {
+        "title": "Comprehensive Consulting",
+        "description": "Complete accompaniment from idea to operation: viability analysis, business model, equipment selection and proposal design."
+      },
+      "architecture": {
+        "title": "Bar Architecture",
+        "description": "Functional space design optimized for operational efficiency, workflow and customer experience."
+      },
+      "optimization": {
+        "title": "Operational Optimization",
+        "description": "Process standardization, waste reduction, cost control and profitability improvement with technical criteria."
+      },
+      "training": {
+        "title": "Professional Training",
+        "description": "Technical and sensory training for teams: espresso, filtered coffee, latte art, calibration and quality service."
+      },
+      "branding": {
+        "title": "Branding & Identity",
+        "description": "Brand development, visual identity, web design (by TukiCode), food photography and digital strategy."
+      },
+      "protocols": {
+        "title": "Quality Protocols",
+        "description": "Creation of operational standards, replicable recipes, evaluation criteria and control systems."
+      }
+    },
+    "approachTitle": "Our Approach",
+    "approachText": "We work with a personalized approach that adapts to each project. We don't offer generic solutions: we analyze, design and implement specific strategies based on operational reality, business objectives and market context.",
+    "approachHighlight": "We combine technical knowledge, strategic vision and real experience in the specialty coffee industry so your project works with professionalism, consistency and clarity."
+  },
+  "serviceProcess": {
+    "title": "HOW WE WORK",
+    "description": "At JOUP STUDIO we design comprehensive processes to accompany, optimize and professionalize specialty coffee shops. Each service responds to a real business need: from the architectural design of the bar to team training, recipe standardization, cost optimization and building experiences that build loyalty. Our approach combines technique, criteria and real operability.",
+    "servicesTitle": "Services",
+    "tabs": {
+      "accompaniment": "Accompaniment",
+      "architecture": "Architecture & Bar Design",
+      "training": "Team Training",
+      "curingprocesshopperselection": "Coffee Curation & Hopper Selection",
+      "coffeeWasteCostOptimization": "Waste & Cost Optimization",
+      "espressoBrewStandardProcess": "Espresso & Brew Standardization",
+      "menuDesignAndOptimization": "Menu Design & Optimization",
+      "customerExperienceAndService": "Customer Experience & Service",
+      "monitoringAndContinuousImprovement": "Monitoring & Continuous Improvement"
+    },
+    "accompaniment": {
+      "intro": "A clear, professional, and customized process. We accompany specialty coffee projects from the initial idea to real operation, with a comprehensive approach that combines technique, concept, aesthetics, and functionality. Our work is not limited to opening a coffee shop: we seek for it to function well, have identity, and be sustainable over time.",
+      "subtitle": "Your Journey with JOUP STUDIO"
+    },
+    "architecture": {
+      "intro": "Designing a space that works in favor of coffee, the team, and the business. At JOUP we understand coffee architecture as an operational tool, not as an isolated aesthetic exercise. A poorly designed bar generates errors, stress, waste, and low quality, even with good coffee and a good team. This process seeks to design spaces that function under pressure, maintain quality, and accompany the project's growth.",
+      "subtitle": "Coffee Architecture & Bar Design Process"
+    },
+    "training": {
+      "intro": "Training a team that operates with technique, consistency, and identity. Having good coffee, correct machines, and well-designed space is not enough if the team doesn't understand what they're doing, why they're doing it, and how to sustain it daily. This process seeks for your baristas not to just execute recipes, but to understand, apply criteria, and generate quality autonomously. The training adapts to your service model and your team's level, integrating technique, sensory skills, and work philosophy.",
+      "subtitle": "Building a High-Performance Team"
+    },
+    "curingprocesshopperselection": {
+      "intro": "Your coffee hopper is not a decoration: it's the first filter of your quality. Choosing coffees with criteria, not by trend or price, directly impacts the sensory profile, operational consistency, and business projection. This process combines coffee curation, profile analysis, and hopper design according to your bar's concept and real operation. The goal is for your menu to make sense, your coffees to be coherent with each other, and for you to have clear selection criteria.",
+      "subtitle": "Strategic Hopper Design"
+    },
+    "coffeeWasteCostOptimization": {
+      "intro": "Coffee waste is one of the most underestimated problems in the specialty coffee industry. It directly impacts the business's profitability, team efficiency, and operational sustainability. This process seeks to identify, measure, and systematically reduce coffee waste through technical adjustments, recipe optimization, and team training. The goal is not to 'spend less,' but to operate better: with precision, awareness, and clear criteria.",
+      "subtitle": "Operating with Efficiency and Criteria"
+    },
+    "espressoBrewStandardProcess": {
+      "intro": "Operational consistency is one of the most difficult things to sustain in the specialty coffee bar. Having good coffee, machines, and trained baristas is not enough if each preparation is different, if results are inconsistent, or if quality drops at times of high volume. This process seeks to build technical protocols for espresso and filtered coffee, designed to be replicated daily, under pressure, and with quality. The goal is for your bar to deliver the same result, every time, in any circumstance.",
+      "subtitle": "Standardization for Operational Excellence"
+    },
+    "menuDesignAndOptimization": {
+      "intro": "Your coffee menu is not just a list of drinks: it's your operational tool, your sales discourse, and your quality filter. A poorly designed menu generates confusion in the customer, saturation in the bar, unnecessary costs, and low profitability. This process seeks to build a coherent, efficient menu aligned with the business concept, designed to operate under pressure, sell with clarity, and be sustainable over time.",
+      "subtitle": "Menu that Works, Communicates, and Sells"
+    },
+    "customerExperienceAndService": {
+      "intro": "Coffee quality is not the only thing your customer perceives. Service experience, space, attention, order, and general coherence directly influence how your product is valued. This process seeks to design a comprehensive customer experience aligned with your coffee shop's concept and type of service. We work on the customer journey, service flows, staff communication, and operational details that build loyalty and differentiate.",
+      "subtitle": "Designing Experiences that Differentiate and Build Loyalty"
+    },
+    "monitoringAndContinuousImprovement": {
+      "intro": "Excellence is not achieved in a day: it is built with time, criteria, and continuous adjustments. This final phase of the process seeks to accompany the operation beyond opening, with systematic monitoring, data analysis, and operational optimizations. The goal is for your bar to continue evolving, adjusting, and improving with foundation, consistency, and clarity.",
+      "subtitle": "Sustained Growth with Criteria"
+    },
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "First Contact",
+        "description": "Understanding your vision before proposing solutions",
+        "details": "The first step is to listen. We meet to understand your idea, your context, your goals, and the real moment of the project. We don't offer closed packages: we design accompaniment based on what you need today and where you want to go. This meeting defines the tone of the entire process.",
+        "icon": "FaComments"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Project Analysis",
+        "description": "Reading the business before designing it",
+        "details": "We analyze the project's viability from a strategic and operational perspective: location, target audience, value proposition, competition, available resources, and real scope. Based on this diagnosis, we define priorities, timelines, and work focuses. Without analysis, there are no good decisions.",
+        "icon": "FaChartBar"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Concept Design",
+        "description": "Building identity, experience, and coherence",
+        "details": "We develop the comprehensive concept of your coffee shop: service philosophy, gastronomic proposal, coffee menu, customer experience, and brand guidelines. The goal is for everything to make sense, be coherent, and have its own personality. This is where the project's identity is born.",
+        "icon": "FaLightbulb"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Equipment Selection",
+        "description": "Technology aligned with your concept and budget",
+        "details": "We advise on choosing espresso machines, grinders, brewing methods, and general equipment according to work volume, service style, and business projection. We seek efficiency, durability, and technical coherence, not unnecessary over-equipment.",
+        "icon": "FaCog"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Coffee Curation",
+        "description": "Choosing coffees with criteria, not by trend",
+        "details": "We select the coffees that best adapt to your proposal and design specific usage profiles and preparation methods. The curation considers origin, process, sensory profile, consistency, and bar viability. Coffee accompanies the concept, it doesn't contradict it.",
+        "icon": "FaCoffee"
+      },
+      "step6": {
+        "number": "06",
+        "title": "Team Training",
+        "description": "Training people, not just teaching recipes",
+        "details": "We train the team in technique, sensory skills, service, and work philosophy. We seek for them to understand what they do, why they do it, and how to maintain quality on a daily basis. A good project needs an aligned team.",
+        "icon": "FaUsers"
+      },
+      "step7": {
+        "number": "07",
+        "title": "Setup and Calibration",
+        "description": "Fine-tuning all systems",
+        "details": "We install and calibrate equipment, adjust recipes, optimize workflows, and define quality protocols. Everything is prepared to operate with order, consistency, and clarity from day one.",
+        "icon": "FaWrench"
+      },
+      "step8": {
+        "number": "08",
+        "title": "Opening and Follow-up",
+        "description": "Real accompaniment, also after opening",
+        "details": "We are present at the opening and offer subsequent follow-up to adjust processes, resolve doubts, and accompany the project's growth. Excellence is not achieved in a day: it is built with time and criteria.",
+        "icon": "FaRocket"
+      }
+    },
+    "architectureSteps": {
+      "step1": {
+        "number": "01",
+        "title": "First contact and project understanding",
+        "description": "Understanding vision and operational needs",
+        "details": "We begin with a deep conversation to understand the entrepreneurship's vision, service type, target audience, and expected volume. We don't design the same for a grab-and-go coffee shop as for an experience space or gastronomic café. We define: operational objectives, service expectations, and real space limitations.",
+        "icon": "FaComments"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Technical space analysis",
+        "description": "Studying the venue from a functional logic",
+        "details": "We study the venue from a functional logic: team circulation, client-bar relationship, congestion points, preparation zones, dispatch and cleaning areas, barista ergonomics. We detect bottlenecks before they exist.",
+        "icon": "FaRuler"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Bar design oriented to real service",
+        "description": "The bar as an efficient work system",
+        "details": "We design the bar as a work system: strategic location of machines and grinders, espresso, milk and filter flows, real support surfaces, access to cleaning and disposal, reduction of unnecessary movements. Every decision responds to efficiency, consistency, and control.",
+        "icon": "FaCog"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Aesthetic integration with project identity",
+        "description": "Visual design accompanies function",
+        "details": "Visual design accompanies function. Materials, colors, and layout reinforce the concept without compromising operability or maintenance.",
+        "icon": "FaPalette"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Operational validation and final adjustments",
+        "description": "Ensuring sustainable operation over time",
+        "details": "Before closing the design, we validate operation in real service scenarios and make adjustments to ensure the space is sustainable over time.",
+        "icon": "FaCheck"
+      }
+    },
+    "trainingSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Diagnosis and level detection",
+        "description": "Understanding the team before training them",
+        "details": "Before teaching anything, we detect: current level of technique, sensory skills, work habits, and potential areas for improvement. Not all teams need the same. We adapt the training to your service reality and operational priorities.",
+        "icon": "FaClipboardList"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Technical and sensory training",
+        "description": "Building real foundations: technique, palate, and criteria",
+        "details": "We train the team in espresso and filtered coffee technique, foam control, latte art, sensory calibration, and extraction reading. The goal is for each barista to understand what they're doing, not just memorize steps. We work on: machine operation, espresso extraction, milk treatment, filtering methods, palate training, and adjustments by taste.",
+        "icon": "FaGraduationCap"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Quality and service protocols",
+        "description": "Defining clear operating standards",
+        "details": "We establish work protocols: extraction times, grinder adjustment, temperature control, cleanliness, dispatch order, service flow, and error handling. These protocols are designed so the team operates with autonomy, consistency, and clarity.",
+        "icon": "FaClipboardCheck"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Real operation accompaniment",
+        "description": "Training under pressure and in real service",
+        "details": "We accompany the team in real operation: training during service, in-the-moment calibration, technique correction, and quality control. This is where knowledge is truly consolidated, not in an empty bar.",
+        "icon": "FaEye"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Autonomy and continuous improvement",
+        "description": "Building an autonomous and evolving team",
+        "details": "The final step is that the team learns to calibrate, adjust, and improve without constant external supervision. We train leaders within the team and establish continuous monitoring and training dynamics. A good team continues to grow over time.",
+        "icon": "FaHandshake"
+      }
+    },
+    "curingSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Concept definition and target profile",
+        "description": "What coffee do you want to offer? Why?",
+        "details": "We start by defining the sensory direction you want for your bar: more acidity or more sweetness, floral or chocolate, clean or complex, exotic or accessible, espresso-oriented or filter. This defines the selection criteria.",
+        "icon": "FaBullseye"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Coffee selection and sensory analysis",
+        "description": "Tasting, analyzing, and deciding with criteria",
+        "details": "We taste lots from different roasters and origins, analyzing them from a sensory and operational perspective: cleanliness, consistency, extraction versatility, performance in milk, service viability, and alignment with the concept. We don't select by price or trend: we select by criteria.",
+        "icon": "FaSearch"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Strategic hopper design",
+        "description": "Building a coherent and functional menu",
+        "details": "We design the coffee hopper according to operational logic: number of selections, sensory diversity, espresso and filter role, seasonal rotation, and supply consistency. The hopper must make sense with the bar's concept, size, and type of customer.",
+        "icon": "FaChartLine"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Profile adjustment and recipe calibration",
+        "description": "Each coffee requires specific calibration",
+        "details": "Each coffee has its optimal extraction profile. We calibrate espresso and filter recipes for each selection, adjusting grind, dose, temperature, and time according to sensory performance. This is what makes the difference between 'having good coffee' and 'extracting good coffee.'",
+        "icon": "FaCog"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Rotation and supply consistency",
+        "description": "Maintaining selection without operational chaos",
+        "details": "We establish a rotation system that allows keeping the menu updated without compromising operational consistency. We define reorder frequency, seasonal changes, and contingency criteria. The idea is that selection is dynamic, but not chaotic.",
+        "icon": "FaCheckCircle"
+      }
+    },
+    "wasteOptimizationSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Waste diagnosis and quantification",
+        "description": "First, measure. Then, act.",
+        "details": "We analyze and quantify coffee waste in different operational areas: calibration, recalibration, errors, excessive doses, grinder purge, staff drinks, handling, and packaging. We identify critical points and determine the real impact on business cost.",
+        "icon": "FaCalculator"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Critical point detection",
+        "description": "Where waste is generated and why",
+        "details": "We detect why waste is generated: lack of calibration, over-dosing, inconsistent grind, frequent recipe changes, lack of team criteria, deficient equipment. We analyze the root cause, not just the symptom.",
+        "icon": "FaExclamationTriangle"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Technical and operational optimization",
+        "description": "Adjusting systems to reduce unnecessary waste",
+        "details": "We optimize espresso recipes, grinder calibration, purge protocols, and dose control. We work on precision, not saving: the goal is to waste less because we operate better, not because we 'skimp.'",
+        "icon": "FaSlidersH"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Team training in efficiency and awareness",
+        "description": "A conscious team is an efficient team",
+        "details": "We train the team in responsible coffee handling, real impact of waste, measurement techniques, and conscious operation. We don't seek stinginess: we seek criteria and respect for the product.",
+        "icon": "FaGraduationCap"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Monitoring and continuous adjustment",
+        "description": "Waste is not eliminated in a day: it's sustained over time",
+        "details": "We establish monitoring and measurement systems to maintain control over time. The goal is for waste reduction to be sustained, not just an initial effect.",
+        "icon": "FaSyncAlt"
+      }
+    },
+    "standardizationSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Recipe design and extraction calibration",
+        "description": "Building base recipes with criteria",
+        "details": "We design technical espresso and filter recipes for each coffee, based on TDS measurement, extraction yields, sensory calibration, and replicability. Each recipe has a clear logic and defined adjustment criteria.",
+        "icon": "FaFileAlt"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Quality protocol definition",
+        "description": "Establishing clear standards for each stage",
+        "details": "We define extraction, grind, temperature, dose, time protocols, and acceptance and rejection criteria. The idea is that any barista knows what they should achieve and how to verify it.",
+        "icon": "FaClipboardCheck"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Team sensory calibration",
+        "description": "Teaching to taste, detect, and adjust",
+        "details": "We train the team in sensory reading of espresso and filter: how to detect over-extraction, under-extraction, astringency, acidity, bitterness, body imbalance. The idea is for each barista to be their own quality filter.",
+        "icon": "FaCoffee"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Real operation validation",
+        "description": "Testing consistency under pressure",
+        "details": "We test recipes and protocols during real service, validating that they work at peak volume, with team rotation, and under pressure. We adjust what doesn't work and validate what does.",
+        "icon": "FaClock"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Recipe documentation and training",
+        "description": "Recording and transmitting so standards are sustained",
+        "details": "We document recipes, protocols, and adjustment criteria in a technical and accessible format. We train the team so standards can be sustained over time and with new incorporations.",
+        "icon": "FaBook"
+      }
+    },
+    "menuOptimizationSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Current menu analysis",
+        "description": "Understanding what works and what doesn't",
+        "details": "We analyze the current menu from an operational and commercial perspective: best-selling products, slow products, profitability, complexity, errors, congestion points, and customer perception. We detect opportunities and problems.",
+        "icon": "FaChartBar"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Concept redefinition and coherence",
+        "description": "Building an identity that makes sense",
+        "details": "We work on the menu's conceptual coherence: what you want to communicate, who your customer is, what differentiates you, and how to transmit it through product offer. The menu must have personality and be coherent with the business concept.",
+        "icon": "FaLightbulb"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Product optimization and simplification",
+        "description": "Simplifying without losing quality or identity",
+        "details": "We reduce complexity, eliminate products that don't work, simplify recipes, optimize ingredients, and design versions that are more efficient to execute. We seek for the menu to be strong, clear, and operational.",
+        "icon": "FaFilter"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Pricing and strategic profitability",
+        "description": "Selling with criteria, not by intuition",
+        "details": "We design pricing strategy based on real costs, perception, competition, and strategic positioning. We define margins, combos, sizes, and commercial tactics that make the menu sustainable.",
+        "icon": "FaAward"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Visual and operational implementation",
+        "description": "From idea to real execution",
+        "details": "We design the visual menu, communication system, staff discourse, and service protocols. The menu must be easy to understand, attractive, and executable by the team.",
+        "icon": "FaCogs"
+      }
+    },
+    "customerExperienceSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Customer journey mapping",
+        "description": "Understanding your customer's entire route",
+        "details": "We analyze the comprehensive customer journey: from arriving at the coffee shop until leaving. We identify touchpoints, frictions, waiting moments, opportunities for differentiation, and key interactions. We understand how the customer perceives each stage.",
+        "icon": "FaRoute"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Service flow optimization",
+        "description": "Reducing waits and improving perception",
+        "details": "We optimize order, preparation, payment, and delivery flows. The goal is for the customer not to feel abandoned, for wait to be perceived as acceptable, and for service to flow without saturation or chaos.",
+        "icon": "FaHourglass"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Customer communication and education",
+        "description": "Teaching your customer to value what you do",
+        "details": "We design communication and education strategies so the customer understands and values what they're consuming. We train the team to communicate techniques, origins, profiles, and concept without being pedantic or aggressive.",
+        "icon": "FaCommentDots"
+      },
+      "step4": {
+        "number": "04",
+        "title": "Ambiance and operational details",
+        "description": "The small things that build large experiences",
+        "details": "We work on details that build experience: cleanliness, order, music, temperature, aromas, visual presentation, cup quality, and general coherence. Everything adds up or subtracts.",
+        "icon": "FaStar"
+      },
+      "step5": {
+        "number": "05",
+        "title": "Loyalty and continuous experience",
+        "description": "Building long-term relationships",
+        "details": "We design loyalty strategies based on experience consistency, service quality, and real value generation. The idea is not to 'sell more,' but to build an audience that returns because they feel identified.",
+        "icon": "FaHandshake"
+      }
+    },
+    "monitoringSteps": {
+      "step1": {
+        "number": "01",
+        "title": "Periodic data analysis and KPI monitoring",
+        "description": "Measuring to understand and adjust",
+        "details": "We establish measurement and analysis systems for key indicators: extraction yields, coffee consumption, waste, times, sales, profitability, and customer satisfaction. We turn data into decisions.",
+        "icon": "FaChartLine"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Continuous adjustments and optimizations",
+        "description": "Evolution based on criteria, not improvisation",
+        "details": "We review and adjust: extraction protocols, recipes, operation flows, menu, pricing, and strategies. We continuously optimize and systematically improve. The goal is for your bar to continue evolving, growing, and improving over time.",
+        "icon": "FaSync"
+      }
+    }
+  },
+  "contactForm": {
+    "title": "CONTACT",
+    "subtitle": "Contact us to explain your idea or the consulting you need",
+    "servicesTitle": "Our Services",
+    "servicesIntro": "Comprehensive consulting, protocol development, sensory analysis and professional training for specialty coffee shops.",
+    "service1Title": "Comprehensive Consulting:",
+    "service1Text": "Complete advisory from equipment to operations.",
+    "service2Title": "Quality Protocols:",
+    "service2Text": "Standardized processes adapted to your business model.",
+    "service3Title": "Sensory Analysis:",
+    "service3Text": "Professional cuppings and technical coffee evaluation.",
+    "service4Title": "Training:",
+    "service4Text": "Technical and sensory training for teams.",
+    "ctaText": "Ready to professionalize your project? Fill out the form and let's talk.",
+    "nameLabel": "Name *",
+    "namePlaceholder": "Your full name",
+    "emailLabel": "Email *",
+    "emailPlaceholder": "your@email.com",
+    "cafeteriaLabel": "Coffee Shop Name (optional)",
+    "cafeteriaPlaceholder": "Your coffee shop name",
+    "advisoryTypeLabel": "Type of Consulting",
+    "advisoryTypeOption1": "Select an option",
+    "advisoryTypeOption2": "Consulting",
+    "advisoryTypeOption3": "Inquiries",
+    "advisoryTypeOption4": "About Courses",
+    "advisoryTypeOption5": "Other",
+    "messageLabel": "Message *",
+    "messagePlaceholder": "Tell us your idea or what consulting you need...",
+    "submitButton": "Send Message",
+    "whatsappButton": "Contact via WhatsApp",
+    "successMessage": "Message sent! We will contact you soon."
+  },
+  "howWeWork": {
+    "title": "How We Work",
+    "step1": "Initial Assessment",
+    "step2": "Customized Proposal",
+    "step3": "Implementation",
+    "step4": "Follow-up"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Message sent successfully",
+    "error": "Error sending message"
+  },
+  "lab": {
+    "title": "JOUP LAB",
+    "subtitle": "Experimentation, research and development in specialty coffee",
+    "description": "Our specialty coffee innovation laboratory"
+  },
+  "studio": {
+    "title": "JOUP LAB",
+    "subtitle": "The academy where we train the new generation of coffee professionals",
+    "description": "Certified professional training"
+  },
+  "resources": {
+    "title": "Educational Resources",
+    "pageTitle": "FREE EDUCATION AND RESOURCES",
+    "pageIntro": "All our educational resources are available for free. Download the materials you need and begin your journey into the specialty coffee world.",
+    "aeropressTitle": "Laws of Physics Applied to Aeropress",
+    "aeropressDescription": "Basic concepts and fundamentals of specialty coffee",
+    "moduleOneTitle": "JOUP Module One",
+    "moduleOneDescription": "Coffee History: Origin, global expansion and culture",
+    "viewModuleWeb": "View Web Module",
+    "backToHome": "Back to home",
+    "backToEducation": "Back to education",
+    "downloadPdf": "Download PDF",
+    "moreResourcesText": "Want more resources? Follow us on social media to access exclusive content and stay updated with new educational publications.",
+    "joinJoup": "Join JOUP"
+  },
+  "back": "Back",
+  "learnMore": "Learn More",
+  "getStarted": "Get Started",
+  "readMore": "Read More"
+}

@@ -1,0 +1,226 @@
+.philosophy-section {
+  height: 100vh;
+  background: var(--color-text-primary);
+  color: var(--color-bg-primary);
+  padding: 80px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Patrón geométrico de fondo */
+.philosophy-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(90deg, var(--color-bg-hover) 1px, transparent 1px),
+    linear-gradient(var(--color-bg-hover) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+.philosophy-section::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 300px;
+  height: 300px;
+  border: 2px solid var(--color-border);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.philosophy-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.philosophy-header {
+  margin-bottom: 60px;
+  position: relative;
+  background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-orange-hover) 100%);
+  padding: 40px 50px;
+  clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%);
+  box-shadow: 0 10px 40px var(--color-shadow);
+}
+
+.philosophy-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin: 0;
+  color: var(--color-text-primary);
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px var(--color-shadow);
+}
+
+.philosophy-content {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 950px;
+}
+
+.philosophy-text {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: var(--color-bg-primary);
+  font-weight: 400;
+  margin: 0;
+  padding: 20px 30px;
+  background: var(--color-bg-secondary);
+  border-left: 4px solid var(--brand-orange);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.philosophy-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 0%;
+  background: var(--brand-orange-hover);
+  transition: height 0.3s ease;
+}
+
+.philosophy-text:hover::before {
+  height: 100%;
+}
+
+.philosophy-text:hover {
+  background: var(--color-text-primary);
+  box-shadow: -4px 0 0 var(--brand-orange), 0 4px 20px var(--color-bg-hover);
+}
+
+.philosophy-text.emphasis {
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin-top: 15px;
+  background: linear-gradient(90deg, var(--color-bg-hover), transparent);
+  border-left-width: 6px;
+}
+
+.philosophy-text.highlight {
+  font-size: 1.65rem;
+  color: var(--color-text-primary);
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 30px 40px;
+  border-left: none;
+  background: linear-gradient(135deg, var(--color-bg-primary) 0%, var(--color-bg-secondary) 100%);
+  box-shadow: 0 8px 30px var(--color-shadow);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%);
+}
+
+@media (max-width: 1024px) {
+  .philosophy-section {
+    padding: 60px 0;
+  }
+
+  .philosophy-title {
+    font-size: 3.8rem;
+    letter-spacing: 6px;
+  }
+
+  .philosophy-text {
+    font-size: 1.2rem;
+  }
+
+  .philosophy-text.emphasis {
+    font-size: 1.35rem;
+  }
+
+  .philosophy-text.highlight {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .philosophy-section {
+    height: auto;
+    min-height: 100vh;
+    padding: 60px 0;
+  }
+
+  .philosophy-section::before,
+  .philosophy-section::after {
+    width: 400px;
+    height: 400px;
+  }
+
+  .philosophy-container {
+    padding: 0 30px;
+  }
+
+  .philosophy-header {
+    margin-bottom: 40px;
+    padding-left: 25px;
+  }
+
+  .philosophy-header::before {
+    width: 6px;
+  }
+
+  .philosophy-title {
+    font-size: 2.8rem;
+    letter-spacing: 4px;
+  }
+
+  .philosophy-content {
+    gap: 18px;
+  }
+
+  .philosophy-text {
+    font-size: 1.1rem;
+    padding-left: 25px;
+  }
+
+  .philosophy-text:hover {
+    padding-left: 28px;
+  }
+
+  .philosophy-text.emphasis {
+    font-size: 1.2rem;
+    padding-left: 28px;
+  }
+
+  .philosophy-text.highlight {
+    font-size: 1.35rem;
+    padding: 20px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .philosophy-title {
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+  }
+
+  .philosophy-text {
+    font-size: 1.05rem;
+    padding-left: 20px;
+  }
+
+  .philosophy-text.emphasis {
+    font-size: 1.15rem;
+  }
+
+  .philosophy-text.highlight {
+    font-size: 1.25rem;
+    padding: 18px 22px;
+  }
+}

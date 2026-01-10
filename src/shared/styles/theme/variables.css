@@ -1,0 +1,124 @@
+/* =============================================================================
+   JOUP LAB & STUDIO - CSS THEME VARIABLES
+   Dark/Light Mode Theme System
+   ============================================================================= */
+
+/* Brand Colors (Constant across themes) */
+:root {
+  --brand-orange: #f36838;
+  --brand-orange-hover: #e55527;
+  --brand-orange-light: #ff6b3d;
+
+  /* Brand Orange Opacity Variants */
+  --brand-orange-03: rgba(243, 104, 56, 0.03);
+  --brand-orange-05: rgba(243, 104, 56, 0.05);
+  --brand-orange-08: rgba(243, 104, 56, 0.08);
+  --brand-orange-10: rgba(243, 104, 56, 0.1);
+  --brand-orange-15: rgba(243, 104, 56, 0.15);
+  --brand-orange-20: rgba(243, 104, 56, 0.2);
+  --brand-orange-25: rgba(243, 104, 56, 0.25);
+  --brand-orange-30: rgba(243, 104, 56, 0.3);
+  --brand-orange-40: rgba(243, 104, 56, 0.4);
+  --brand-orange-50: rgba(243, 104, 56, 0.5);
+  --brand-orange-70: rgba(243, 104, 56, 0.7);
+
+  /* Special Colors */
+  --color-green-accent: #0f5438;
+  --color-whatsapp: #25D366;
+
+  /* Social Media Gradients (Instagram) */
+  --instagram-gradient: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+}
+
+/* =============================================================================
+   DARK THEME (Default)
+   ============================================================================= */
+:root,
+:root[data-theme="dark"] {
+  /* Background Colors */
+  --color-bg-primary: #232522;
+  --color-bg-secondary: #2a2c2a;
+  --color-bg-tertiary: #1a1b19;
+  --color-bg-quaternary: #323432;
+  --color-bg-overlay: rgba(0, 0, 0, 0.5);
+  --color-bg-overlay-strong: rgba(0, 0, 0, 0.9);
+  --color-bg-overlay-hero: rgba(0, 0, 0, 0.5);
+  --color-bg-hover: rgba(255, 255, 255, 0.1);
+  --color-bg-hover-light: rgba(255, 255, 255, 0.05);
+
+  /* Text Colors */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: rgba(255, 255, 255, 0.9);
+  --color-text-muted: rgba(255, 255, 255, 0.7);
+  --color-text-muted-light: rgba(255, 255, 255, 0.75);
+  --color-text-muted-medium: rgba(255, 255, 255, 0.8);
+  --color-text-muted-strong: rgba(255, 255, 255, 0.85);
+  --color-text-hero: #ffffff;
+  --color-text-hero-shadow: rgba(0, 0, 0, 0.8);
+
+  /* UI Elements */
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-medium: rgba(255, 255, 255, 0.3);
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-shadow-strong: rgba(0, 0, 0, 0.4);
+
+  /* Gradients */
+  --gradient-dark: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  --gradient-bg: linear-gradient(to bottom, #1a1b19 0%, #232522 50%, #1a1b19 100%);
+}
+
+/* =============================================================================
+   LIGHT THEME
+   ============================================================================= */
+:root[data-theme="light"] {
+  /* Background Colors */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f8f8;
+  --color-bg-tertiary: #f0f0f0;
+  --color-bg-quaternary: #e8e8e8;
+  --color-bg-overlay: rgba(255, 255, 255, 0.9);
+  --color-bg-overlay-strong: rgba(255, 255, 255, 0.95);
+  --color-bg-overlay-hero: rgba(255, 255, 255, 0.3);
+  --color-bg-hover: rgba(0, 0, 0, 0.05);
+  --color-bg-hover-light: rgba(0, 0, 0, 0.03);
+
+  /* Text Colors */
+  --color-text-primary: #1a1b19;
+  --color-text-secondary: #2a2c2a;
+  --color-text-muted: #666666;
+  --color-text-muted-light: #777777;
+  --color-text-muted-medium: #555555;
+  --color-text-muted-strong: #444444;
+  --color-text-hero: #ffffff;
+  --color-text-hero-shadow: rgba(0, 0, 0, 0.9);
+
+  /* UI Elements */
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-border-medium: rgba(0, 0, 0, 0.3);
+  --color-shadow: rgba(0, 0, 0, 0.15);
+  --color-shadow-strong: rgba(0, 0, 0, 0.2);
+
+  /* Gradients */
+  --gradient-dark: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%);
+  --gradient-bg: linear-gradient(to bottom, #f0f0f0 0%, #ffffff 50%, #f0f0f0 100%);
+}
+
+/* =============================================================================
+   SMOOTH THEME TRANSITIONS
+   ============================================================================= */
+* {
+  transition: background-color 0.3s ease,
+              color 0.3s ease,
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* Disable transitions for elements that should change instantly */
+*:where(
+  img,
+  video,
+  iframe,
+  [data-no-transition]
+) {
+  transition: none !important;
+}

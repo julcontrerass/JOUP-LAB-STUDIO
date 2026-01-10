@@ -1,0 +1,557 @@
+.courses-section {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  padding: 80px 0;
+  position: relative;
+}
+
+.courses-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.courses-header {
+  text-align: left;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid var(--brand-orange);
+}
+
+.courses-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: var(--brand-orange);
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.courses-subtitle {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  font-weight: 400;
+  max-width: 700px;
+  margin: 0;
+}
+
+/* Lista de cursos */
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.course-card {
+  background: var(--color-bg-secondary);
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2px solid var(--color-border);
+  transition: all 0.4s ease;
+}
+
+.course-card:hover {
+  border-color: var(--brand-orange);
+  box-shadow: 0 10px 30px var(--color-shadow);
+  transform: translateY(-5px);
+}
+
+.course-content {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 40px;
+  align-items: center;
+  padding: 40px;
+}
+
+.course-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.course-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  color: var(--brand-orange);
+  letter-spacing: 3px;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.course-level {
+  display: inline-block;
+  padding: 6px 15px;
+  background: var(--color-bg-hover);
+  color: var(--brand-orange);
+  font-family: 'League Spartan', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.course-description {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--color-text-primary);
+  font-weight: 400;
+  margin: 0;
+}
+
+.course-more-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: 2px solid var(--brand-orange);
+  color: var(--brand-orange);
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: fit-content;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.course-more-btn:hover {
+  background: var(--brand-orange);
+  color: var(--color-text-primary);
+  transform: translateX(5px);
+  box-shadow: 0 5px 20px var(--color-shadow);
+}
+
+.course-more-btn svg {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.course-more-btn:hover svg {
+  transform: translateX(3px);
+}
+
+.course-image-wrapper {
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.course-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  transition: transform 0.4s ease;
+}
+
+.course-card:hover .course-image {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .courses-container {
+    padding: 0 40px;
+  }
+
+  .courses-title {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+  }
+
+  .courses-subtitle {
+    font-size: 1rem;
+  }
+
+  .course-content {
+    grid-template-columns: 1fr 350px;
+    gap: 30px;
+    padding: 35px;
+  }
+
+  .course-title {
+    font-size: 1.7rem;
+  }
+
+  .course-description {
+    font-size: 1rem;
+  }
+
+  .course-image-wrapper {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses-section {
+    padding: 60px 0;
+  }
+
+  .courses-container {
+    padding: 0 30px;
+  }
+
+  .courses-header {
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+  }
+
+  .courses-title {
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+  }
+
+  .courses-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .courses-list {
+    gap: 30px;
+  }
+
+  .course-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 30px;
+  }
+
+  .course-title {
+    font-size: 1.5rem;
+  }
+
+  .course-description {
+    font-size: 0.95rem;
+  }
+
+  .course-image-wrapper {
+    height: 220px;
+  }
+
+  .course-more-btn {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .courses-section {
+    padding: 50px 0;
+  }
+
+  .courses-container {
+    padding: 0 20px;
+  }
+
+  .courses-header {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+  }
+
+  .courses-title {
+    font-size: 1.9rem;
+    letter-spacing: 3px;
+  }
+
+  .courses-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .courses-list {
+    gap: 25px;
+  }
+
+  .course-content {
+    padding: 25px;
+    gap: 20px;
+  }
+
+  .course-title {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+  }
+
+  .course-level {
+    font-size: 0.75rem;
+    padding: 5px 12px;
+  }
+
+  .course-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .course-image-wrapper {
+    height: 180px;
+  }
+
+  .course-more-btn {
+    font-size: 0.9rem;
+    padding: 10px 18px;
+  }
+
+  .course-more-btn svg {
+    font-size: 1rem;
+  }
+}
+
+/* Modal */
+.course-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--color-shadow);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.course-modal {
+  background: var(--color-bg-secondary);
+  border-radius: 15px;
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  border: 2px solid var(--color-shadow);
+}
+
+.course-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: var(--color-bg-hover);
+  border: 2px solid var(--brand-orange);
+  color: var(--brand-orange);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10001;
+}
+
+.course-modal-close:hover {
+  background: var(--brand-orange);
+  color: var(--color-text-primary);
+  transform: rotate(90deg);
+}
+
+.course-modal-content {
+  padding: 50px;
+}
+
+.course-modal-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+  color: var(--brand-orange);
+  letter-spacing: 3px;
+  margin: 0 0 40px 0;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 3px solid var(--brand-orange);
+  padding-bottom: 20px;
+}
+
+.course-level-section {
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.course-level-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.course-level-header {
+  margin-bottom: 25px;
+}
+
+.course-level-name {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  color: var(--color-text-primary);
+  letter-spacing: 2px;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.course-level-subtitle {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.1rem;
+  color: var(--brand-orange);
+  font-weight: 600;
+  margin: 0;
+  font-style: italic;
+}
+
+.course-level-intro {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--color-text-primary);
+  margin: 0 0 25px 0;
+}
+
+.course-level-points {
+  margin: 25px 0;
+}
+
+.course-level-points h4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2rem;
+  color: var(--brand-orange);
+  letter-spacing: 1px;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+}
+
+.course-level-points ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.course-level-points li {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-primary);
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.course-level-points li::before {
+  content: '→';
+  color: var(--brand-orange);
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.course-level-result {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--brand-orange);
+  font-weight: 600;
+  margin: 25px 0 0 0;
+  padding: 20px;
+  background: var(--color-border);
+  border-left: 4px solid var(--brand-orange);
+  border-radius: 0 8px 8px 0;
+}
+
+/* Modal Responsive */
+@media (max-width: 768px) {
+  .course-modal-overlay {
+    padding: 1rem;
+  }
+
+  .course-modal {
+    max-height: 95vh;
+  }
+
+  .course-modal-content {
+    padding: 40px 30px;
+  }
+
+  .course-modal-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .course-modal-close {
+    width: 40px;
+    height: 40px;
+    font-size: 1.3rem;
+    top: 15px;
+    right: 15px;
+  }
+
+  .course-level-name {
+    font-size: 1.5rem;
+  }
+
+  .course-level-subtitle {
+    font-size: 1rem;
+  }
+
+  .course-level-intro {
+    font-size: 0.95rem;
+  }
+
+  .course-level-points h4 {
+    font-size: 1.1rem;
+  }
+
+  .course-level-points li {
+    font-size: 0.9rem;
+  }
+
+  .course-level-result {
+    font-size: 1rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .course-modal-overlay {
+    padding: 0.5rem;
+  }
+
+  .course-modal-content {
+    padding: 35px 20px;
+  }
+
+  .course-modal-title {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+
+  .course-level-name {
+    font-size: 1.3rem;
+  }
+
+  .course-level-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .course-level-intro {
+    font-size: 0.9rem;
+  }
+
+  .course-level-points li {
+    font-size: 0.85rem;
+    padding-left: 20px;
+  }
+
+  .course-level-result {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+}
