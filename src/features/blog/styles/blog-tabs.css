@@ -7,7 +7,7 @@
 .blog-tabs-header {
   display: flex;
   gap: 1rem;
-  border-bottom: 2px solid #e5e5e5;
+  border-bottom: 2px solid var(--color-border);
   margin-bottom: 3rem;
 }
 
@@ -17,7 +17,7 @@
   padding: 1rem 1.5rem;
   font-size: 1.125rem;
   font-weight: 600;
-  color: #666666;
+  color: var(--color-text-muted);
   cursor: pointer;
   position: relative;
   transition: color 0.3s ease;
@@ -25,11 +25,11 @@
 }
 
 .blog-tab:hover {
-  color: #1a1a1a;
+  color: var(--color-text-primary);
 }
 
 .blog-tab.active {
-  color: #1a1a1a;
+  color: var(--color-text-primary);
 }
 
 .blog-tab.active::after {
@@ -39,17 +39,17 @@
   left: 0;
   right: 0;
   height: 2px;
-  background-color: #1a1a1a;
+  background-color: var(--brand-orange);
 }
 
 .blog-tab-count {
   margin-left: 0.5rem;
   font-size: 0.9rem;
-  color: #999999;
+  color: var(--color-text-muted-light);
 }
 
 .blog-tab.active .blog-tab-count {
-  color: #666666;
+  color: var(--color-text-muted);
 }
 
 .blog-tabs-content {
@@ -73,7 +73,7 @@
 
 .blog-tabs-empty p {
   font-size: 1.125rem;
-  color: #666666;
+  color: var(--color-text-muted);
 }
 
 @keyframes fadeIn {

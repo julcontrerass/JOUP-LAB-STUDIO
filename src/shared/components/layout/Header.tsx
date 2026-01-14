@@ -173,14 +173,14 @@ const Header = () => {
         </nav>
         <div className="sidebar-settings">
           <ThemeToggle />
-          <LanguageToggle />
+          {!isBlogSection && <LanguageToggle />}
         </div>
       </div>
 
       {/* Floating Settings - Desktop only */}
       <div className={`floating-settings ${isOutOfHero ? 'out-of-hero' : ''}`}>
         <ThemeToggle />
-        <LanguageToggle />
+        {!isBlogSection && <LanguageToggle />}
       </div>
 
       {/* Overlay */}

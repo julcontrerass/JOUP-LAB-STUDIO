@@ -12,7 +12,6 @@ import ileana3Img from '../assets/entrevistas/ileana3.png';
 import danielaImg from '../assets/entrevistas/daniela.jpg';
 import daniela1Img from '../assets/entrevistas/daniela1.png';
 import daniela2Img from '../assets/entrevistas/daniela2.png';
-import daniela3Img from '../assets/entrevistas/daniela3.png';
 import daniela4Img from '../assets/entrevistas/daniela4.png';
 
 interface BlogPost {
@@ -38,7 +37,7 @@ const BLOG_POSTS: BlogPostsType = {
     authorName: '',
     authorImage: '',
     authorLink: '',
-    additionalImages: [daniela1Img, daniela2Img, daniela3Img, daniela4Img],
+    additionalImages: [daniela1Img, daniela2Img, daniela4Img],
     content: `En esta nueva entrega del Ciclo de Baristas, conocemos a Daniela Rojas [@dani.caliii](https://www.instagram.com/dani.caliii/) —una barista que lleva su trabajo con una mirada sensible y consciente—, convencida de que el barismo es una forma de poner amor en lo cotidiano.
 
 "La Kali" nos habla de su recorrido, de los maestros que la marcaron, de cómo del caos nació su pasión, y de esa búsqueda constante por conectar con lo que hace desde el corazón.
@@ -139,6 +138,7 @@ Actualmente los filtrados están siendo mi método preferidos, es ritualistico p
     authorName: 'Mafer Reyes',
     authorImage: maferImg,
     authorLink: 'https://www.instagram.com/mafespresso/',
+    additionalImages: [tazaDeRecuerdoImg],
     content: `Catar café es una forma de recordar. Lo que percibimos en cada taza de café no es solo su origen y proceso, sino el despertar de memorias personales y colectivas.
 
 Una cata de café –o cupping– es el método estandarizado en la industria para evaluar la calidad del café a través del gusto y olfato en comparación a otros lotes. Suele realizarse entre tostadores, caficultores, baristas y hasta en espacios de talleres o asesorías. La cata consta de un seguimiento de pasos a cumplir. El café es molido en una molienda específica, se vierte agua caliente, se rompe la costra, y se prueba a sorbos con cucharadas. En cada etapa, el aroma es clave: se huele antes, durante y después.
