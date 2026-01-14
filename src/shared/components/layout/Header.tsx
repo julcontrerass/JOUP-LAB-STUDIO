@@ -116,7 +116,6 @@ const Header = () => {
 
   const navLinks = getNavLinks();
   const isNotHomePage = location.pathname !== '/';
-  const isInsideBlogPost = location.pathname.startsWith('/blog/') && location.pathname !== '/blog';
   const shouldShowBlogButton = !location.pathname.startsWith('/blog');
   const isBlogSection = location.pathname.startsWith('/blog');
 
