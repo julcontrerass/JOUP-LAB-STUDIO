@@ -15,10 +15,25 @@ import daniela2Img from '../assets/entrevistas/daniela2.png';
 import daniela3Img from '../assets/entrevistas/daniela3.png';
 import daniela4Img from '../assets/entrevistas/daniela4.png';
 
-const BLOG_POSTS = {
+interface BlogPost {
+  title: string;
+  date: string;
+  image: string;
+  authorName: string;
+  authorImage: string;
+  authorLink: string;
+  additionalImages?: string[];
+  content: string;
+}
+
+type BlogPostsType = {
+  [key: string]: BlogPost;
+}
+
+const BLOG_POSTS: BlogPostsType = {
   'daniela-rojas': {
     title: 'Ciclo de Baristas: Daniela Rojas "La Kali"',
-    date: 'Nov 20, 2025',
+    date: 'Oct 17, 2025',
     image: danielaImg,
     authorName: '',
     authorImage: '',
@@ -50,7 +65,7 @@ No, solamente mi filosofía es una filosofía de vida en general. Como lo dije, 
   },
   'ileana-vilches': {
     title: 'Ciclo de Baristas: Ileana Vilches',
-    date: 'Nov 15, 2025',
+    date: 'Oct 6, 2025',
     image: ileanaImg,
     authorName: '',
     authorImage: '',
@@ -90,7 +105,7 @@ La pueden encontrar detrás de la barra de [@standalone.lab](https://www.instagr
   },
   'gonzalo-andrada': {
     title: 'Ciclo de Baristas: Gonzalo Andrada',
-    date: 'Nov 10, 2025',
+    date: 'Oct 2, 2025',
     image: gonzaloImg,
     authorName: '',
     authorImage: '',

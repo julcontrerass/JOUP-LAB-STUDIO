@@ -79,6 +79,11 @@
   color: var(--color-text-hero);
 }
 
+/* Ocultar botón de blog en desktop */
+.mobile-only-btn {
+  display: none;
+}
+
 .scroll-arrow {
   display: inline-flex;
   align-items: center;
@@ -147,6 +152,11 @@
     width: 100%;
     max-width: 250px;
     border-radius: 50px;
+  }
+
+  /* Mostrar botón de blog en móviles */
+  .mobile-only-btn {
+    display: block;
   }
 
   .scroll-arrow {

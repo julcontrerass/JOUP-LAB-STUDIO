@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import BlogCard from './BlogCard';
 import '../styles/blog-section.css';
 
@@ -8,6 +7,9 @@ interface BlogPost {
   description: string;
   date: string;
   image: string;
+  authorName: string;
+  authorImage: string;
+  slug: string;
 }
 
 interface BlogSectionProps {
@@ -16,20 +18,6 @@ interface BlogSectionProps {
 }
 
 const BlogSection = ({ title, posts }: BlogSectionProps) => {
-  const [bookmarkedPosts, setBookmarkedPosts] = useState<Set<string>>(new Set());
-
-  const toggleBookmark = (postId: string) => {
-    setBookmarkedPosts(prev => {
-      const newSet = new Set(prev);
-      if (newSet.has(postId)) {
-        newSet.delete(postId);
-      } else {
-        newSet.add(postId);
-      }
-      return newSet;
-    });
-  };
-
   if (posts.length === 0) {
     return null;
   }
@@ -45,8 +33,9 @@ const BlogSection = ({ title, posts }: BlogSectionProps) => {
             description={post.description}
             date={post.date}
             image={post.image}
-            isBookmarked={bookmarkedPosts.has(post.id)}
-            onBookmarkToggle={() => toggleBookmark(post.id)}
+            authorName={post.authorName}
+            authorImage={post.authorImage}
+            slug={post.slug}
           />
         ))}
       </div>

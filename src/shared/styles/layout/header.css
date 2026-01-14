@@ -410,6 +410,21 @@
   border-bottom-color: var(--brand-orange);
 }
 
+.sidebar-nav .blog-link {
+  color: var(--brand-orange);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  border-bottom: 2px solid var(--brand-orange-30);
+  cursor: pointer;
+}
+
+.sidebar-nav .blog-link:hover {
+  color: var(--brand-orange-hover);
+  border-bottom-color: var(--brand-orange);
+}
+
 .sidebar-overlay {
   position: fixed;
   top: 0;

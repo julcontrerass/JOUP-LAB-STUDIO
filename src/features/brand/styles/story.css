@@ -119,6 +119,10 @@
   box-shadow: 0 10px 30px var(--color-border);
 }
 
+[data-theme="light"] .story-parallax-image {
+  box-shadow: none;
+}
+
 .image-overlay {
   position: absolute;
   top: 0;

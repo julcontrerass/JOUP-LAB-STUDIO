@@ -166,6 +166,11 @@ const Header = () => {
               {link.label}
             </a>
           ))}
+          {shouldShowBlogButton && (
+            <a onClick={() => { navigate('/blog'); closeSidebar(); }} className="blog-link">
+              {t('header.blog')}
+            </a>
+          )}
         </nav>
         <div className="sidebar-settings">
           <ThemeToggle />

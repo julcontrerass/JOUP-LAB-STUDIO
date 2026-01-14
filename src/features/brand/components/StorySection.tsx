@@ -71,7 +71,6 @@ const StorySection = () => {
             backgroundImage: `url(${storyImage})`
           }}
         >
-          <div className="image-overlay"></div>
         </motion.div>
       </div>
 
