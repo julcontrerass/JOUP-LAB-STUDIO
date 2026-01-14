@@ -47,6 +47,7 @@ const Header = () => {
     if (location.pathname === '/studio') return t('header.titleStudio');
     if (location.pathname === '/service') return t('header.titleService');
     if (location.pathname === '/lab') return t('header.titleLab');
+    if (location.pathname === '/blog' || location.pathname.startsWith('/blog/')) return t('header.blog');
     return t('header.title');
   };
 
@@ -73,6 +74,10 @@ const Header = () => {
       ];
     }
 
+    if (location.pathname === '/blog' || location.pathname.startsWith('/blog/')) {
+      return [];
+    }
+
     // Homepage navigation
     return [
       { label: t('nav.ourStory'), href: '#story' },
@@ -86,6 +91,7 @@ const Header = () => {
     if (location.pathname === '/studio') return t('header.welcomeStudio');
     if (location.pathname === '/service') return t('header.welcomeService');
     if (location.pathname === '/lab') return t('header.welcomeLab');
+    if (location.pathname === '/blog' || location.pathname.startsWith('/blog/')) return 'Bienvenido al Blog JOUP';
     return t('header.welcome');
   };
 
@@ -110,13 +116,16 @@ const Header = () => {
 
   const navLinks = getNavLinks();
   const isNotHomePage = location.pathname !== '/';
+  const isInsideBlogPost = location.pathname.startsWith('/blog/') && location.pathname !== '/blog';
+  const shouldShowBlogButton = !location.pathname.startsWith('/blog');
+  const isBlogSection = location.pathname.startsWith('/blog');
 
   return (
     <>
       <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
         <div className="container">
           <div className="logo" onClick={scrollToTop}>{getTitle()}</div>
-          {isScrolled && (
+          {isScrolled && !isBlogSection && (
             <div className="nav-arrow">
               <FaChevronDown />
             </div>
@@ -133,9 +142,11 @@ const Header = () => {
               </a>
             ))}
           </nav>
-          <button className="blog-button" aria-label={t('header.blog')}>
-            {t('header.blog')}
-          </button>
+          {shouldShowBlogButton && (
+            <button className="blog-button" onClick={() => navigate('/blog')} aria-label={t('header.blog')}>
+              {t('header.blog')}
+            </button>
+          )}
           <div className={`menu-icon ${isSidebarOpen ? 'open' : ''}`} onClick={toggleSidebar}>
             {isSidebarOpen ? <FaChevronRight /> : <FaChevronLeft />}
           </div>

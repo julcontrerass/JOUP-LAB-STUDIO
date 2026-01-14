@@ -920,6 +920,15 @@
     "moreResourcesText": "Want more resources? Follow us on social media to access exclusive content and stay updated with new educational publications.",
     "joinJoup": "Join JOUP"
   },
+  "blog": {
+    "title": "JOUP Blog",
+    "description": "We explore coffee through writing, conversations, and experience. A space where we share stories, knowledge, and reflections about specialty coffee.",
+    "sections": {
+      "escrituras": "Writings",
+      "entrevistas": "Interviews",
+      "otros": "Others"
+    }
+  },
   "back": "Back",
   "learnMore": "Learn More",
   "getStarted": "Get Started",

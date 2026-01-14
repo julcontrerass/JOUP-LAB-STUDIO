@@ -1,0 +1,22 @@
+.blog-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-main {
+  flex: 1;
+}
+
+.blog-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .blog-content {
+    padding: 1rem 0;
+  }
+}

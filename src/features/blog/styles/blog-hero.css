@@ -1,0 +1,40 @@
+.blog-hero {
+  padding: 8rem 2rem 4rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.blog-hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.blog-hero-description {
+  font-size: 1.25rem;
+  color: #4a4a4a;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .blog-hero {
+    padding: 6rem 1.5rem 3rem;
+  }
+
+  .blog-hero-title {
+    font-size: 2rem;
+  }
+
+  .blog-hero-description {
+    font-size: 1rem;
+  }
+}

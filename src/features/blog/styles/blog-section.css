@@ -1,0 +1,44 @@
+.blog-section {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+}
+
+.blog-section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.blog-section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #1a1a1a;
+  margin: 1rem auto 0;
+}
+
+.blog-section-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .blog-section {
+    padding: 2rem 1rem;
+  }
+
+  .blog-section-title {
+    font-size: 1.5rem;
+  }
+
+  .blog-section-grid {
+    gap: 1.5rem;
+  }
+}

@@ -930,6 +930,15 @@
     "text5": "Somos educación, laboratorio y desarrollo profesional.",
     "text6": "Somos el punto de encuentro entre las personas que quieren cambiar el café desde adentro."
   },
+  "blog": {
+    "title": "Blog JOUP",
+    "description": "Exploramos el café desde la escritura, las conversaciones y la experiencia. Un espacio donde compartimos historias, conocimiento y reflexiones sobre el café de especialidad.",
+    "sections": {
+      "escrituras": "Escrituras",
+      "entrevistas": "Entrevistas",
+      "otros": "Otros"
+    }
+  },
   "back": "Volver",
   "learnMore": "Aprender Más",
   "getStarted": "Comenzar",

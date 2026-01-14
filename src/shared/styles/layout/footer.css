@@ -101,6 +101,7 @@
 @media (max-width: 768px) {
   .footer {
     padding: 1.2rem 1rem 1rem;
+    text-align: center;
   }
 
   .footer-main {
@@ -118,16 +119,18 @@
 
   .footer-bottom {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.6rem;
   }
 
   .footer-credits {
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .footer-copyright {
     font-size: 0.75rem;
+    text-align: center;
   }
 }
 
@@ -135,6 +138,7 @@
 @media (max-width: 480px) {
   .footer {
     padding: 1rem 0.8rem 0.8rem;
+    text-align: center;
   }
 
   .footer-main {
@@ -153,9 +157,11 @@
 
   .footer-credits {
     font-size: 0.75rem;
+    text-align: center;
   }
 
   .footer-copyright {
     font-size: 0.7rem;
+    text-align: center;
   }
 }

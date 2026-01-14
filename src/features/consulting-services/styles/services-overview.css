@@ -70,10 +70,13 @@
 /* Image Block - Left Side */
 .service-image-block {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .service-image {
-  width: 100%;
+  width: 50%;
   height: auto;
   display: block;
   border-radius: 15px;
